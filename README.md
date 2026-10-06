@@ -1,4 +1,6 @@
-# Human Rasnikism bootstrapped — edition 10
+# Huwster Rasnikism — Ostar Rawful, edition 11
+
+The default workbench now models regenerative architecture before incremental environmental choices, compiles world scripts into a bounded life-simulation game, and supplies a complete 7^8 corpus of individual Rawful legal drafts in [49 archives](publication/rawful-corpus/manifest.json). Every simulated encounter receives 49 document references in each of interactive, roleplay and jobrole contexts. [Engineering and runtime guide](docs/HUWSTER-RAWFUL-ARCHITECTURE.md).
 
 Edition 10 adds the [Ashram sequential existencial-form edition](publication/edition/ASHRAM-SEQUENTIAL.md), [numbered lexicon](publication/edition/ASHRAM-LEXICON.json), and [grammar and amplification method](docs/ASHRAM-SEQUENTIAL-TERMINOLOGY.md), with disjoint symbolic sides, separate totems/tokens and fourteen parables.
 

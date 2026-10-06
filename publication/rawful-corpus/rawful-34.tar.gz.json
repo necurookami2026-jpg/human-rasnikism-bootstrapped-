@@ -1,0 +1,10 @@
+{
+  "file": "rawful-34.tar.gz",
+  "first": 3882418,
+  "last": 4000066,
+  "documents": 117649,
+  "bytes": 7520912,
+  "sha256": "19b90762d532db1cfceb32a82a491c650dd5619b9ef4f2a9828caa1a739836b4",
+  "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd",
+  "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902"
+}

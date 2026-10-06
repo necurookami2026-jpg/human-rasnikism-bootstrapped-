@@ -173,13 +173,21 @@
       "status": "implemented-local"
     }
   ],
-  "edition": "10",
+  "edition": "11",
   "extra_complete_edition": {
     "certification": false,
     "coverage": "All four guides and complete collected Markdown corpus",
     "file": "EXTRA-COMPLETE.md"
   },
   "format": "rasniki-hopput-catalogue",
+  "huwster_edition": {
+    "architecture": "HUWSTER-ARCHITECTURE.json",
+    "certification": false,
+    "corpus": "RAWFUL-CORPUS.json",
+    "default": "ostar-rawful",
+    "file": "HUWSTER-RAWFUL.md",
+    "ranks": "HUWSTER-RANKS.json"
+  },
   "language_boundary": "Ministry fictional Kerot vocabulary does not extend or redefine the executable K0 ISA.",
   "parallel_editions": [
     {
@@ -253,7 +261,7 @@
     "paperwork": "SCIENCERAINBOWRAINBOWSCIENCE-PAPERWORK.html"
   },
   "scope": "Edition labels are distinct from finite observed verification and simulated capabilities.",
-  "subtitle": "Lair of Lairs — Recursive Form, Format and Formate",
+  "subtitle": "Ostar Rawful — regenerative architecture, drafting and life simulation",
   "terms": [
     {
       "meaning": null,
@@ -646,6 +654,6 @@
       "term": "wizardry"
     }
   ],
-  "title": "Rasniki Hopput — Max Greatest Exact Sciencerainbow, Exact Finalisable Catch, Finalisable Exact Final Quilt, Max Greatest Aimat, Max Rawful Omniarchy",
+  "title": "Huwster Rasnikism",
   "version": 1
 }

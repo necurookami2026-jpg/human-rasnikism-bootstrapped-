@@ -1,0 +1,10 @@
+{
+  "file": "rawful-12.tar.gz",
+  "first": 1294140,
+  "last": 1411788,
+  "documents": 117649,
+  "bytes": 7468291,
+  "sha256": "e9731e360defd0ee9555748364f3da95c43fdbba1b0d7d90728112cb38bf22de",
+  "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd",
+  "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902"
+}

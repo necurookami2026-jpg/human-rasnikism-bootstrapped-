@@ -1,0 +1,12 @@
+world "Restoration Commons"
+place wetland 4 6 habitat
+place workshop 12 8 work
+actor steward 2 2 person
+restore wetland 40
+consume wetland 10
+drive steward 12 8
+signal steward "Review the shared water baseline"
+episode "The first restored habitat"
+tick 12
+franchise "Commons lore"
+refranchise "Commons second season"

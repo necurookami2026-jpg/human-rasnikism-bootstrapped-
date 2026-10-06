@@ -1,0 +1,10 @@
+{
+  "file": "rawful-17.tar.gz",
+  "first": 1882385,
+  "last": 2000033,
+  "documents": 117649,
+  "bytes": 7486672,
+  "sha256": "13abdc0403933edc82140147a4f48ab14ca16dc889917b36b2d6a35cc61df7c4",
+  "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd",
+  "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902"
+}

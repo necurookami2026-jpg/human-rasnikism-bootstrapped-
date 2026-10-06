@@ -1,0 +1,2 @@
+Chromium checks passed: Ostar Rawful default workspace, world run and frame step, 49-document packet, standalone playable export through loopback HTTP, frame replay, arrow-key control and inert embedded user data.
+Direct file:// navigation is blocked by this managed host; that route was not validated.

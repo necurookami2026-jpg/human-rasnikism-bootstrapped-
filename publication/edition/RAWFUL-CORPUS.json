@@ -1,0 +1,502 @@
+{
+  "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+  "complete": true,
+  "documents": 5764801,
+  "files": [
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7553998,
+      "documents": 117649,
+      "file": "rawful-01.tar.gz",
+      "first": 1,
+      "last": 117649,
+      "sha256": "3751478b4df1633120e6b0537c61461281e7e45a9c7970b311ffba3a622e9ae5",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7537376,
+      "documents": 117649,
+      "file": "rawful-02.tar.gz",
+      "first": 117650,
+      "last": 235298,
+      "sha256": "235da75e6cead5b164401b207cc975f66058b3bbf430fc957ec62c0c143d4775",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7544419,
+      "documents": 117649,
+      "file": "rawful-03.tar.gz",
+      "first": 235299,
+      "last": 352947,
+      "sha256": "2f652d161c03abc5331139cfa224b27e9b51020d4190aa8bae11c40a10b3e7ce",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7542053,
+      "documents": 117649,
+      "file": "rawful-04.tar.gz",
+      "first": 352948,
+      "last": 470596,
+      "sha256": "74fc3e4e7a6330a71a3e848aa1aef94eb79e6119bd7e9372e94317fe1a64f504",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7546041,
+      "documents": 117649,
+      "file": "rawful-05.tar.gz",
+      "first": 470597,
+      "last": 588245,
+      "sha256": "25df33b1f26f2f57925ae8f7166017a29e4c03396423be3d70f264516a751777",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7509863,
+      "documents": 117649,
+      "file": "rawful-06.tar.gz",
+      "first": 588246,
+      "last": 705894,
+      "sha256": "49a7c402d8c64a12063caa191a0c9a814e52a7cb53410271f2fed66a4bbf916b",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7522778,
+      "documents": 117649,
+      "file": "rawful-07.tar.gz",
+      "first": 705895,
+      "last": 823543,
+      "sha256": "5cc41c77d396990e450734d678b10649caedf73b0fe3ec31464b9154e6519be1",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7545590,
+      "documents": 117649,
+      "file": "rawful-08.tar.gz",
+      "first": 823544,
+      "last": 941192,
+      "sha256": "5cb8935a469b4f71a0403ea0d6d219ffdb0f29399a111f9b817d86846da14e0c",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7468629,
+      "documents": 117649,
+      "file": "rawful-09.tar.gz",
+      "first": 941193,
+      "last": 1058841,
+      "sha256": "3c40551094caf769ca0b4df9403f46344565ce6de49715f73f69c09519abb2cb",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7462022,
+      "documents": 117649,
+      "file": "rawful-10.tar.gz",
+      "first": 1058842,
+      "last": 1176490,
+      "sha256": "d22925f509a1713db2010a69a06a8eb4f0b24ada8e25a083753bb907e40dc3e4",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7471199,
+      "documents": 117649,
+      "file": "rawful-11.tar.gz",
+      "first": 1176491,
+      "last": 1294139,
+      "sha256": "da04eef35f056c243ea1f365504f22e2ff4910457ae6fd4e97cdacfebbc5ff43",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7468291,
+      "documents": 117649,
+      "file": "rawful-12.tar.gz",
+      "first": 1294140,
+      "last": 1411788,
+      "sha256": "e9731e360defd0ee9555748364f3da95c43fdbba1b0d7d90728112cb38bf22de",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7468341,
+      "documents": 117649,
+      "file": "rawful-13.tar.gz",
+      "first": 1411789,
+      "last": 1529437,
+      "sha256": "2942b19601dd1d5e926a6e371193bd633ae6345378a5b9088532bf612ca01da7",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7465278,
+      "documents": 117649,
+      "file": "rawful-14.tar.gz",
+      "first": 1529438,
+      "last": 1647086,
+      "sha256": "10a5409be5e6b15ecde77e919440158e551b43a8c3c1d7724f383b3c3c868cb8",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7463447,
+      "documents": 117649,
+      "file": "rawful-15.tar.gz",
+      "first": 1647087,
+      "last": 1764735,
+      "sha256": "25f5653b0bb1211a94d2b003d2d6493006f398ba5632e87dde6c7f56af1095eb",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7473555,
+      "documents": 117649,
+      "file": "rawful-16.tar.gz",
+      "first": 1764736,
+      "last": 1882384,
+      "sha256": "4797faae960cca526543a5e40e82e710a277035c5ad522aca49986daf8432783",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7486672,
+      "documents": 117649,
+      "file": "rawful-17.tar.gz",
+      "first": 1882385,
+      "last": 2000033,
+      "sha256": "13abdc0403933edc82140147a4f48ab14ca16dc889917b36b2d6a35cc61df7c4",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7478343,
+      "documents": 117649,
+      "file": "rawful-18.tar.gz",
+      "first": 2000034,
+      "last": 2117682,
+      "sha256": "4ccbe4813144b4dc9acbde46080faa8a06ff679ffa16f2be981d9010af5d8bb0",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7506622,
+      "documents": 117649,
+      "file": "rawful-19.tar.gz",
+      "first": 2117683,
+      "last": 2235331,
+      "sha256": "f600d6f326bfb1a3bcb2928f3a4e06b4d3f032e72cefa10232b7cf6a897f958b",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7495643,
+      "documents": 117649,
+      "file": "rawful-20.tar.gz",
+      "first": 2235332,
+      "last": 2352980,
+      "sha256": "2863dbba5c058c53629d2b61014c428d1df1b1ab5ef016e6dff6628cb9f24257",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7503580,
+      "documents": 117649,
+      "file": "rawful-21.tar.gz",
+      "first": 2352981,
+      "last": 2470629,
+      "sha256": "b5379a774385101aa72926a44776051b2412f35fc6584d0e79aab45c7483204b",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7464510,
+      "documents": 117649,
+      "file": "rawful-22.tar.gz",
+      "first": 2470630,
+      "last": 2588278,
+      "sha256": "601bba9696b3dc583a3f9c5b22507d707d88b59719404ad61779dc3e517e00d5",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7466489,
+      "documents": 117649,
+      "file": "rawful-23.tar.gz",
+      "first": 2588279,
+      "last": 2705927,
+      "sha256": "af550d6b853bdbf21ccfd0471d797130e89cb666540cd550281053ad54b5fb9f",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7463284,
+      "documents": 117649,
+      "file": "rawful-24.tar.gz",
+      "first": 2705928,
+      "last": 2823576,
+      "sha256": "a5ea8b6d22b68ccb17640255054dcf3340f73fc7958d89052c30793d2b8760cc",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7471264,
+      "documents": 117649,
+      "file": "rawful-25.tar.gz",
+      "first": 2823577,
+      "last": 2941225,
+      "sha256": "2a823993ba5052a506ad95c257cfea15a4bb3d568b25a40fe6063088db644715",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7471312,
+      "documents": 117649,
+      "file": "rawful-26.tar.gz",
+      "first": 2941226,
+      "last": 3058874,
+      "sha256": "def33c90094c7ce24463944277ba30f4d3cec97e94423ba2db2483108f46ce4f",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7475277,
+      "documents": 117649,
+      "file": "rawful-27.tar.gz",
+      "first": 3058875,
+      "last": 3176523,
+      "sha256": "ffcfafe0892f34bae12d120c1828ddeff5c3ed4c90b9d04753432c56ba2ebc8b",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7471024,
+      "documents": 117649,
+      "file": "rawful-28.tar.gz",
+      "first": 3176524,
+      "last": 3294172,
+      "sha256": "8ad078f8c2f954c2adf6177b5e38ddbdd9da29346ba9c78b433d67f88ab48fc4",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7469670,
+      "documents": 117649,
+      "file": "rawful-29.tar.gz",
+      "first": 3294173,
+      "last": 3411821,
+      "sha256": "87a436cafd8d2e58c07d978fc8686262539bf4c502955706d2a581e8cd2b8931",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7466150,
+      "documents": 117649,
+      "file": "rawful-30.tar.gz",
+      "first": 3411822,
+      "last": 3529470,
+      "sha256": "ab33e189ec0d23e954ec072f9e807a3d1eeaaa5d84183b2d3b7541010fa454b9",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7503296,
+      "documents": 117649,
+      "file": "rawful-31.tar.gz",
+      "first": 3529471,
+      "last": 3647119,
+      "sha256": "f904a34bf2b6f9ce1efc0ab325496e89d5f85cf88f5996a09eab3175fa0b1389",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7475423,
+      "documents": 117649,
+      "file": "rawful-32.tar.gz",
+      "first": 3647120,
+      "last": 3764768,
+      "sha256": "e1e1ebf29079ee9aa6f1cf7cbb864a881da17cb2ff6de7e2775408e965f95975",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7505917,
+      "documents": 117649,
+      "file": "rawful-33.tar.gz",
+      "first": 3764769,
+      "last": 3882417,
+      "sha256": "7685da52a6ad6ebe5f7220971fc193b4b8106d6b96d134d3a0b06b2cb7602516",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7520912,
+      "documents": 117649,
+      "file": "rawful-34.tar.gz",
+      "first": 3882418,
+      "last": 4000066,
+      "sha256": "19b90762d532db1cfceb32a82a491c650dd5619b9ef4f2a9828caa1a739836b4",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7512357,
+      "documents": 117649,
+      "file": "rawful-35.tar.gz",
+      "first": 4000067,
+      "last": 4117715,
+      "sha256": "f9f1753f92a84244fe931dc442976fce1a39876a20699d1ff22ed8de3584d2b7",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7479793,
+      "documents": 117649,
+      "file": "rawful-36.tar.gz",
+      "first": 4117716,
+      "last": 4235364,
+      "sha256": "b8a5136eba609799ca77fcfeaf6bd81d3fbd88fbc5a379aa9933443204d869b4",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7470453,
+      "documents": 117649,
+      "file": "rawful-37.tar.gz",
+      "first": 4235365,
+      "last": 4353013,
+      "sha256": "fc6b442f8f57366984d9f1319ffa6904e225d705685e770066aed9aea8562380",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7467508,
+      "documents": 117649,
+      "file": "rawful-38.tar.gz",
+      "first": 4353014,
+      "last": 4470662,
+      "sha256": "abde8a611b566b6f801f738cb186dbb6f0449612bbdc3c813eed28ebd5298758",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7468259,
+      "documents": 117649,
+      "file": "rawful-39.tar.gz",
+      "first": 4470663,
+      "last": 4588311,
+      "sha256": "f25964529f0d43d813705644f34aa9281d9047641d66d61b8fa4b0982d195721",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7471020,
+      "documents": 117649,
+      "file": "rawful-40.tar.gz",
+      "first": 4588312,
+      "last": 4705960,
+      "sha256": "6e2c69f0755d04c1ffcde7b13191dbeff74689d8fbfe713c6909dbfb82c45205",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7473560,
+      "documents": 117649,
+      "file": "rawful-41.tar.gz",
+      "first": 4705961,
+      "last": 4823609,
+      "sha256": "4b15b13aa2b38392ae9dfc8d4b2346d0df8726dd053a5806cae7b095ef75bb97",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7469073,
+      "documents": 117649,
+      "file": "rawful-42.tar.gz",
+      "first": 4823610,
+      "last": 4941258,
+      "sha256": "d764f01a2e2acba2a02338c7230e3bc27249ff15f91f8fc096f680bd61fb42fc",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7466686,
+      "documents": 117649,
+      "file": "rawful-43.tar.gz",
+      "first": 4941259,
+      "last": 5058907,
+      "sha256": "02f572c7ee6d58af1ed96d9275cced52964c216bf5151aaed0db8f2e96120524",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7466376,
+      "documents": 117649,
+      "file": "rawful-44.tar.gz",
+      "first": 5058908,
+      "last": 5176556,
+      "sha256": "e3989c0ccb16c4938e022df844950962e4473f5a11d987ac56d362166c4ad679",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7500012,
+      "documents": 117649,
+      "file": "rawful-45.tar.gz",
+      "first": 5176557,
+      "last": 5294205,
+      "sha256": "f7373e43f6af30fb305ed4775e7b827bf3d3bb7e8286f00775fdba1269193393",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7484515,
+      "documents": 117649,
+      "file": "rawful-46.tar.gz",
+      "first": 5294206,
+      "last": 5411854,
+      "sha256": "3721af1f84e6139fa5c8c800625c941ade7b734b41dac108a02b3898e160f549",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7505236,
+      "documents": 117649,
+      "file": "rawful-47.tar.gz",
+      "first": 5411855,
+      "last": 5529503,
+      "sha256": "0aebdd1463674ba9698e703bd5850745eb59d844cfeaeafaf988307cd5bc760a",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7554565,
+      "documents": 117649,
+      "file": "rawful-48.tar.gz",
+      "first": 5529504,
+      "last": 5647152,
+      "sha256": "a5a7bf9394d3624b881b894a35ca233a97ad204de729a2263f6fc506fffcfaeb",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    },
+    {
+      "addressing_sha256": "267d9f7600d297d3e1a95c3a6a974f96120570f986df1925a40160b102a09902",
+      "bytes": 7485795,
+      "documents": 117649,
+      "file": "rawful-49.tar.gz",
+      "first": 5647153,
+      "last": 5764801,
+      "sha256": "959efe1a71d798934e8364b644b90d7ba2928c244bb24cae6f70b588d00d6505",
+      "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd"
+    }
+  ],
+  "format": "huwster-rawful-full-corpus",
+  "per_shard": 117649,
+  "scope": "Individual unreviewed drafting documents; archive packaging does not confer legal authority.",
+  "template_sha256": "3d54c0ef62a1030faa954904f7f4863fe7b9abb459106458f5f200bcecfbf4fd",
+  "version": 1
+}

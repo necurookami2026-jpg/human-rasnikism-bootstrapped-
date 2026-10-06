@@ -64,6 +64,8 @@ def main(argv=None):
         if status:
             raise RuntimeError(f'{label} failed; inspect {log}')
     try:
+        run('rawful-full-corpus',[sys.executable,'tools/verify_rawful_corpus.py'])
+        run('huwster-ui-syntax',['node','--check','madrigal_lab/web/huwster.js'])
         run('lab-and-publication-tests',[sys.executable,'-m','unittest','discover','-s','tests','-v'])
         run('guardian-tests',[sys.executable,'-m','unittest','-v'],ROOT/'vendor'/'guardian')
         run('iobot-responses',['node','tests/iobot-responses.cjs'])

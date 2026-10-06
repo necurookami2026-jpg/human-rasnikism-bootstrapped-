@@ -12,7 +12,7 @@ import urllib.parse
 import urllib.error
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from . import language, defense, hierarchy, symbolic, atlas, papers, recovery, media
+from . import language, defense, hierarchy, symbolic, atlas, papers, recovery, media, huwster
 from .catalogue import catalogue
 from .finance import Ledger
 from .runtime import Runtime
@@ -32,7 +32,7 @@ class Lab:
         self.token=secrets.token_urlsafe(32)
 
     def status(self):
-        return {'name':'Rasniki Madrigal Lab','version':'0.1.0','native_os':False,
+        return {'name':'Huwster Rasnikism','version':'0.1.0','native_os':False,
                 'files':self.runtime.files(),'practices':self.runtime.queue(),
                 'rules':self.runtime.records['rules'],'domains':self.runtime.records['domains'],
                 'jobs':[{k:v for k,v in j.items() if k!='source'} for j in self.runtime.records['jobs']],
@@ -44,6 +44,12 @@ class Lab:
         if not isinstance(args,dict):
             raise ValueError('Action arguments must be an object')
         r=self.runtime
+        if action=='huwster-run':return huwster.run(args['source'])
+        if action=='huwster-compile':return huwster.compile_script(args['source'])
+        if action=='huwster-packet':return {'documents':huwster.packet(args['category'],args.get('context','interactive'),args.get('subject','Unspecified subject'),args.get('revision',1))}
+        if action=='huwster-document':return huwster.document(args['index'],args.get('subject','Unspecified subject'))
+        if action=='huwster-catalogue':return huwster.catalogue()
+        if action=='huwster-ranks':return {'ranks':huwster.ranks()}
         if action=='assemble':
             data=language.assemble(args['source'])
             return {'hex':data.hex(),'bytes':len(data)}
@@ -149,6 +155,7 @@ class Handler(BaseHTTPRequestHandler):
         path=urllib.parse.unquote(urllib.parse.urlsplit(self.path).path)
         try:
             if path=='/api/session':return self.send(200,{'token':self.server.lab.token})
+            if path=='/api/huwster':return self.send(200,huwster.catalogue())
             if path=='/api/catalogue':return self.send(200,catalogue())
             if path=='/api/symbolic':return self.send(200,symbolic.catalogue())
             if path=='/api/atlas':return self.send(200,atlas.catalogue())
@@ -159,6 +166,8 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/api/health':return self.send(200,{'status':'ok','local_only':True})
             if path.startswith('/collection/'):
                 base=ROOT/'vendor'/'rasnikism';relative=path.removeprefix('/collection/')
+            elif path.startswith('/rawful-corpus/'):
+                base=ROOT/'publication'/'rawful-corpus';relative=path.removeprefix('/rawful-corpus/')
             elif path.startswith('/publication/'):
                 base=ROOT/'publication'/'edition';relative=path.removeprefix('/publication/') or 'index.html'
             elif path.startswith('/ministry/'):
@@ -173,7 +182,9 @@ class Handler(BaseHTTPRequestHandler):
             types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.md':'text/plain','.json':'application/json','.svg':'image/svg+xml','.io':'text/plain','.kerot':'text/plain','.k0':'application/octet-stream'}
             if path.startswith('/publication/'):
                 types['.zip']='application/zip'
-            maximum=32*1024*1024 if path.startswith('/publication/') else 8*1024*1024
+            if path.startswith('/rawful-corpus/'):
+                types['.gz']='application/gzip'
+            maximum=96*1024*1024 if path.startswith('/rawful-corpus/') else 32*1024*1024 if path.startswith('/publication/') else 8*1024*1024
             if target.suffix not in types or not target.is_file() or target.stat().st_size>maximum:
                 return self.send(404,{'error':'Document not served'})
             return self.send(200,target.read_bytes(),types[target.suffix]+'; charset=utf-8')
@@ -226,7 +237,7 @@ def main(argv=None):
     parser.add_argument('--allow-host',action='append',default=[],help='Explicit HTTPS destination for read-only internet bot')
     args=parser.parse_args(argv)
     server=Server(('127.0.0.1',args.port),Lab(args.state,args.allow_host))
-    print(f'Rasniki lab listening on local port {server.server_address[1]}; Ctrl+C stops it.',flush=True)
+    print(f'Huwster Rasnikism listening on local port {server.server_address[1]}; Ctrl+C stops it.',flush=True)
     try:server.serve_forever()
     except KeyboardInterrupt:pass
     finally:server.server_close()

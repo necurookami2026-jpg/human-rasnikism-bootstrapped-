@@ -25,6 +25,7 @@ MAX_SOURCE_BYTES = 25 * 1024 * 1024
 MAX_LAIR_DEPTH = 32
 MAX_LAIR_NODES = 4096
 OUTPUT_NAMES = (
+    'HUWSTER-RAWFUL.md', 'HUWSTER-ARCHITECTURE.json', 'HUWSTER-RANKS.json', 'RAWFUL-CORPUS.json',
     'ASHRAM-SEQUENTIAL.md', 'ASHRAM-LEXICON.json', 'ASHRAM-SPECIFICATION.json',
     'SCIENCERAINBOWRAINBOWSCIENCE.md', 'SCIENCERAINBOWRAINBOWSCIENCE-PAPERWORK.html',
     'SCIENCERAINBOWRAINBOWSCIENCE-COMPUTERWORK.json',
@@ -33,6 +34,7 @@ OUTPUT_NAMES = (
     'MAX-RAWFUL.md', 'MAX-RAW.md', 'MAX-LAW.md', 'MAX-LAWFUL.md', 'EXTRA-COMPLETE.md',
 )
 CURRENT_DOCUMENTS = (
+    'docs/HUWSTER-RAWFUL-ARCHITECTURE.md',
     'docs/ASHRAM-SEQUENTIAL-TERMINOLOGY.md',
     'docs/IOBOT-SCIENTIFIC-RESPONSES.md',
     'docs/EXACT-SCIENCERAINBOWRAINBOWSCIENCE.md',
@@ -341,7 +343,7 @@ def _html(reader: dict) -> bytes:
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Rasniki Hopput publication</title><style>
 :root{color-scheme:light dark;font-family:system-ui,sans-serif}body{margin:0 auto;max-width:100rem;padding:1.25rem}h1{font-size:clamp(1.4rem,3vw,2.1rem);overflow-wrap:anywhere}h2{overflow-wrap:anywhere}a{color:LinkText}label{display:block;margin-bottom:.4rem}input{box-sizing:border-box;width:100%;padding:.7rem;font:inherit}main{display:grid;grid-template-columns:minmax(14rem,28%) minmax(0,1fr);gap:1.5rem}aside,article{min-width:0}nav{max-height:42vh;overflow:auto}button{display:block;text-align:left;width:100%;font:inherit;overflow-wrap:anywhere;padding:.6rem;margin:.3rem 0}button[aria-current=true]{font-weight:bold}pre{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.6}#provenance{font-size:.85rem;overflow-wrap:anywhere}#provenance p{margin:.4rem 0}#chambers{display:grid;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));gap:.5rem;margin:1rem 0;max-height:none}#chambers button{border:1px solid currentColor;border-top:4px solid var(--accent);border-radius:.3rem}#chambers button:nth-child(1){--accent:#ab5964}#chambers button:nth-child(2){--accent:#b47940}#chambers button:nth-child(3){--accent:#a79446}#chambers button:nth-child(4){--accent:#578967}#chambers button:nth-child(5){--accent:#598ca2}#chambers button:nth-child(6){--accent:#697aaa}#chambers button:nth-child(7){--accent:#9270a4}#lair{max-height:45vh;overflow:auto}#lair details{margin:.3rem 0 .3rem .8rem}#lair summary{cursor:pointer;overflow-wrap:anywhere}#lair button{font-size:.85rem;padding:.3rem}#returns{display:flex;flex-wrap:wrap;gap:.5rem}#returns button{width:auto}#breadcrumb{font-size:.85rem;overflow-wrap:anywhere}#nested-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));gap:.3rem}@media(max-width:700px){main{grid-template-columns:minmax(0,1fr)}nav{max-height:30vh}body{padding:.8rem}} </style></head>
-<body><header><h1 id="title"></h1><h2 id="subtitle"></h2><p>Offline reading edition. Edition labels identify the collection; observed checks establish its finite verification claims.</p><p>The ministry's fictional Kerot vocabulary is distinct from the executable K0 instruction set. Native OS boot and real finance remain simulations.</p><p><a href="ASHRAM-SEQUENTIAL.md">Ashram sequential edition</a> · <a href="ASHRAM-LEXICON.json">Numbered lexicon</a> · <a href="SCIENCERAINBOWRAINBOWSCIENCE.md">Exact Sciencerainbowrainbowscience</a> · <a href="SCIENCERAINBOWRAINBOWSCIENCE-PAPERWORK.html">Printable paperwork</a> · <a href="SCIENCERAINBOWRAINBOWSCIENCE-COMPUTERWORK.json">Computerwork</a> · <a href="PUBLICATION.md">Full prose collection</a> · <a href="EXTRA-COMPLETE.md">Extra complete edition</a> · <a href="MAX-RAWFUL.md">Max Rawful</a> · <a href="MAX-RAW.md">Max Raw</a> · <a href="MAX-LAW.md">Max Law</a> · <a href="MAX-LAWFUL.md">Max Lawful</a> · <a href="catalogue.json">Sorted catalogue</a> · <a href="sources.zip">Exact source archive</a> · <a href="release-hashes.json">Release hashes</a></p><p>Seven chambers offer a reading guide through the finite collection.</p><nav id="chambers" aria-label="Seven reading chambers"></nav></header>
+<body><header><h1 id="title"></h1><h2 id="subtitle"></h2><p>Offline reading edition. Edition labels identify the collection; observed checks establish its finite verification claims.</p><p>The ministry's fictional Kerot vocabulary is distinct from the executable K0 instruction set. Native OS boot and real finance remain simulations.</p><p><a href="HUWSTER-RAWFUL.md">Huwster Ostar Rawful edition</a> · <a href="RAWFUL-CORPUS.json">Full document corpus manifest</a> · <a href="HUWSTER-RANKS.json">Career and role ranks</a> · <a href="ASHRAM-SEQUENTIAL.md">Ashram sequential edition</a> · <a href="ASHRAM-LEXICON.json">Numbered lexicon</a> · <a href="SCIENCERAINBOWRAINBOWSCIENCE.md">Exact Sciencerainbowrainbowscience</a> · <a href="SCIENCERAINBOWRAINBOWSCIENCE-PAPERWORK.html">Printable paperwork</a> · <a href="SCIENCERAINBOWRAINBOWSCIENCE-COMPUTERWORK.json">Computerwork</a> · <a href="PUBLICATION.md">Full prose collection</a> · <a href="EXTRA-COMPLETE.md">Extra complete edition</a> · <a href="MAX-RAWFUL.md">Max Rawful</a> · <a href="MAX-RAW.md">Max Raw</a> · <a href="MAX-LAW.md">Max Law</a> · <a href="MAX-LAWFUL.md">Max Lawful</a> · <a href="catalogue.json">Sorted catalogue</a> · <a href="sources.zip">Exact source archive</a> · <a href="release-hashes.json">Release hashes</a></p><p>Seven chambers offer a reading guide through the finite collection.</p><nav id="chambers" aria-label="Seven reading chambers"></nav></header>
 <label for="search">Search document names and full text</label><input id="search" type="search" placeholder="Search this edition"><p id="count" aria-live="polite"></p>
 <div id="returns"><button id="return-root" type="button">Return to collection</button><button id="return-parent" type="button">Return to parent lair</button></div><p id="breadcrumb"></p>
 <main><aside><h2>Source lairs</h2><div id="lair"></div><h2>Matching prose</h2><nav id="documents" aria-label="Documents"></nav></aside><article><h2 id="document-title"></h2><div id="provenance"></div><div id="nested-links"></div><pre id="text"></pre></article></main>
@@ -517,6 +519,16 @@ def build(root, output_dir='publication/edition') -> dict:
     dictionary += ['', '## Full method and complete collected publication', '', 'The full Ashram grammar, amplification derivation and fourteen parables are included in the collected body below. Historical meanings remain in their source context.', '', '---', '']
     outputs['ASHRAM-SEQUENTIAL.md'] = '\n'.join(dictionary).encode('utf-8') + outputs['PUBLICATION.md']
     catalogue['ashram_edition'] = {'file': 'ASHRAM-SEQUENTIAL.md', 'lexicon': 'ASHRAM-LEXICON.json', 'specification': 'ASHRAM-SPECIFICATION.json', 'scope': ashram['scope'], 'certification': False}
+    outputs['catalogue.json'] = _json_bytes(catalogue)
+    from madrigal_lab.huwster import catalogue as huwster_catalogue, ranks as huwster_ranks
+    outputs['HUWSTER-ARCHITECTURE.json'] = _json_bytes(huwster_catalogue())
+    outputs['HUWSTER-RANKS.json'] = _json_bytes({'format': 'huwster-full-rank-grid', 'version': 1, 'ranks': huwster_ranks()})
+    corpus_path = root / 'publication/rawful-corpus/manifest.json'
+    corpus = json.loads(corpus_path.read_text()) if corpus_path.is_file() else {'complete': False, 'documents': 0, 'scope': 'No full document corpus is supplied in this source fixture.'}
+    outputs['RAWFUL-CORPUS.json'] = _json_bytes(corpus)
+    huwster_guide = current.get('docs/HUWSTER-RAWFUL-ARCHITECTURE.md', '# Huwster Rasnikism — Ostar Rawful\n')
+    outputs['HUWSTER-RAWFUL.md'] = (huwster_guide + '\n\n---\n\n## Complete collected publication\n\n').encode('utf-8') + outputs['PUBLICATION.md']
+    catalogue['huwster_edition'] = {'file': 'HUWSTER-RAWFUL.md', 'default': 'ostar-rawful', 'architecture': 'HUWSTER-ARCHITECTURE.json', 'ranks': 'HUWSTER-RANKS.json', 'corpus': 'RAWFUL-CORPUS.json', 'certification': False}
     outputs['catalogue.json'] = _json_bytes(catalogue)
     hashes = {name: {'sha256': _sha(payload), 'size': len(payload)} for name, payload in sorted(outputs.items())}
     release = {'format': 'rasniki-hopput-release-hashes', 'version': 1, 'edition': lock['edition'],

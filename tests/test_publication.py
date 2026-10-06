@@ -101,6 +101,19 @@ class PublicationTests(unittest.TestCase):
             self.assertIn(name, hashes['outputs'])
         self.assertIn('ASHRAM-SEQUENTIAL.md', (output / 'index.html').read_text())
 
+    def test_huwster_complete_edition_and_full_rank_artifacts(self):
+        result = publication.build(self.root)
+        output = Path(result['output_dir'])
+        self.assertTrue((output / 'HUWSTER-RAWFUL.md').read_bytes().endswith((output / 'PUBLICATION.md').read_bytes()))
+        architecture = json.loads((output / 'HUWSTER-ARCHITECTURE.json').read_text())
+        self.assertEqual(architecture['default'], 'ostar-rawful')
+        self.assertEqual(architecture['document_space'], 7**8)
+        self.assertEqual(len(json.loads((output / 'HUWSTER-RANKS.json').read_text())['ranks']), 3087)
+        self.assertFalse(json.loads((output / 'RAWFUL-CORPUS.json').read_text())['complete'])
+        hashes = json.loads((output / 'release-hashes.json').read_text())
+        for name in ('HUWSTER-RAWFUL.md', 'HUWSTER-ARCHITECTURE.json', 'HUWSTER-RANKS.json', 'RAWFUL-CORPUS.json'):
+            self.assertIn(name, hashes['outputs'])
+
     def test_verifies_full_binary_and_licenses(self):
         result = publication.verify_sources(self.root)
         self.assertTrue(result['ok'])

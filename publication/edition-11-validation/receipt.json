@@ -1,0 +1,225 @@
+{
+  "format": "rasniki-bootstrap-receipt",
+  "version": 1,
+  "started_at": "2026-10-06T21:35:03.904927+00:00",
+  "hosts": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "source_lock_sha256": "27d0e000bc7577ab9740e4805c98e0e4a95ecf2ae4849af42b0eca2360abb1a4",
+  "source_verification": {
+    "ok": true,
+    "repositories": 4,
+    "files": 254,
+    "bytes": 9342556,
+    "errors": []
+  },
+  "checks": [
+    {
+      "name": "rawful-full-corpus",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tools/verify_rawful_corpus.py"
+      ],
+      "exit_code": 0,
+      "log": "rawful-full-corpus.log"
+    },
+    {
+      "name": "huwster-ui-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/huwster.js"
+      ],
+      "exit_code": 0,
+      "log": "huwster-ui-syntax.log"
+    },
+    {
+      "name": "lab-and-publication-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "lab-and-publication-tests.log"
+    },
+    {
+      "name": "guardian-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "guardian-tests.log"
+    },
+    {
+      "name": "iobot-responses",
+      "command": [
+        "node",
+        "tests/iobot-responses.cjs"
+      ],
+      "exit_code": 0,
+      "log": "iobot-responses.log"
+    },
+    {
+      "name": "iobot-ui-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/iobots/ui.js"
+      ],
+      "exit_code": 0,
+      "log": "iobot-ui-syntax.log"
+    },
+    {
+      "name": "ministry-smoke",
+      "command": [
+        "node",
+        "tests/ministry-smoke.cjs"
+      ],
+      "exit_code": 0,
+      "log": "ministry-smoke.log"
+    },
+    {
+      "name": "instagram-extension-tests",
+      "command": [
+        "node",
+        "tests/instagram-orange/core.cjs"
+      ],
+      "exit_code": 0,
+      "log": "instagram-extension-tests.log"
+    },
+    {
+      "name": "instagram-content-syntax",
+      "command": [
+        "node",
+        "--check",
+        "extensions/instagram-orange/content.js"
+      ],
+      "exit_code": 0,
+      "log": "instagram-content-syntax.log"
+    },
+    {
+      "name": "instagram-popup-syntax",
+      "command": [
+        "node",
+        "--check",
+        "extensions/instagram-orange/popup.js"
+      ],
+      "exit_code": 0,
+      "log": "instagram-popup-syntax.log"
+    },
+    {
+      "name": "instagram-package",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tools/package_instagram.py"
+      ],
+      "exit_code": 0,
+      "log": "instagram-package.log"
+    },
+    {
+      "name": "maintenance-script-syntax",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "py_compile",
+        "tools/media_standardize.py",
+        "tools/checked_update.py",
+        "tools/install_media_maintenance.py"
+      ],
+      "exit_code": 0,
+      "log": "maintenance-script-syntax.log"
+    },
+    {
+      "name": "desktop-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/app.js"
+      ],
+      "exit_code": 0,
+      "log": "desktop-script-syntax.log"
+    },
+    {
+      "name": "workbench-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/workbench.js"
+      ],
+      "exit_code": 0,
+      "log": "workbench-script-syntax.log"
+    },
+    {
+      "name": "media-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/media-studio.js"
+      ],
+      "exit_code": 0,
+      "log": "media-script-syntax.log"
+    },
+    {
+      "name": "contractual-pinned-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "contractual-pinned-tests.log"
+    },
+    {
+      "name": "rasnikism-full-bootstrap",
+      "command": [
+        "sh",
+        "bootstrap.sh"
+      ],
+      "exit_code": 0,
+      "log": "rasnikism-full-bootstrap.log"
+    },
+    {
+      "name": "publication-build-and-repeat",
+      "exit_code": 0,
+      "outputs": {
+        "catalogue.json": "55849197501acce6c6f6bdfeb754c067e66526e8618554d60ca80ad43f97ee0f",
+        "MAX-RAW.md": "575265654da8e7ea843cfaf1ed03e2686b84afdde651b411967e96231b5889c5",
+        "SCIENCERAINBOWRAINBOWSCIENCE-PAPERWORK.html": "9eb9ea4f1479108f6ba94730dce0454202eac5c143b535e44fcadbc0d3bb570b",
+        "sources.zip": "0db67a3c1dedc9131896d0c7bc231c15849b5bffa1cab3ec6e26fdc5daf52eb0",
+        "MAX-LAW.md": "3ba164ca174163a61e5897a240bac5d28ff060713bb19addca1e90a5a28fe154",
+        "release-hashes.json": "76abc19cd35ff2fb54c22fb7b2c7d37a8d464bed1b71d9262bc35b4acf63f982",
+        "HUWSTER-ARCHITECTURE.json": "7fef1bd9179fd2ce0cd54591499783d3704960696a1ab231a46e78301292e403",
+        "SCIENCERAINBOWRAINBOWSCIENCE.md": "6953577b1b87b458b38aaf57acb37d51cb715b3dadbf47db20264022a5f04447",
+        "RAWFUL-CORPUS.json": "1a81f97c204fae29aec4e9a04bfc55496b160330149aa4bb3fe413cb9b359e41",
+        "SCIENCERAINBOWRAINBOWSCIENCE-COMPUTERWORK.json": "a46282b755b6df53071552a6c432947cd2bafa3859ea7621bdced9c0ffd62c23",
+        "HUWSTER-RAWFUL.md": "8f0be5457c74dde6be327c73ff2208b5c87e4527dfdd6a475b0a4d039d2ce5ae",
+        "reader-data.json": "4a5753ba9a4cf32022b6a1c06b8ccb06c6a43e68f22c5d0dd75d95706ec7a113",
+        "ASHRAM-LEXICON.json": "43fd534205ea80d7ca29bef3d896ea7f76bf2b742dbfe7206166435b85b9066d",
+        "EXTRA-COMPLETE.md": "cee25680b50ebf1f95b7480e8458dde7bb65e43c39b4752f1cc7a303b3630b78",
+        "ASHRAM-SPECIFICATION.json": "d8a8860998c9af57f1a5be0974a313a94a36e2d44c786cad694c05753130218a",
+        "MAX-LAWFUL.md": "91d4dc4b1c5e9b4e8515f5db680704e531172a2392e67083d5e1571f89dfb4ab",
+        "MAX-RAWFUL.md": "0f51cdde0432bfb1344d275064c21fd802770e8c5908d2f87bf66b47383a5a7c",
+        "ASHRAM-SEQUENTIAL.md": "00302270e42ab1dc1e18755187f365563cecda7a3f17ce5c21363d24bc339c8f",
+        "HUWSTER-RANKS.json": "9d771668ffa5443075919f36ee060d2201e9dc3e03592358e43110b74e73d95d",
+        "PUBLICATION.md": "a5dd320624580e5b48a60179b480944d3113ad81830e1f0f7e2112b5a2359cc9",
+        "index.html": "5068f712b7f1ddd2f3a65f947524e4891bc2881ae9096fd7aa3e3c4047fcabed"
+      }
+    }
+  ],
+  "scope": "Named finite source, construction and test checks; not universal scientific or legal certification",
+  "completed_at": "2026-10-06T21:35:19.398108+00:00",
+  "checks_passed": true
+}

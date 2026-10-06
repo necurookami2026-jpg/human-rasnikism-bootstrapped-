@@ -1,0 +1,161 @@
+test_all_forms_and_kinds_and_extreme_ranks (test_ashram.AshramTests.test_all_forms_and_kinds_and_extreme_ranks) ... ok
+test_counts_and_sequential_unique_lexicon (test_ashram.AshramTests.test_counts_and_sequential_unique_lexicon) ... ok
+test_separation_refuses_cross_side_form_kind_and_forged_records (test_ashram.AshramTests.test_separation_refuses_cross_side_form_kind_and_forged_records) ... ok
+test_all_56_hospitality_labels_remain_fictional_names (test_atlas.AtlasTests.test_all_56_hospitality_labels_remain_fictional_names) ... ok
+test_all_views_reject_boolean_coercion_and_excessive_budgets (test_atlas.AtlasTests.test_all_views_reject_boolean_coercion_and_excessive_budgets) ... ok
+test_full_sorted_pagination_retains_distinct_labels_and_repetitions (test_atlas.AtlasTests.test_full_sorted_pagination_retains_distinct_labels_and_repetitions) ... ok
+test_governance_completion_is_distinguished_from_all_requested_titles (test_atlas.AtlasTests.test_governance_completion_is_distinguished_from_all_requested_titles) ... ok
+test_query_is_literal_casefolded_bounded_and_aliases_are_proposals (test_atlas.AtlasTests.test_query_is_literal_casefolded_bounded_and_aliases_are_proposals) ... ok
+test_returns_are_independent_and_source_bytes_are_unchanged (test_atlas.AtlasTests.test_returns_are_independent_and_source_bytes_are_unchanged) ... ok
+test_sensitive_names_never_become_universal_access_or_truth_rules (test_atlas.AtlasTests.test_sensitive_names_never_become_universal_access_or_truth_rules) ... ok
+test_seven_way_sampler_generates_only_unique_bounded_addresses (test_atlas.AtlasTests.test_seven_way_sampler_generates_only_unique_bounded_addresses) ... ok
+test_tree_returns_reachable_parents_and_advice_with_omission_counts (test_atlas.AtlasTests.test_tree_returns_reachable_parents_and_advice_with_omission_counts) ... ok
+test_unusual_named_labels_and_exact_spellings_are_preserved (test_atlas.AtlasTests.test_unusual_named_labels_and_exact_spellings_are_preserved) ... ok
+test_all_declared_kinds_are_records_and_health_is_not_a_diagnosis (test_boards.BoardTests.test_all_declared_kinds_are_records_and_health_is_not_a_diagnosis) ... ok
+test_concurrent_creates_cannot_exceed_the_record_limit (test_boards.BoardTests.test_concurrent_creates_cannot_exceed_the_record_limit) ... ok
+test_concurrent_reviews_award_a_quest_only_once (test_boards.BoardTests.test_concurrent_reviews_award_a_quest_only_once) ... ok
+test_database_ancestor_replacement_is_rejected_on_every_connection (test_boards.BoardTests.test_database_ancestor_replacement_is_rejected_on_every_connection) ... ok
+test_database_sidecar_symlinks_are_rejected_before_opening_sqlite (test_boards.BoardTests.test_database_sidecar_symlinks_are_rejected_before_opening_sqlite) ... ok
+test_database_symlink_is_rejected (test_boards.BoardTests.test_database_symlink_is_rejected) ... ok
+test_every_mutation_requires_strict_boolean_consent (test_boards.BoardTests.test_every_mutation_requires_strict_boolean_consent) ... ok
+test_invalid_transitions_leave_state_and_history_unchanged (test_boards.BoardTests.test_invalid_transitions_leave_state_and_history_unchanged) ... ok
+test_quest_reviewed_points_are_fictional_and_count_only_once (test_boards.BoardTests.test_quest_reviewed_points_are_fictional_and_count_only_once) ... ok
+test_records_and_replies_persist_as_inert_supplied_text (test_boards.BoardTests.test_records_and_replies_persist_as_inert_supplied_text) ... ok
+test_recursive_parent_and_display_bounds_and_leaf_deletion (test_boards.BoardTests.test_recursive_parent_and_display_bounds_and_leaf_deletion) ... ok
+test_shared_interaction_budget_blocks_each_kind_atomically (test_boards.BoardTests.test_shared_interaction_budget_blocks_each_kind_atomically) ... ok
+test_strict_identifiers_and_unknown_records (test_boards.BoardTests.test_strict_identifiers_and_unknown_records) ... ok
+test_survey_options_points_and_unknown_fields_are_validated_before_write (test_boards.BoardTests.test_survey_options_points_and_unknown_fields_are_validated_before_write) ... ok
+test_surveys_aggregate_submissions_without_claiming_unique_people (test_boards.BoardTests.test_surveys_aggregate_submissions_without_claiming_unique_people) ... ok
+test_utf8_bounds_and_bounded_finite_json_metadata (test_boards.BoardTests.test_utf8_bounds_and_bounded_finite_json_metadata) ... ok
+test_candidate_pass_failure_and_dirty_protection (test_checked_update.UpdateTests.test_candidate_pass_failure_and_dirty_protection) ... From /tmp/tmp1mvjyq1y/origin
+ * branch            main       -> FETCH_HEAD
+   ad6ca9f..321be1a  main       -> origin/main
+Cloning into '/tmp/rasniki-update-tfh2wbfw/candidate'...
+done.
+HEAD is now at 321be1a candidate
+From /tmp/tmp1mvjyq1y/origin
+ * branch            main       -> FETCH_HEAD
+Cloning into '/tmp/rasniki-update-iccjl512/candidate'...
+done.
+HEAD is now at 321be1a candidate
+Updating ad6ca9f..321be1a
+Fast-forward
+ new.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 new.txt
+From /tmp/tmp1mvjyq1y/origin
+ * branch            main       -> FETCH_HEAD
+From /tmp/tmp1mvjyq1y/origin
+ * branch            main       -> FETCH_HEAD
+   321be1a..cd45bbf  main       -> origin/main
+Cloning into '/tmp/rasniki-update-sbw2vzq4/candidate'...
+done.
+HEAD is now at cd45bbf bad candidate
+ok
+test_atomic_debt_settlement_and_reopened_portfolio (test_economy.EconomyTests.test_atomic_debt_settlement_and_reopened_portfolio) ... ok
+test_bounds_reserved_issuer_and_unknown_accounts (test_economy.EconomyTests.test_bounds_reserved_issuer_and_unknown_accounts) ... ok
+test_concurrent_funding_and_repayment_cannot_double_spend (test_economy.EconomyTests.test_concurrent_funding_and_repayment_cannot_double_spend) ... ok
+test_contract_assertions_revision_retention_and_receipt (test_economy.EconomyTests.test_contract_assertions_revision_retention_and_receipt) ... ok
+test_contract_tamper_blocks_finalisation_and_child_revision (test_economy.EconomyTests.test_contract_tamper_blocks_finalisation_and_child_revision) ... ok
+test_coupon_is_one_use_annotation_without_money (test_economy.EconomyTests.test_coupon_is_one_use_annotation_without_money) ... ok
+test_database_and_sidecar_symlinks_are_rejected (test_economy.EconomyTests.test_database_and_sidecar_symlinks_are_rejected) ... ok
+test_receipt_and_repayment_tampering_are_reported (test_economy.EconomyTests.test_receipt_and_repayment_tampering_are_reported) ... ok
+test_rejected_lending_and_repayment_leave_both_sides_unchanged (test_economy.EconomyTests.test_rejected_lending_and_repayment_leave_both_sides_unchanged) ... ok
+test_repayment_budget_reserves_final_settlement_and_rejection_is_atomic (test_economy.EconomyTests.test_repayment_budget_reserves_final_settlement_and_rejection_is_atomic) ... ok
+test_transaction_rolls_back_postings_when_debt_write_fails (test_economy.EconomyTests.test_transaction_rolls_back_postings_when_debt_write_fails) ... ok
+test_complete_base7_address_roundtrip_and_drafts (test_huwster.HuwsterTests.test_complete_base7_address_roundtrip_and_drafts) ... ok
+test_every_encounter_category_has_49_unique_documents_in_requested_contexts (test_huwster.HuwsterTests.test_every_encounter_category_has_49_unique_documents_in_requested_contexts) ... ok
+test_full_rank_grid (test_huwster.HuwsterTests.test_full_rank_grid) ... ok
+test_game_engine_motion_metrics_lore_and_default_documents (test_huwster.HuwsterTests.test_game_engine_motion_metrics_lore_and_default_documents) ... ok
+test_rejection_of_invalid_world_and_green_first_order (test_huwster.HuwsterTests.test_rejection_of_invalid_world_and_green_first_order) ... ok
+test_server_action_routes (test_huwster.HuwsterTests.test_server_action_routes) ... ok
+test_concurrent_double_spend (test_lab.FinanceTests.test_concurrent_double_spend) ... ok
+test_conservation_and_persistence (test_lab.FinanceTests.test_conservation_and_persistence) ... ok
+test_failed_transfer_is_atomic (test_lab.FinanceTests.test_failed_transfer_is_atomic) ... ok
+test_demo_lending_and_finalised_contract_http_workflow (test_lab.HTTPTests.test_demo_lending_and_finalised_contract_http_workflow) ... ok
+test_denials_and_bounded_errors (test_lab.HTTPTests.test_denials_and_bounded_errors) ... ok
+test_functional_http_workflow (test_lab.HTTPTests.test_functional_http_workflow) ... ok
+test_local_survey_quest_and_sorted_atlas_http_workflow (test_lab.HTTPTests.test_local_survey_quest_and_sorted_atlas_http_workflow) ... ok
+test_ministry_static_route_and_script_policy (test_lab.HTTPTests.test_ministry_static_route_and_script_policy) ... ok
+test_owned_restore_and_malformed_workpaper_inputs_http (test_lab.HTTPTests.test_owned_restore_and_malformed_workpaper_inputs_http) ... ok
+test_session_catalogue_and_missing_action (test_lab.HTTPTests.test_session_catalogue_and_missing_action) ... ok
+test_symbolic_comparison_requires_consent_and_retains_no_record (test_lab.HTTPTests.test_symbolic_comparison_requires_consent_and_retains_no_record) ... ok
+test_all_quilt_boolean_payloads (test_lab.LanguageTests.test_all_quilt_boolean_payloads) ... ok
+test_billion_symbolic_sample (test_lab.LanguageTests.test_billion_symbolic_sample) ... ok
+test_compile_utf8_and_exact (test_lab.LanguageTests.test_compile_utf8_and_exact) ... ok
+test_distinct_execution_states (test_lab.LanguageTests.test_distinct_execution_states) ... ok
+test_real_fixture_and_roundtrip (test_lab.LanguageTests.test_real_fixture_and_roundtrip) ... ok
+test_reject_invalid_decode_and_assembly (test_lab.LanguageTests.test_reject_invalid_decode_and_assembly) ... ok
+test_boot_does_not_write_disk (test_lab.RuntimeTests.test_boot_does_not_write_disk) ... ok
+test_document_boundaries (test_lab.RuntimeTests.test_document_boundaries) ... ok
+test_guardian_scan_and_trusted_comparison (test_lab.RuntimeTests.test_guardian_scan_and_trusted_comparison) ... ok
+test_kernel_jobs (test_lab.RuntimeTests.test_kernel_jobs) ... ok
+test_local_domain_bot_and_game (test_lab.RuntimeTests.test_local_domain_bot_and_game) ... ok
+test_practice_rules_and_priority_persist (test_lab.RuntimeTests.test_practice_rules_and_priority_persist) ... ok
+test_symlink_document_root_rejected (test_lab.RuntimeTests.test_symlink_document_root_rejected) ... ok
+test_binary_round_trip_fingerprint_and_size_limit (test_media.MediaTests.test_binary_round_trip_fingerprint_and_size_limit) ... ok
+test_input_boundary_and_assertions (test_media.MediaTests.test_input_boundary_and_assertions) ... ok
+test_owned_utf8_digest_and_deterministic_seed (test_media.MediaTests.test_owned_utf8_digest_and_deterministic_seed) ... ok
+test_seed_rendition_bound_origin_and_finite_prompts (test_media.MediaTests.test_seed_rendition_bound_origin_and_finite_prompts) ... ok
+test_story_limits_utf8_excerpt_and_plain_inert_text (test_media.MediaTests.test_story_limits_utf8_excerpt_and_plain_inert_text) ... ok
+test_story_partition_covers_source_once_and_timed_cards (test_media.MediaTests.test_story_partition_covers_source_once_and_timed_cards) ... ok
+test_lossless_video_and_audio (test_media_standardize.AudioVideoTests.test_lossless_video_and_audio) ... ok
+test_animated_and_symlink_not_flattened (test_media_standardize.StandardizeTests.test_animated_and_symlink_not_flattened) ... ok
+test_jpeg_pixels_original_and_receipt (test_media_standardize.StandardizeTests.test_jpeg_pixels_original_and_receipt) ... ok
+test_all_prose_formats_and_retained_inputs (test_papers.PapersTests.test_all_prose_formats_and_retained_inputs) ... ok
+test_map_coordinates_escaping_and_bounds (test_papers.PapersTests.test_map_coordinates_escaping_and_bounds) ... ok
+test_seed_prompts_are_repeatable_and_finite (test_papers.PapersTests.test_seed_prompts_are_repeatable_and_finite) ... ok
+test_ashram_numbered_edition_preserves_corpus_and_records_outputs (test_publication.PublicationTests.test_ashram_numbered_edition_preserves_corpus_and_records_outputs) ... ok
+test_check_detects_changed_output_without_writing (test_publication.PublicationTests.test_check_detects_changed_output_without_writing) ... ok
+test_deterministic_build_and_exact_archive_binary_roundtrip (test_publication.PublicationTests.test_deterministic_build_and_exact_archive_binary_roundtrip) ... ok
+test_duplicate_markdown_retains_both_source_records (test_publication.PublicationTests.test_duplicate_markdown_retains_both_source_records) ... ok
+test_extra_complete_volume_includes_all_guides_and_full_body (test_publication.PublicationTests.test_extra_complete_volume_includes_all_guides_and_full_body) ... ok
+test_four_parallel_editions_retain_complete_body_and_distinct_guides (test_publication.PublicationTests.test_four_parallel_editions_retain_complete_body_and_distinct_guides) ... ok
+test_huwster_complete_edition_and_full_rank_artifacts (test_publication.PublicationTests.test_huwster_complete_edition_and_full_rank_artifacts) ... ok
+test_lair_depth_and_node_budgets_refuse_unbounded_expansion (test_publication.PublicationTests.test_lair_depth_and_node_budgets_refuse_unbounded_expansion) ... ok
+test_lair_tree_covers_every_source_file_with_unique_parent_links (test_publication.PublicationTests.test_lair_tree_covers_every_source_file_with_unique_parent_links) ... ok
+test_malformed_urls_report_explicit_errors (test_publication.PublicationTests.test_malformed_urls_report_explicit_errors) ... ok
+test_offline_html_inerts_payload_and_preserves_text (test_publication.PublicationTests.test_offline_html_inerts_payload_and_preserves_text) ... ok
+test_path_escape_is_invalid (test_publication.PublicationTests.test_path_escape_is_invalid) ... ok
+test_rainbow_edition_retains_body_and_publishes_work_artifacts (test_publication.PublicationTests.test_rainbow_edition_retains_body_and_publishes_work_artifacts) ... ok
+test_sorted_catalogue_and_hashes_current_documents (test_publication.PublicationTests.test_sorted_catalogue_and_hashes_current_documents) ... ok
+test_source_size_budget_is_enforced (test_publication.PublicationTests.test_source_size_budget_is_enforced) ... ok
+test_symlink_source_and_overlapping_output_are_rejected (test_publication.PublicationTests.test_symlink_source_and_overlapping_output_are_rejected) ... ok
+test_tampered_source_refuses_before_overwriting_outputs (test_publication.PublicationTests.test_tampered_source_refuses_before_overwriting_outputs) ... ok
+test_verifies_full_binary_and_licenses (test_publication.PublicationTests.test_verifies_full_binary_and_licenses) ... ok
+test_invalid_wavelengths (test_rainbow.RainbowTests.test_invalid_wavelengths) ... ok
+test_output_is_parseable_and_preserves_existing_record (test_rainbow.RainbowTests.test_output_is_parseable_and_preserves_existing_record) ... ok
+test_physical_conversion_and_exact_roundtrips (test_rainbow.RainbowTests.test_physical_conversion_and_exact_roundtrips) ... ok
+test_case_specific_plans_never_claim_account_restored (test_recovery.RecoveryTests.test_case_specific_plans_never_claim_account_restored) ... ok
+test_decoder_rejects_invalid_encoding_binary_and_byte_limits (test_recovery.RecoveryTests.test_decoder_rejects_invalid_encoding_binary_and_byte_limits) ... ok
+test_distinct_restore_calls_share_an_atomic_entry_budget (test_recovery.RecoveryTests.test_distinct_restore_calls_share_an_atomic_entry_budget) ... ok
+test_encoding_roundtrips_utf8_without_cryptographic_claims (test_recovery.RecoveryTests.test_encoding_roundtrips_utf8_without_cryptographic_claims) ... ok
+test_exclusive_concurrent_restore_and_document_count_bound (test_recovery.RecoveryTests.test_exclusive_concurrent_restore_and_document_count_bound) ... ok
+test_existing_files_and_path_escapes_cannot_be_overwritten (test_recovery.RecoveryTests.test_existing_files_and_path_escapes_cannot_be_overwritten) ... ok
+test_external_cooperating_directory_lock_prevents_partial_restore (test_recovery.RecoveryTests.test_external_cooperating_directory_lock_prevents_partial_restore) ... ok
+test_failed_digest_or_ownership_writes_nothing (test_recovery.RecoveryTests.test_failed_digest_or_ownership_writes_nothing) ... ok
+test_failed_file_creation_removes_only_own_empty_parent_directories (test_recovery.RecoveryTests.test_failed_file_creation_removes_only_own_empty_parent_directories) ... ok
+test_failed_new_parent_open_rolls_back_its_empty_directory (test_recovery.RecoveryTests.test_failed_new_parent_open_rolls_back_its_empty_directory) ... ok
+test_failed_restore_preserves_parent_populated_by_another_writer (test_recovery.RecoveryTests.test_failed_restore_preserves_parent_populated_by_another_writer) ... ok
+test_functions_do_not_contact_providers_or_execute_backups (test_recovery.RecoveryTests.test_functions_do_not_contact_providers_or_execute_backups) ... ok
+test_integrity_is_separate_from_authenticity_and_ownership (test_recovery.RecoveryTests.test_integrity_is_separate_from_authenticity_and_ownership) ... ok
+test_local_restore_preserves_utf8_and_never_changes_remote_access (test_recovery.RecoveryTests.test_local_restore_preserves_utf8_and_never_changes_remote_access) ... ok
+test_parent_swap_race_cannot_redirect_restore (test_recovery.RecoveryTests.test_parent_swap_race_cannot_redirect_restore) ... ok
+test_plans_reject_credentials_unknown_fields_and_nonowners (test_recovery.RecoveryTests.test_plans_reject_credentials_unknown_fields_and_nonowners) ... ok
+test_replaced_state_ancestor_symlink_cannot_redirect_restore (test_recovery.RecoveryTests.test_replaced_state_ancestor_symlink_cannot_redirect_restore) ... ok
+test_rollback_preserves_a_replaced_empty_parent (test_recovery.RecoveryTests.test_rollback_preserves_a_replaced_empty_parent) ... ok
+test_symlink_parents_and_targets_are_rejected (test_recovery.RecoveryTests.test_symlink_parents_and_targets_are_rejected) ... ok
+test_vault_envelopes_are_bounded_encoding_containers (test_recovery.RecoveryTests.test_vault_envelopes_are_bounded_encoding_containers) ... ok
+test_comparison_uses_explicit_documentation_baselines (test_symbolic.SymbolicTests.test_comparison_uses_explicit_documentation_baselines) ... ok
+test_complete_partial_and_absent_documentation_scores (test_symbolic.SymbolicTests.test_complete_partial_and_absent_documentation_scores) ... ok
+test_deterministic_results_do_not_mutate_inputs_or_catalogue (test_symbolic.SymbolicTests.test_deterministic_results_do_not_mutate_inputs_or_catalogue) ... ok
+test_explicit_boolean_consent_and_opt_out_are_required (test_symbolic.SymbolicTests.test_explicit_boolean_consent_and_opt_out_are_required) ... ok
+test_known_archetypes_and_explicit_spelling_aliases (test_symbolic.SymbolicTests.test_known_archetypes_and_explicit_spelling_aliases) ... ok
+test_supplied_code_and_references_remain_inert_without_io (test_symbolic.SymbolicTests.test_supplied_code_and_references_remain_inert_without_io) ... ok
+test_unknown_targets_and_typed_support_are_rejected (test_symbolic.SymbolicTests.test_unknown_targets_and_typed_support_are_rejected) ... ok
+test_utf8_byte_bounds_empty_titles_and_whitespace_support (test_symbolic.SymbolicTests.test_utf8_byte_bounds_empty_titles_and_whitespace_support) ... ok
+
+----------------------------------------------------------------------
+Ran 132 tests in 7.810s
+
+OK

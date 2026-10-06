@@ -5,3 +5,5 @@
 canvas,video,audio{display:block;max-width:100%;height:auto;margin:12px 0}video[hidden],audio[hidden]{display:none}canvas{border:1px solid var(--line);background:#09121d}input[type=file]{white-space:normal}#atlas-results{margin:18px 0}
 
 audio{height:54px;width:100%}
+
+#huwster-canvas{width:100%;height:auto}

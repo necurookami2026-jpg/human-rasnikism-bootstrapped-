@@ -24,6 +24,10 @@
       "sha256": "0eda49d2466ecc061e3a02910910930bbb6f897d19519f4a2fd4bc705781a25a",
       "size": 3190
     },
+    "docs/HUWSTER-RAWFUL-ARCHITECTURE.md": {
+      "sha256": "2171d80fecb5eb14b0c2de915203b2729fd26ee76bd08703ea8946837fa058db",
+      "size": 12185
+    },
     "docs/IMPLEMENTATION.md": {
       "sha256": "40ccc2b3ecf36db5aa8ad92f698b17b3d00df3598c9e91f91de3d585b9a87756",
       "size": 14799
@@ -189,7 +193,7 @@
       "size": 779280
     }
   },
-  "edition": "10",
+  "edition": "11",
   "format": "rasniki-hopput-release-hashes",
   "outputs": {
     "ASHRAM-LEXICON.json": {
@@ -197,70 +201,86 @@
       "size": 5574
     },
     "ASHRAM-SEQUENTIAL.md": {
-      "sha256": "38ec8104ccfd66ce60ccc16136100d5288a8fa6f0160b10a0897f124be8380e7",
-      "size": 774498
+      "sha256": "00302270e42ab1dc1e18755187f365563cecda7a3f17ce5c21363d24bc339c8f",
+      "size": 786855
     },
     "ASHRAM-SPECIFICATION.json": {
       "sha256": "d8a8860998c9af57f1a5be0974a313a94a36e2d44c786cad694c05753130218a",
       "size": 6824
     },
     "EXTRA-COMPLETE.md": {
-      "sha256": "0fb6d8b958c908fc5d314a6bdf81287e00404d23a13e52c696b67f896bb4ab8e",
-      "size": 772479
+      "sha256": "cee25680b50ebf1f95b7480e8458dde7bb65e43c39b4752f1cc7a303b3630b78",
+      "size": 784836
+    },
+    "HUWSTER-ARCHITECTURE.json": {
+      "sha256": "7fef1bd9179fd2ce0cd54591499783d3704960696a1ab231a46e78301292e403",
+      "size": 5001
+    },
+    "HUWSTER-RANKS.json": {
+      "sha256": "9d771668ffa5443075919f36ee060d2201e9dc3e03592358e43110b74e73d95d",
+      "size": 956624
+    },
+    "HUWSTER-RAWFUL.md": {
+      "sha256": "8f0be5457c74dde6be327c73ff2208b5c87e4527dfdd6a475b0a4d039d2ce5ae",
+      "size": 795474
     },
     "MAX-LAW.md": {
-      "sha256": "b109e6b70539deb41c02dee2dd36d9305ec2da59c8572980451715df2b23ea9e",
-      "size": 771488
+      "sha256": "3ba164ca174163a61e5897a240bac5d28ff060713bb19addca1e90a5a28fe154",
+      "size": 783845
     },
     "MAX-LAWFUL.md": {
-      "sha256": "5754f228528328c6a0a3d8b4497a590f254642cf2580edab2fc2d1ddceadd72e",
-      "size": 771527
+      "sha256": "91d4dc4b1c5e9b4e8515f5db680704e531172a2392e67083d5e1571f89dfb4ab",
+      "size": 783884
     },
     "MAX-RAW.md": {
-      "sha256": "f9e07e313e87b12cf333952deb9472f05c6327dc3d7ac4056b134074158b5f48",
-      "size": 771417
+      "sha256": "575265654da8e7ea843cfaf1ed03e2686b84afdde651b411967e96231b5889c5",
+      "size": 783774
     },
     "MAX-RAWFUL.md": {
-      "sha256": "3169cfab3b3d4d1235cc0f90a436880e5722e14b936ec294e1b82b1375cf420d",
-      "size": 771400
+      "sha256": "0f51cdde0432bfb1344d275064c21fd802770e8c5908d2f87bf66b47383a5a7c",
+      "size": 783757
     },
     "PUBLICATION.md": {
-      "sha256": "6b2739a762d3cca147b49e3940fb978a009f278527cc0d4bb9eefe60f25af690",
-      "size": 770890
+      "sha256": "a5dd320624580e5b48a60179b480944d3113ad81830e1f0f7e2112b5a2359cc9",
+      "size": 783247
+    },
+    "RAWFUL-CORPUS.json": {
+      "sha256": "1a81f97c204fae29aec4e9a04bfc55496b160330149aa4bb3fe413cb9b359e41",
+      "size": 20794
     },
     "SCIENCERAINBOWRAINBOWSCIENCE-COMPUTERWORK.json": {
       "sha256": "a46282b755b6df53071552a6c432947cd2bafa3859ea7621bdced9c0ffd62c23",
       "size": 1236
     },
     "SCIENCERAINBOWRAINBOWSCIENCE-PAPERWORK.html": {
-      "sha256": "647c18e814d9727f8b09fcb31e05b6e6160e11365b6c935185e35e2d353187f1",
+      "sha256": "9eb9ea4f1479108f6ba94730dce0454202eac5c143b535e44fcadbc0d3bb570b",
       "size": 5129
     },
     "SCIENCERAINBOWRAINBOWSCIENCE.md": {
-      "sha256": "946b82f33ee801c48593c33d138e3a2a0a9061534db5e1b35a582ff6503f9f04",
-      "size": 775921
+      "sha256": "6953577b1b87b458b38aaf57acb37d51cb715b3dadbf47db20264022a5f04447",
+      "size": 788278
     },
     "catalogue.json": {
-      "sha256": "5e18ca86dbe31d1628ed452ae46bebdb79f9865f3e0220f20696ae2417670c78",
-      "size": 23448
+      "sha256": "55849197501acce6c6f6bdfeb754c067e66526e8618554d60ca80ad43f97ee0f",
+      "size": 23574
     },
     "index.html": {
-      "sha256": "cce9dd607ede6d8a57195598e7fd3cd92c99d088c0ec70dd180950874384d201",
-      "size": 1022899
+      "sha256": "5068f712b7f1ddd2f3a65f947524e4891bc2881ae9096fd7aa3e3c4047fcabed",
+      "size": 1036083
     },
     "reader-data.json": {
-      "sha256": "49414b1f369bfe6aeae0bcdb634179bd4781c9331e1c740fdfbe4a2cfa5523aa",
-      "size": 1078046
+      "sha256": "4a5753ba9a4cf32022b6a1c06b8ccb06c6a43e68f22c5d0dd75d95706ec7a113",
+      "size": 1091312
     },
     "sources.zip": {
-      "sha256": "5d47be77fc2244c1cae22669b8ad6363a216045f4d9b4c41b5ea63b52d16f62b",
-      "size": 9424342
+      "sha256": "0db67a3c1dedc9131896d0c7bc231c15849b5bffa1cab3ec6e26fdc5daf52eb0",
+      "size": 9424226
     }
   },
   "self_hash": "Excluded to avoid a circular hash; hash this file independently when archiving the release.",
   "source_lock": {
-    "sha256": "756362aee5adf26007b2a0af1c0efa100c2bf890cfce19fcac752f85d1b6cee4",
-    "size": 44044
+    "sha256": "27d0e000bc7577ab9740e4805c98e0e4a95ecf2ae4849af42b0eca2360abb1a4",
+    "size": 43928
   },
   "version": 1
 }

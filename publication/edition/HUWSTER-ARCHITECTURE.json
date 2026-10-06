@@ -1,0 +1,317 @@
+{
+  "contexts": [
+    "architecture",
+    "interactive",
+    "roleplay",
+    "jobrole",
+    "runtime",
+    "ecorestoration",
+    "franchise"
+  ],
+  "default": "ostar-rawful",
+  "default_design": "systematic-ecorestoration",
+  "document_purposes": [
+    "scope-and-parties",
+    "permissions-and-consent",
+    "resources-and-impact",
+    "design-and-obligations",
+    "evidence-and-review",
+    "change-and-remedy",
+    "closure-and-reuse"
+  ],
+  "document_space": 5764801,
+  "facets": [
+    "identity",
+    "authority",
+    "ownership",
+    "participation",
+    "environment",
+    "operation",
+    "revision"
+  ],
+  "next_design": "incremental-environmentalism",
+  "packet_documents": 49,
+  "publication_mode": "rawful-draft",
+  "rank_contexts": [
+    "career",
+    "roleplay",
+    "jobrole"
+  ],
+  "rank_records": 3087,
+  "rank_types": {
+    "composite": [
+      "parcel",
+      "household",
+      "workgroup",
+      "habitat",
+      "infrastructure",
+      "community",
+      "series"
+    ],
+    "mechanic": [
+      "care",
+      "restraint",
+      "repair",
+      "truthfulness",
+      "stewardship",
+      "learning",
+      "advocacy"
+    ],
+    "primitive": [
+      "mark",
+      "read",
+      "write",
+      "choose",
+      "step",
+      "signal",
+      "reference"
+    ]
+  },
+  "ranks_per_type_and_context": 49,
+  "revision_slots": 49,
+  "scope": "User-supplied and fictional scenarios; drafts are not legal approval, real career credentials or environmental measurements.",
+  "subject_slots": 343,
+  "subjects": [
+    {
+      "label": "bot",
+      "number": 1
+    },
+    {
+      "label": "robot",
+      "number": 2
+    },
+    {
+      "label": "droid",
+      "number": 3
+    },
+    {
+      "label": "device",
+      "number": 4
+    },
+    {
+      "label": "pager",
+      "number": 5
+    },
+    {
+      "label": "mobile",
+      "number": 6
+    },
+    {
+      "label": "portable",
+      "number": 7
+    },
+    {
+      "label": "tablet",
+      "number": 8
+    },
+    {
+      "label": "laptop",
+      "number": 9
+    },
+    {
+      "label": "desktop",
+      "number": 10
+    },
+    {
+      "label": "mainframe",
+      "number": 11
+    },
+    {
+      "label": "hive",
+      "number": 12
+    },
+    {
+      "label": "colony",
+      "number": 13
+    },
+    {
+      "label": "suite",
+      "number": 14
+    },
+    {
+      "label": "room",
+      "number": 15
+    },
+    {
+      "label": "floor",
+      "number": 16
+    },
+    {
+      "label": "layer",
+      "number": 17
+    },
+    {
+      "label": "tier",
+      "number": 18
+    },
+    {
+      "label": "condominium",
+      "number": 19
+    },
+    {
+      "label": "condo",
+      "number": 20
+    },
+    {
+      "label": "name",
+      "number": 21
+    },
+    {
+      "label": "stamp",
+      "number": 22
+    },
+    {
+      "label": "bednob",
+      "number": 23
+    },
+    {
+      "label": "seal",
+      "number": 24
+    },
+    {
+      "label": "home",
+      "number": 25
+    },
+    {
+      "label": "house",
+      "number": 26
+    },
+    {
+      "label": "empire",
+      "number": 27
+    },
+    {
+      "label": "special-economic",
+      "number": 28
+    },
+    {
+      "label": "hamlet",
+      "number": 29
+    },
+    {
+      "label": "field",
+      "number": 30
+    },
+    {
+      "label": "ville",
+      "number": 31
+    },
+    {
+      "label": "bathway",
+      "number": 32
+    },
+    {
+      "label": "driveway",
+      "number": 33
+    },
+    {
+      "label": "byway",
+      "number": 34
+    },
+    {
+      "label": "roadway",
+      "number": 35
+    },
+    {
+      "label": "streetway",
+      "number": 36
+    },
+    {
+      "label": "carriageaway",
+      "number": 37
+    },
+    {
+      "label": "motorway",
+      "number": 38
+    },
+    {
+      "label": "interstateway",
+      "number": 39
+    },
+    {
+      "label": "town",
+      "number": 40
+    },
+    {
+      "label": "shop",
+      "number": 41
+    },
+    {
+      "label": "store",
+      "number": 42
+    },
+    {
+      "label": "mall",
+      "number": 43
+    },
+    {
+      "label": "person",
+      "number": 44
+    },
+    {
+      "label": "citizen",
+      "number": 45
+    },
+    {
+      "label": "people",
+      "number": 46
+    },
+    {
+      "label": "demographic",
+      "number": 47
+    },
+    {
+      "label": "individual",
+      "number": 48
+    },
+    {
+      "label": "group",
+      "number": 49
+    },
+    {
+      "label": "collective",
+      "number": 50
+    },
+    {
+      "label": "pal",
+      "number": 51
+    },
+    {
+      "label": "family",
+      "number": 52
+    },
+    {
+      "label": "fam",
+      "number": 53
+    },
+    {
+      "label": "tribe",
+      "number": 54
+    },
+    {
+      "label": "pace",
+      "number": 55
+    },
+    {
+      "label": "species",
+      "number": 56
+    },
+    {
+      "label": "creture",
+      "number": 57
+    },
+    {
+      "label": "nonindividual",
+      "number": 58
+    },
+    {
+      "label": "nongroup",
+      "number": 59
+    },
+    {
+      "label": "noncollective",
+      "number": 60
+    }
+  ],
+  "title": "Huwster Rasnikism"
+}

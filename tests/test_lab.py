@@ -202,7 +202,7 @@ class HTTPTests(unittest.TestCase):
         return self.request('POST','/api/action',json.dumps({'action':action,'args':args}),{'Content-Type':'application/json','X-Lab-Token':self.server.lab.token})
 
     def test_functional_http_workflow(self):
-        status,body=self.request('GET','/');self.assertEqual(status,200);self.assertIn(b'Madrigal workbench',body)
+        status,body=self.request('GET','/');self.assertEqual(status,200);self.assertIn(b'Huwster Rasnikism',body)
         status,body=self.action('run',{'source':HELLO});self.assertEqual(status,200)
         self.assertEqual(json.loads(body)['result']['output'],'R')
         self.assertEqual(self.action('write',{'path':'note.txt','text':'web note'})[0],200)

@@ -1,0 +1,54 @@
+{
+  "madrigal_lab/huwster.py": {
+    "sha256": "975dbcf41b5ce53ad97bde9e8c34ec29dcf3704b46620833e20c1f097f209943",
+    "size": 13920
+  },
+  "madrigal_lab/server.py": {
+    "sha256": "6cbc0eb26e03ec5e4bc24a981dc778d280fdba1cd67d634f3f33a32241c8d97e",
+    "size": 15707
+  },
+  "madrigal_lab/web/index.html": {
+    "sha256": "35f639cab01633bf7672eb338ade10e6e5ff26dc84c0fe2dce8e5ad5aac0a6c5",
+    "size": 28157
+  },
+  "madrigal_lab/web/huwster.js": {
+    "sha256": "3d0a9bbb2a3cd8bad6f3091cf0b8cf3c4452252ef95a950764c5bae07d104a4c",
+    "size": 6599
+  },
+  "madrigal_lab/web/style.css": {
+    "sha256": "37690e5da408601fb2944fc753b78ab565a0beeaa93e9bf25fd85d2a87dfad7f",
+    "size": 3086
+  },
+  "tools/build_rawful_corpus.py": {
+    "sha256": "f6400deaeb0bc3c9734568fdbd94cdf6ac7df772a9dd071ec3b334f2f262e33d",
+    "size": 3395
+  },
+  "tools/verify_rawful_corpus.py": {
+    "sha256": "3dfd492dedb6c0735457296df7281e5fb0d25a2514fe56e2f39652532d775878",
+    "size": 3652
+  },
+  "tests/test_huwster.py": {
+    "sha256": "675552e9109abd3e1f1a9a34a3ffa0f0148871f244672a35fa191b093d484ce7",
+    "size": 3621
+  },
+  "tests/huwster-browser.cjs": {
+    "sha256": "0329fba67f66dc4534671a0bf88364c7fa8a73ceb11a9743a5f257cbf814bdf4",
+    "size": 3495
+  },
+  "examples/huwster-commons.world": {
+    "sha256": "696e49fd3aa89e9d0fa1586360134f520f031e4079a0f4104abfceb64c33e058",
+    "size": 317
+  },
+  "releases/huwster-final-quilt.json": {
+    "sha256": "cab54d6675d06cad9c6fd48222a8e80216424c5125ba922356d7a45758147a07",
+    "size": 22299
+  },
+  "releases/huwster-restoration-commons.html": {
+    "sha256": "4d803f659e77bd409290db3af6971328e4b6a4d0866b132a6d73a40fa0ec87cb",
+    "size": 11892
+  },
+  "publication/rawful-corpus/manifest.json": {
+    "sha256": "9115f3aebeadb0ec444ce3304e484b759831526c72f758d3f47099f11f2a7a5f",
+    "size": 20794
+  }
+}
