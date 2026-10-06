@@ -25,6 +25,7 @@ MAX_SOURCE_BYTES = 25 * 1024 * 1024
 MAX_LAIR_DEPTH = 32
 MAX_LAIR_NODES = 4096
 OUTPUT_NAMES = (
+    'HEALTH-SCIENCE.json',
     'TEMPLE-HUD-DEFAULTS.json', 'TEMPLE-BLUEPRINT.svg',
     'HUWSTER-RAWFUL.md', 'HUWSTER-ARCHITECTURE.json', 'HUWSTER-RANKS.json', 'RAWFUL-CORPUS.json',
     'ASHRAM-SEQUENTIAL.md', 'ASHRAM-LEXICON.json', 'ASHRAM-SPECIFICATION.json',
@@ -35,6 +36,7 @@ OUTPUT_NAMES = (
     'MAX-RAWFUL.md', 'MAX-RAW.md', 'MAX-LAW.md', 'MAX-LAWFUL.md', 'EXTRA-COMPLETE.md',
 )
 CURRENT_DOCUMENTS = (
+    'docs/BASIC-HEALTH-SCIENCE.md',
     'docs/TEMPLE-HUD-LAUNCH-DEFAULTS.md',
     'docs/HUWSTER-RAWFUL-ARCHITECTURE.md',
     'docs/ASHRAM-SEQUENTIAL-TERMINOLOGY.md',
@@ -532,6 +534,8 @@ def build(root, output_dir='publication/edition') -> dict:
     outputs['HUWSTER-RAWFUL.md'] = (huwster_guide + '\n\n---\n\n## Complete collected publication\n\n').encode('utf-8') + outputs['PUBLICATION.md']
     catalogue['huwster_edition'] = {'file': 'HUWSTER-RAWFUL.md', 'default': 'ostar-rawful', 'architecture': 'HUWSTER-ARCHITECTURE.json', 'ranks': 'HUWSTER-RANKS.json', 'corpus': 'RAWFUL-CORPUS.json', 'certification': False}
     outputs['catalogue.json'] = _json_bytes(catalogue)
+    from madrigal_lab.health_science import catalogue as health_catalogue
+    outputs['HEALTH-SCIENCE.json'] = _json_bytes(health_catalogue())
     from madrigal_lab.temple import catalogue as temple_catalogue, blueprint as temple_blueprint
     outputs['TEMPLE-HUD-DEFAULTS.json'] = _json_bytes(temple_catalogue())
     outputs['TEMPLE-BLUEPRINT.svg'] = temple_blueprint()['svg'].encode('utf-8')

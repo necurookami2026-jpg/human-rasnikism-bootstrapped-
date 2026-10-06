@@ -65,6 +65,7 @@ def main(argv=None):
             raise RuntimeError(f'{label} failed; inspect {log}')
     try:
         run('rawful-full-corpus',[sys.executable,'tools/verify_rawful_corpus.py'])
+        run('health-science-syntax',['node','--check','madrigal_lab/web/health-science.js'])
         run('temple-hud-syntax',['node','--check','madrigal_lab/web/temple-hud.js'])
         run('huwster-ui-syntax',['node','--check','madrigal_lab/web/huwster.js'])
         run('lab-and-publication-tests',[sys.executable,'-m','unittest','discover','-s','tests','-v'])

@@ -58,6 +58,19 @@
       "title": "docs/ASHRAM-SEQUENTIAL-TERMINOLOGY.md — Current publication documentation"
     },
     {
+      "sha256": "944505bad0662915c1847b85c6c1a3b8b331d245efa287ca7278367b2114ad22",
+      "sources": [
+        {
+          "kind": "editorial-document",
+          "name": "Current publication documentation",
+          "path": "docs/BASIC-HEALTH-SCIENCE.md",
+          "repository": "current-editorial"
+        }
+      ],
+      "text": "# Basic health science — edition 13\n\nHuwster Rasnikism adds four local educational software modules: Roperist basic scientific medical, Ostar basic scientific nutraceutical, therapist basic scientific therapy, and actinology. Roperist remains an author-supplied label for educational medical records; the author accepted this provisional interpretation. Ostar is the project's label, not a clinical credential. Actinology here means radiation/light study, implemented as vacuum photon calculations.\n\n## Software and paperwork\n\nOpen Health science in the local workbench. Select a module and Rawful, Raw, Law or Lawful edition, supply observations and evidence notes, give voluntary consent, and prepare a workpaper. An explicit download exports JSON. Editing any field invalidates the prior download. No health records are stored on the server, sent to a clinician or used to update simulated actors. Local in-memory processing is not a clinical confidentiality certification; downloaded files may contain sensitive information.\n\nMedical workpapers prompt for observations, time/units, methods, uncertainty and clinician questions. Nutraceutical workpapers prompt for ingredient/label quantity, claims, study populations, sources, pharmacist interaction questions and review date. Therapy workpapers prompt for voluntary goals, self-reported experience, context, support preferences, boundaries and professional questions. These are prompts, not required validated clinical fields: notes are free text.\n\nActinology optionally accepts 0.001 through 1,000,000,000 nm. It computes frequency f=c/lambda and energy E=hf using exact rational arithmetic with SI c=299792458 m/s and h=6.62607015e-34 J s. Decimal approximations are labelled. Vacuum propagation and the supplied wavelength are assumptions; exact arithmetic does not remove measurement uncertainty. The software does not calculate safe irradiation, exposure duration, absorbed dose or therapeutic effect.\n\nAll workpapers include ahow/hot, awho/tho, awhat/that, awhen/then, awhere/there, awhy/thy and a prose inability explanation. Unknown modules/editions, missing voluntary consent, excessive notes, invalid wavelengths and extraneous fields are rejected. No record is retained on rejection.\n\n## Four editions\n\n1. Raw preserves supplied observations without validating them.\n2. Rawful organizes uncertainty and evidence gaps.\n3. Law prompts for jurisdiction, consent and applicable-rule questions.\n4. Lawful records unresolved compliance questions for qualified review.\n\nThe full collected publication includes this guide in MAX-RAWFUL.md, MAX-RAW.md, MAX-LAW.md and MAX-LAWFUL.md. HEALTH-SCIENCE.json provides the module catalogue. All editions share the same software limitations: names do not certify lawfulness, efficacy or clinical approval. The existing 7^8 corpus remains unchanged; it does not become medical consent or validated health documentation.\n\n## Evidence and inability\n\nReference entry points are NIH Office of Dietary Supplements fact sheets (https://ods.od.nih.gov/factsheets/list-all/), NIMH psychotherapy information (https://www.nimh.nih.gov/health/topics/psychotherapies) and the BIPM SI Brochure (https://www.bipm.org/en/publications/si-brochure). These links are not fetched or automatically appraised clinical evidence. User evidence is explicitly unverified; the workbench has no clinical examination, validated diagnostic tool, product interaction database or professional oversight. It cannot diagnose, prescribe, provide therapy, clear supplements or certify radiation safety. Consult qualified professionals for those decisions. For immediate danger, contact local emergency services.\n\nRun `sh bootstrap.sh` for the complete publication and software validation.\n",
+      "title": "docs/BASIC-HEALTH-SCIENCE.md — Current publication documentation"
+    },
+    {
       "sha256": "587cd598e1fd2d248f995fd8ddbb5bf6c025ae9ca1545412f198c8ed6b10bb5c",
       "sources": [
         {
@@ -1472,14 +1485,14 @@
       "title": "vendor/rasnikism/UPSTREAM.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers."
     }
   ],
-  "edition": "12",
+  "edition": "13",
   "format": "rasniki-offline-reader",
   "lair": {
-    "editorial_file_count": 48,
+    "editorial_file_count": 49,
     "format": "rasniki-lair-tree",
     "max_depth": 32,
     "max_nodes": 4096,
-    "node_count": 333,
+    "node_count": 334,
     "nodes": [
       {
         "children": [
@@ -5936,6 +5949,7 @@
           "lair-directory-5a9de609af5bd176a37d99321b9e0f6f436a4776f14beaa20566250a0833a265",
           "lair-directory-72632efedc75e04bf0f426677bf7bcc1b8a6bead22c6debc9d82aa608f3f030c",
           "lair-file-34c5a54bf4a73d9cb0cafd4c079f1ecbf53bbd0e3e7bb45801654ed4cf7b0753",
+          "lair-file-eb2ee7521928fcfbda23778f37f5fb815c7ae110bc7f1942079390ade7f7f781",
           "lair-file-6f9247253a6e4578557e9163d4541802378c7651d1b6481f238d587edcd5bb00",
           "lair-file-cb9426308cdfdb42756b7ea60a4e60c9bb6b3a5d6a615e536d7d0ef106ea9375",
           "lair-file-e03a550a3677d264bd7b50a74ae7ef21eda01b2116635fa716b2bee918fdca22",
@@ -5981,6 +5995,21 @@
         "repository": "current-editorial",
         "sha256": "e1746f75cd3cdc053c643dd6f1ef3a8806a933e54ac2d8a5b01d92b7624ae0dd",
         "size": 13251
+      },
+      {
+        "archive_path": null,
+        "children": [],
+        "content_kind": "editorial-markdown",
+        "depth": 3,
+        "document_sha256": "944505bad0662915c1847b85c6c1a3b8b331d245efa287ca7278367b2114ad22",
+        "id": "lair-file-eb2ee7521928fcfbda23778f37f5fb815c7ae110bc7f1942079390ade7f7f781",
+        "kind": "file",
+        "name": "BASIC-HEALTH-SCIENCE.md",
+        "parent": "lair-directory-d58aadfe0fff3baf6df58f454d50bfda086f3511f5f13cb2840351a9caefcaaa",
+        "path": "docs/BASIC-HEALTH-SCIENCE.md",
+        "repository": "current-editorial",
+        "sha256": "944505bad0662915c1847b85c6c1a3b8b331d245efa287ca7278367b2114ad22",
+        "size": 3754
       },
       {
         "archive_path": null,

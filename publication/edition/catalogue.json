@@ -173,7 +173,7 @@
       "status": "implemented-local"
     }
   ],
-  "edition": "12",
+  "edition": "13",
   "extra_complete_edition": {
     "certification": false,
     "coverage": "All four guides and complete collected Markdown corpus",

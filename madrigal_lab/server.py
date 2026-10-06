@@ -12,7 +12,7 @@ import urllib.parse
 import urllib.error
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from . import language, defense, hierarchy, symbolic, atlas, papers, recovery, media, huwster, temple
+from . import language, defense, hierarchy, symbolic, atlas, papers, recovery, media, huwster, temple, health_science
 from .catalogue import catalogue
 from .finance import Ledger
 from .runtime import Runtime
@@ -44,6 +44,8 @@ class Lab:
         if not isinstance(args,dict):
             raise ValueError('Action arguments must be an object')
         r=self.runtime
+        if action=='health-catalogue':return health_science.catalogue()
+        if action=='health-workpaper':return health_science.workpaper(args.get('record'))
         if action=='temple-blueprint':return temple.blueprint(args.get('settings'))
         if action=='temple-settings':return temple.settings(args.get('settings'))
         if action=='huwster-run':

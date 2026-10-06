@@ -1,6 +1,6 @@
-# Huwster Rasnikism — Ostar Rawful, edition 12
+# Huwster Rasnikism — Ostar Rawful, edition 13
 
-Edition 12 adds a [botanical-first temple blueprint and personal HUD](docs/TEMPLE-HUD-LAUNCH-DEFAULTS.md), artificial ancient-jungle/forest/alpine interiors, standard anonymous launch settings and explicitly saved local profiles. [Default settings](publication/edition/TEMPLE-HUD-DEFAULTS.json) · [Schematic blueprint](publication/edition/TEMPLE-BLUEPRINT.svg).
+Edition 13 adds a [botanical-first temple blueprint and personal HUD](docs/TEMPLE-HUD-LAUNCH-DEFAULTS.md), artificial ancient-jungle/forest/alpine interiors, standard anonymous launch settings and explicitly saved local profiles. [Default settings](publication/edition/TEMPLE-HUD-DEFAULTS.json) · [Schematic blueprint](publication/edition/TEMPLE-BLUEPRINT.svg).
 
 The default workbench now models regenerative architecture before incremental environmental choices, compiles world scripts into a bounded life-simulation game, and supplies a complete 7^8 corpus of individual Rawful legal drafts in [49 archives](publication/rawful-corpus/manifest.json). Every simulated encounter receives 49 document references in each of interactive, roleplay and jobrole contexts. [Engineering and runtime guide](docs/HUWSTER-RAWFUL-ARCHITECTURE.md).
 
@@ -82,3 +82,5 @@ Edition 5 adds the [offline adult romance and personal comfort proposal](docs/OF
 Edition 6 includes four complete reading editions: [Max Rawful](publication/edition/MAX-RAWFUL.md), [Max Raw](publication/edition/MAX-RAW.md), [Max Law](publication/edition/MAX-LAW.md) and [Max Lawful](publication/edition/MAX-LAWFUL.md). Each retains the full collected prose, with a different review guide. Legal edition labels are not compliance certification.
 
 Edition 7 adds an [extra complete publication volume](publication/edition/EXTRA-COMPLETE.md), bringing all four reading guides and the full prior collection into one document.
+
+Basic health science: [medical, nutraceutical, therapy and actinology workbench](docs/BASIC-HEALTH-SCIENCE.md), included in Rawful, Raw, Law and Lawful editions.

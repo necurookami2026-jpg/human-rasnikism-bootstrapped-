@@ -4,6 +4,10 @@
       "sha256": "e1746f75cd3cdc053c643dd6f1ef3a8806a933e54ac2d8a5b01d92b7624ae0dd",
       "size": 13251
     },
+    "docs/BASIC-HEALTH-SCIENCE.md": {
+      "sha256": "944505bad0662915c1847b85c6c1a3b8b331d245efa287ca7278367b2114ad22",
+      "size": 3754
+    },
     "docs/BOOTSTRAP.md": {
       "sha256": "587cd598e1fd2d248f995fd8ddbb5bf6c025ae9ca1545412f198c8ed6b10bb5c",
       "size": 3093
@@ -197,7 +201,7 @@
       "size": 779280
     }
   },
-  "edition": "12",
+  "edition": "13",
   "format": "rasniki-hopput-release-hashes",
   "outputs": {
     "ASHRAM-LEXICON.json": {
@@ -205,16 +209,20 @@
       "size": 5574
     },
     "ASHRAM-SEQUENTIAL.md": {
-      "sha256": "eb112b3370da77ef092dbf96ad0298b94dc9e830909e40a7c7f3fedb9fffb8d0",
-      "size": 795346
+      "sha256": "849aa45b418224c8f395ed1b880b6b2fbd6dbe2ed7d851411b697438a7774802",
+      "size": 799371
     },
     "ASHRAM-SPECIFICATION.json": {
       "sha256": "d8a8860998c9af57f1a5be0974a313a94a36e2d44c786cad694c05753130218a",
       "size": 6824
     },
     "EXTRA-COMPLETE.md": {
-      "sha256": "43a964d7eed332859f0a071af5f36ffc3c3f4460fc97eaf357e92542dbec97d9",
-      "size": 793327
+      "sha256": "e162376e64d609259664894370f97734fd2dfd0c5319feed3f42c320cfaeab57",
+      "size": 797352
+    },
+    "HEALTH-SCIENCE.json": {
+      "sha256": "f011d2799d460c0f6e29d0c2581047a508d0fafbad18d04ff5b1fb72c2de4d0a",
+      "size": 2932
     },
     "HUWSTER-ARCHITECTURE.json": {
       "sha256": "7fef1bd9179fd2ce0cd54591499783d3704960696a1ab231a46e78301292e403",
@@ -225,28 +233,28 @@
       "size": 956624
     },
     "HUWSTER-RAWFUL.md": {
-      "sha256": "e0d18b0b0ca4fefcfc482e66279a0c1510420077563c5b4dbd0cfc5f068ace5b",
-      "size": 803965
+      "sha256": "cf86c272b0b3dbe261d1b7bfa3f81af95bf9a4a4c8c8f6bc28c80af6c32dd52b",
+      "size": 807990
     },
     "MAX-LAW.md": {
-      "sha256": "bab312663f46cdeb74af53561ec5971c7602689e7303e9a80128d00347b5473b",
-      "size": 792336
+      "sha256": "fe9bf6cd6d483ae92db9598ee6478f08ce64a5ad262aca9974a2413185079182",
+      "size": 796361
     },
     "MAX-LAWFUL.md": {
-      "sha256": "84817a9c9b3a0db7c8c5c28c02f315229d52b0a42981a15d62ef27d8d54b0dbd",
-      "size": 792375
+      "sha256": "69ccfdaf400b446c94bbd509b69120d8631dcef10bbfbbd9a75781db96681eeb",
+      "size": 796400
     },
     "MAX-RAW.md": {
-      "sha256": "2e14f5592df143efbd51e8a759ebc40134f5c1755b9e4043546ae472d5500371",
-      "size": 792265
+      "sha256": "9469c6b90266f5c24217edfa6a6a1378de993be46eea75bf5bc597b108ef87cf",
+      "size": 796290
     },
     "MAX-RAWFUL.md": {
-      "sha256": "c68259336c3e526fca6c67ba704fd48c0d8c4661dda012027e7db78c5eb74429",
-      "size": 792248
+      "sha256": "dba457dd5794f62e1d817e72a3978ab6d7c97f69ceb33840fdee85a0592c8eb4",
+      "size": 796273
     },
     "PUBLICATION.md": {
-      "sha256": "e4f165ca51938ef4b890a60316e2f7293927c6230e87c9ba9ef4da78190bab93",
-      "size": 791738
+      "sha256": "f0b764c9b04095525282cfd293338c49ea228b7251c37d9f9241ab909531b8c9",
+      "size": 795763
     },
     "RAWFUL-CORPUS.json": {
       "sha256": "1a81f97c204fae29aec4e9a04bfc55496b160330149aa4bb3fe413cb9b359e41",
@@ -257,12 +265,12 @@
       "size": 1236
     },
     "SCIENCERAINBOWRAINBOWSCIENCE-PAPERWORK.html": {
-      "sha256": "a556cb95cf7cc457af100fa7dc25346e1134ac18801c55c39f79c9101c080a62",
+      "sha256": "54ed181f73f27d4c2de80f02fbc840fed8707c565bc0d7c9c4a7707bd2429484",
       "size": 5129
     },
     "SCIENCERAINBOWRAINBOWSCIENCE.md": {
-      "sha256": "ef64aa89f591b31baae40825265c7813c95decfb6b5fe75268295716eb8494ba",
-      "size": 796769
+      "sha256": "07bc62bedab14ca20e293958accbb737e6fbb4efc22d230669d252d283744fd5",
+      "size": 800794
     },
     "TEMPLE-BLUEPRINT.svg": {
       "sha256": "8ea313d0f9e5d2ec08e12ad6a3c5b1ad65a9677445ead922a90bc841661adc99",
@@ -273,25 +281,25 @@
       "size": 4180
     },
     "catalogue.json": {
-      "sha256": "988412b81dc4271da80ee5921391b216c7c1204a3313bcccff773b99f1335863",
+      "sha256": "1e134cede084052d686f5b4a6f5c71e40f2baf8c568adf34417bfe7c3f55dc5c",
       "size": 23574
     },
     "index.html": {
-      "sha256": "fcbb12b4f9a3ebfff48ecb467ad6d2e6d33f6194193975ef5dedc2e73294fb5e",
-      "size": 1045427
+      "sha256": "c1dfe30b4829114f1cbc6e8d59071d1691075a690043cdb33c9b27fc887cd6df",
+      "size": 1050153
     },
     "reader-data.json": {
-      "sha256": "44e85bd094442f5e06f2d69004815c09a6fcc974e1da530fba6b021592f83b55",
-      "size": 1100809
+      "sha256": "4808fae257e3f6c4d479cc2a4809df5b736a6013bb859070b8d98a24da9fad77",
+      "size": 1105805
     },
     "sources.zip": {
-      "sha256": "6eef61cc47f52c5338b681893211aebd25f9f1b83b55835572e263d65ab8b839",
+      "sha256": "a78ed1674cc975d258ea04abf419a141fa146c942bf4f0d0994a29dbd7b349ad",
       "size": 9424226
     }
   },
   "self_hash": "Excluded to avoid a circular hash; hash this file independently when archiving the release.",
   "source_lock": {
-    "sha256": "b39ac18d2013e0fd82ded0b1b5a08d4718d63f4f84280c41394d5830a91640b8",
+    "sha256": "1afe018cef6c09f241126194c72f74f15ac21d1cdd6d153495f58ae52e221ff7",
     "size": 43928
   },
   "version": 1

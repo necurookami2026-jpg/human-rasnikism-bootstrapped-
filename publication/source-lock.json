@@ -2,7 +2,7 @@
   "format": "rasniki-hopput-source-lock",
   "version": 1,
   "title": "Huwster Rasnikism",
-  "edition": "12",
+  "edition": "13",
   "repositories": [
     {
       "id": "guardian",

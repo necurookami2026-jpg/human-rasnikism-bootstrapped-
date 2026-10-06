@@ -1,0 +1,76 @@
+{
+  "editions": {
+    "law": "Record jurisdiction, consent and applicable-rule questions for qualified review.",
+    "lawful": "Record unresolved compliance questions; never certify legality or clinical approval.",
+    "raw": "Preserve supplied observations without validating them.",
+    "rawful": "Organize observations, uncertainty and evidence gaps."
+  },
+  "modules": {
+    "actinology": {
+      "definition": "Study of radiation and light; this implementation calculates vacuum photon quantities only.",
+      "fields": [
+        "wavelength in nanometres",
+        "medium assumption",
+        "measurement uncertainty",
+        "instrument/source",
+        "questions for radiation specialist"
+      ],
+      "limits": "No UV exposure time, therapeutic irradiation, dosimetry or ionizing-radiation safety decision.",
+      "title": "Basic scientific actinology"
+    },
+    "ostar-nutraceutical": {
+      "definition": "Supplement evidence and label review.",
+      "fields": [
+        "ingredient and label quantity",
+        "claimed purpose",
+        "study population and source",
+        "possible interactions to ask pharmacist about",
+        "review date"
+      ],
+      "limits": "No inferred efficacy, personalized dose or interaction clearance. Supplements may cause harm.",
+      "title": "Ostar basic scientific nutraceutical"
+    },
+    "roperist-medical": {
+      "definition": "Author-supplied roperist label; clinical meaning unspecified.",
+      "fields": [
+        "observation",
+        "time and units",
+        "measurement method",
+        "uncertainty",
+        "questions for clinician"
+      ],
+      "limits": "Cannot diagnose, triage or prescribe.",
+      "title": "Roperist basic scientific medical"
+    },
+    "therapist-therapy": {
+      "definition": "Voluntary reflection and professional-session preparation.",
+      "fields": [
+        "voluntary goal",
+        "self-reported experience",
+        "context",
+        "preferred support and boundaries",
+        "questions for qualified therapist"
+      ],
+      "limits": "Not a therapist, diagnostic assessment or crisis service.",
+      "title": "Therapist basic scientific therapy"
+    }
+  },
+  "privacy": "Processed locally in memory; no server persistence or transmission to care providers. Downloads may contain sensitive information.",
+  "scope": "Educational workpapers, not clinical care or legal certification.",
+  "source_status": "Reference links, not fetched clinical evidence.",
+  "sources": [
+    {
+      "title": "NIH Office of Dietary Supplements fact sheets",
+      "url": "https://ods.od.nih.gov/factsheets/list-all/"
+    },
+    {
+      "title": "NIMH psychotherapies",
+      "url": "https://www.nimh.nih.gov/health/topics/psychotherapies"
+    },
+    {
+      "title": "BIPM SI Brochure",
+      "url": "https://www.bipm.org/en/publications/si-brochure"
+    }
+  ],
+  "title": "Huwster Rasnikism — basic health science"
+}

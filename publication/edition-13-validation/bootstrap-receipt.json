@@ -1,0 +1,248 @@
+{
+  "format": "rasniki-bootstrap-receipt",
+  "version": 1,
+  "started_at": "2026-10-06T21:52:37.104946+00:00",
+  "hosts": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "source_lock_sha256": "1afe018cef6c09f241126194c72f74f15ac21d1cdd6d153495f58ae52e221ff7",
+  "source_verification": {
+    "ok": true,
+    "repositories": 4,
+    "files": 254,
+    "bytes": 9342556,
+    "errors": []
+  },
+  "checks": [
+    {
+      "name": "rawful-full-corpus",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tools/verify_rawful_corpus.py"
+      ],
+      "exit_code": 0,
+      "log": "rawful-full-corpus.log"
+    },
+    {
+      "name": "health-science-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/health-science.js"
+      ],
+      "exit_code": 0,
+      "log": "health-science-syntax.log"
+    },
+    {
+      "name": "temple-hud-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/temple-hud.js"
+      ],
+      "exit_code": 0,
+      "log": "temple-hud-syntax.log"
+    },
+    {
+      "name": "huwster-ui-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/huwster.js"
+      ],
+      "exit_code": 0,
+      "log": "huwster-ui-syntax.log"
+    },
+    {
+      "name": "lab-and-publication-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "lab-and-publication-tests.log"
+    },
+    {
+      "name": "guardian-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "guardian-tests.log"
+    },
+    {
+      "name": "iobot-responses",
+      "command": [
+        "node",
+        "tests/iobot-responses.cjs"
+      ],
+      "exit_code": 0,
+      "log": "iobot-responses.log"
+    },
+    {
+      "name": "iobot-ui-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/iobots/ui.js"
+      ],
+      "exit_code": 0,
+      "log": "iobot-ui-syntax.log"
+    },
+    {
+      "name": "ministry-smoke",
+      "command": [
+        "node",
+        "tests/ministry-smoke.cjs"
+      ],
+      "exit_code": 0,
+      "log": "ministry-smoke.log"
+    },
+    {
+      "name": "instagram-extension-tests",
+      "command": [
+        "node",
+        "tests/instagram-orange/core.cjs"
+      ],
+      "exit_code": 0,
+      "log": "instagram-extension-tests.log"
+    },
+    {
+      "name": "instagram-content-syntax",
+      "command": [
+        "node",
+        "--check",
+        "extensions/instagram-orange/content.js"
+      ],
+      "exit_code": 0,
+      "log": "instagram-content-syntax.log"
+    },
+    {
+      "name": "instagram-popup-syntax",
+      "command": [
+        "node",
+        "--check",
+        "extensions/instagram-orange/popup.js"
+      ],
+      "exit_code": 0,
+      "log": "instagram-popup-syntax.log"
+    },
+    {
+      "name": "instagram-package",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tools/package_instagram.py"
+      ],
+      "exit_code": 0,
+      "log": "instagram-package.log"
+    },
+    {
+      "name": "maintenance-script-syntax",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "py_compile",
+        "tools/media_standardize.py",
+        "tools/checked_update.py",
+        "tools/install_media_maintenance.py"
+      ],
+      "exit_code": 0,
+      "log": "maintenance-script-syntax.log"
+    },
+    {
+      "name": "desktop-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/app.js"
+      ],
+      "exit_code": 0,
+      "log": "desktop-script-syntax.log"
+    },
+    {
+      "name": "workbench-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/workbench.js"
+      ],
+      "exit_code": 0,
+      "log": "workbench-script-syntax.log"
+    },
+    {
+      "name": "media-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/media-studio.js"
+      ],
+      "exit_code": 0,
+      "log": "media-script-syntax.log"
+    },
+    {
+      "name": "contractual-pinned-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "contractual-pinned-tests.log"
+    },
+    {
+      "name": "rasnikism-full-bootstrap",
+      "command": [
+        "sh",
+        "bootstrap.sh"
+      ],
+      "exit_code": 0,
+      "log": "rasnikism-full-bootstrap.log"
+    },
+    {
+      "name": "publication-build-and-repeat",
+      "exit_code": 0,
+      "outputs": {
+        "HEALTH-SCIENCE.json": "f011d2799d460c0f6e29d0c2581047a508d0fafbad18d04ff5b1fb72c2de4d0a",
+        "catalogue.json": "1e134cede084052d686f5b4a6f5c71e40f2baf8c568adf34417bfe7c3f55dc5c",
+        "MAX-RAW.md": "9469c6b90266f5c24217edfa6a6a1378de993be46eea75bf5bc597b108ef87cf",
+        "SCIENCERAINBOWRAINBOWSCIENCE-PAPERWORK.html": "54ed181f73f27d4c2de80f02fbc840fed8707c565bc0d7c9c4a7707bd2429484",
+        "sources.zip": "a78ed1674cc975d258ea04abf419a141fa146c942bf4f0d0994a29dbd7b349ad",
+        "MAX-LAW.md": "fe9bf6cd6d483ae92db9598ee6478f08ce64a5ad262aca9974a2413185079182",
+        "release-hashes.json": "1682ff0e8faa8f033cbda77278503fc6762d608c03240f1ec5d6987b831b7c3e",
+        "HUWSTER-ARCHITECTURE.json": "7fef1bd9179fd2ce0cd54591499783d3704960696a1ab231a46e78301292e403",
+        "SCIENCERAINBOWRAINBOWSCIENCE.md": "07bc62bedab14ca20e293958accbb737e6fbb4efc22d230669d252d283744fd5",
+        "TEMPLE-HUD-DEFAULTS.json": "a901834b1e8eb14a97c667526b19ffa21222bc88b4ef40d929fed2998174ea72",
+        "RAWFUL-CORPUS.json": "1a81f97c204fae29aec4e9a04bfc55496b160330149aa4bb3fe413cb9b359e41",
+        "SCIENCERAINBOWRAINBOWSCIENCE-COMPUTERWORK.json": "a46282b755b6df53071552a6c432947cd2bafa3859ea7621bdced9c0ffd62c23",
+        "TEMPLE-BLUEPRINT.svg": "8ea313d0f9e5d2ec08e12ad6a3c5b1ad65a9677445ead922a90bc841661adc99",
+        "HUWSTER-RAWFUL.md": "cf86c272b0b3dbe261d1b7bfa3f81af95bf9a4a4c8c8f6bc28c80af6c32dd52b",
+        "reader-data.json": "4808fae257e3f6c4d479cc2a4809df5b736a6013bb859070b8d98a24da9fad77",
+        "ASHRAM-LEXICON.json": "43fd534205ea80d7ca29bef3d896ea7f76bf2b742dbfe7206166435b85b9066d",
+        "EXTRA-COMPLETE.md": "e162376e64d609259664894370f97734fd2dfd0c5319feed3f42c320cfaeab57",
+        "ASHRAM-SPECIFICATION.json": "d8a8860998c9af57f1a5be0974a313a94a36e2d44c786cad694c05753130218a",
+        "MAX-LAWFUL.md": "69ccfdaf400b446c94bbd509b69120d8631dcef10bbfbbd9a75781db96681eeb",
+        "MAX-RAWFUL.md": "dba457dd5794f62e1d817e72a3978ab6d7c97f69ceb33840fdee85a0592c8eb4",
+        "ASHRAM-SEQUENTIAL.md": "849aa45b418224c8f395ed1b880b6b2fbd6dbe2ed7d851411b697438a7774802",
+        "HUWSTER-RANKS.json": "9d771668ffa5443075919f36ee060d2201e9dc3e03592358e43110b74e73d95d",
+        "PUBLICATION.md": "f0b764c9b04095525282cfd293338c49ea228b7251c37d9f9241ab909531b8c9",
+        "index.html": "c1dfe30b4829114f1cbc6e8d59071d1691075a690043cdb33c9b27fc887cd6df"
+      }
+    }
+  ],
+  "scope": "Named finite source, construction and test checks; not universal scientific or legal certification",
+  "completed_at": "2026-10-06T21:52:53.028029+00:00",
+  "checks_passed": true
+}

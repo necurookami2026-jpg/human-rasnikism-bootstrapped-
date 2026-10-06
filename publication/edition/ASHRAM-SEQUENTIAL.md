@@ -1,6 +1,6 @@
 # Ashram sequential existencial-form edition
 
-Publication edition 12.
+Publication edition 13.
 
 ## Sequentially numbered lexicon
 
@@ -51,7 +51,7 @@ The full Ashram grammar, amplification derivation and fourteen parables are incl
 
 ## Ostar Rawful — regenerative architecture, drafting and life simulation
 
-Edition 12.
+Edition 13.
 
 This reproducible offline edition verifies 254 pinned files (9342556 bytes) in 4 source snapshots.
 
@@ -214,7 +214,44 @@ Tests cover all four forms and both kinds, exact address and pair ranks, bounds,
 
 ---
 
-### Document 002 — docs/BOOTSTRAP.md — Current publication documentation
+### Document 002 — docs/BASIC-HEALTH-SCIENCE.md — Current publication documentation
+
+SHA-256: `944505bad0662915c1847b85c6c1a3b8b331d245efa287ca7278367b2114ad22`.
+
+Source: Current publication documentation · editorial-document · docs/BASIC-HEALTH-SCIENCE.md.
+
+# Basic health science — edition 13
+
+Huwster Rasnikism adds four local educational software modules: Roperist basic scientific medical, Ostar basic scientific nutraceutical, therapist basic scientific therapy, and actinology. Roperist remains an author-supplied label for educational medical records; the author accepted this provisional interpretation. Ostar is the project's label, not a clinical credential. Actinology here means radiation/light study, implemented as vacuum photon calculations.
+
+## Software and paperwork
+
+Open Health science in the local workbench. Select a module and Rawful, Raw, Law or Lawful edition, supply observations and evidence notes, give voluntary consent, and prepare a workpaper. An explicit download exports JSON. Editing any field invalidates the prior download. No health records are stored on the server, sent to a clinician or used to update simulated actors. Local in-memory processing is not a clinical confidentiality certification; downloaded files may contain sensitive information.
+
+Medical workpapers prompt for observations, time/units, methods, uncertainty and clinician questions. Nutraceutical workpapers prompt for ingredient/label quantity, claims, study populations, sources, pharmacist interaction questions and review date. Therapy workpapers prompt for voluntary goals, self-reported experience, context, support preferences, boundaries and professional questions. These are prompts, not required validated clinical fields: notes are free text.
+
+Actinology optionally accepts 0.001 through 1,000,000,000 nm. It computes frequency f=c/lambda and energy E=hf using exact rational arithmetic with SI c=299792458 m/s and h=6.62607015e-34 J s. Decimal approximations are labelled. Vacuum propagation and the supplied wavelength are assumptions; exact arithmetic does not remove measurement uncertainty. The software does not calculate safe irradiation, exposure duration, absorbed dose or therapeutic effect.
+
+All workpapers include ahow/hot, awho/tho, awhat/that, awhen/then, awhere/there, awhy/thy and a prose inability explanation. Unknown modules/editions, missing voluntary consent, excessive notes, invalid wavelengths and extraneous fields are rejected. No record is retained on rejection.
+
+## Four editions
+
+1. Raw preserves supplied observations without validating them.
+2. Rawful organizes uncertainty and evidence gaps.
+3. Law prompts for jurisdiction, consent and applicable-rule questions.
+4. Lawful records unresolved compliance questions for qualified review.
+
+The full collected publication includes this guide in MAX-RAWFUL.md, MAX-RAW.md, MAX-LAW.md and MAX-LAWFUL.md. HEALTH-SCIENCE.json provides the module catalogue. All editions share the same software limitations: names do not certify lawfulness, efficacy or clinical approval. The existing 7^8 corpus remains unchanged; it does not become medical consent or validated health documentation.
+
+## Evidence and inability
+
+Reference entry points are NIH Office of Dietary Supplements fact sheets (https://ods.od.nih.gov/factsheets/list-all/), NIMH psychotherapy information (https://www.nimh.nih.gov/health/topics/psychotherapies) and the BIPM SI Brochure (https://www.bipm.org/en/publications/si-brochure). These links are not fetched or automatically appraised clinical evidence. User evidence is explicitly unverified; the workbench has no clinical examination, validated diagnostic tool, product interaction database or professional oversight. It cannot diagnose, prescribe, provide therapy, clear supplements or certify radiation safety. Consult qualified professionals for those decisions. For immediate danger, contact local emergency services.
+
+Run `sh bootstrap.sh` for the complete publication and software validation.
+
+---
+
+### Document 003 — docs/BOOTSTRAP.md — Current publication documentation
 
 SHA-256: `587cd598e1fd2d248f995fd8ddbb5bf6c025ae9ca1545412f198c8ed6b10bb5c`.
 
@@ -256,7 +293,7 @@ The service retains documents, practice records and demo accounting under ignore
 
 ---
 
-### Document 003 — docs/CONFLICT-PROTECTION-LIBRARY.md — Current publication documentation
+### Document 004 — docs/CONFLICT-PROTECTION-LIBRARY.md — Current publication documentation
 
 SHA-256: `25ad8f168127e67e66aae78dbcae80f4c577cae785fdb14206fbc7b45a07b1b0`.
 
@@ -280,7 +317,7 @@ Continuity means revisiting a chosen task while it remains necessary. Set a revi
 
 ---
 
-### Document 004 — docs/conflict/01-purpose-and-scope.md — Current publication documentation
+### Document 005 — docs/conflict/01-purpose-and-scope.md — Current publication documentation
 
 SHA-256: `14d4a7310ff08e3fd728d4d32346905bd7497354c96288a551730151f2e4b8cd`.
 
@@ -307,7 +344,7 @@ Before continuing, ask whether a smaller, less intrusive action can achieve the 
 
 ---
 
-### Document 005 — docs/conflict/02-access-and-participation.md — Current publication documentation
+### Document 006 — docs/conflict/02-access-and-participation.md — Current publication documentation
 
 SHA-256: `3b3b4a41ab3692f101085e9b23c427c0dc23001936d0c107bc3fdc960aa1a96c`.
 
@@ -334,7 +371,7 @@ Keep access records separate from scoring. A declined activity or requested adju
 
 ---
 
-### Document 006 — docs/conflict/03-consent-and-boundaries.md — Current publication documentation
+### Document 007 — docs/conflict/03-consent-and-boundaries.md — Current publication documentation
 
 SHA-256: `fe23e59d77384c224c8c14d5144fcbda81422593adb96723ec3c52187cfe62ac`.
 
@@ -362,7 +399,7 @@ Recheck permission when the activity, audience or risk changes. If consent is un
 
 ---
 
-### Document 007 — docs/conflict/04-incident-notes.md — Current publication documentation
+### Document 008 — docs/conflict/04-incident-notes.md — Current publication documentation
 
 SHA-256: `e2bdc6e79cab72d57ecd795ae36dfb48902875c460d420ab931d1a62ccaebe28`.
 
@@ -391,7 +428,7 @@ If there is immediate danger, use appropriate local emergency support rather tha
 
 ---
 
-### Document 008 — docs/conflict/05-de-escalation-and-dialogue.md — Current publication documentation
+### Document 009 — docs/conflict/05-de-escalation-and-dialogue.md — Current publication documentation
 
 SHA-256: `5e4bbb2a6b89737f80a1b96b47a9e3eb999e8682de3761f99fc0fad261ec1de0`.
 
@@ -418,7 +455,7 @@ Close by checking the proposed next step with those affected. Publish only an au
 
 ---
 
-### Document 009 — docs/conflict/06-evidence-custody.md — Current publication documentation
+### Document 010 — docs/conflict/06-evidence-custody.md — Current publication documentation
 
 SHA-256: `56774a6bbbd5d8fdc410275623eba4dcaa31e2ab083f250fab88eeb865dfb0c2`.
 
@@ -445,7 +482,7 @@ Give access only to agreed reviewers. Set a short retention period appropriate t
 
 ---
 
-### Document 010 — docs/conflict/07-correction-and-review.md — Current publication documentation
+### Document 011 — docs/conflict/07-correction-and-review.md — Current publication documentation
 
 SHA-256: `7ae146db7455022cb47cf9d5ea7c7247c17311b8d5a5284a04c9fa0f8e1e315c`.
 
@@ -472,7 +509,7 @@ Keep a minimal revision record linking the earlier passage to the corrected vers
 
 ---
 
-### Document 011 — docs/conflict/08-civilian-aid-coordination.md — Current publication documentation
+### Document 012 — docs/conflict/08-civilian-aid-coordination.md — Current publication documentation
 
 SHA-256: `1478ab1d3c236184cd653ea3b97464c22da4de85a456335e1516918ccb387c5d`.
 
@@ -499,7 +536,7 @@ Record completion only within the scope directly observed. A handover receipt do
 
 ---
 
-### Document 012 — docs/conflict/09-simulation-and-learning.md — Current publication documentation
+### Document 013 — docs/conflict/09-simulation-and-learning.md — Current publication documentation
 
 SHA-256: `fe25421df7c3ddab7a8d921efd439c2ad27c025a55a09307460f89f2d1fcfa6f`.
 
@@ -528,7 +565,7 @@ End with one achievable revision and a voluntary, bounded review date. Avoid rep
 
 ---
 
-### Document 013 — docs/conflict/10-handover-and-continuity.md — Current publication documentation
+### Document 014 — docs/conflict/10-handover-and-continuity.md — Current publication documentation
 
 SHA-256: `e7bd56838b8719aeedff66de79f598e75f81e5dea22f439af0bb1fca0a18d9a6`.
 
@@ -555,7 +592,7 @@ Set a review date, a maximum review period and a closure condition. Allow contri
 
 ---
 
-### Document 014 — docs/conflict/README.md — Current publication documentation
+### Document 015 — docs/conflict/README.md — Current publication documentation
 
 SHA-256: `4051e90f0d6a264c8a1c75d06be8201e68647483601dcdf461781dcb697801c4`.
 
@@ -584,7 +621,7 @@ Use anonymous exercise labels by default. Keep necessary operational contacts in
 
 ---
 
-### Document 015 — docs/DEMO-ECONOMY-CONTRACTS.md — Current publication documentation
+### Document 016 — docs/DEMO-ECONOMY-CONTRACTS.md — Current publication documentation
 
 SHA-256: `dc0ef05ef5da3611dbe92dd2d09f66913bcb6ab8d986def6308cc5374240299b`.
 
@@ -667,7 +704,7 @@ The obligation, coupon and contract collections each permit at most 256 records.
 
 ---
 
-### Document 016 — docs/EXACT-SCIENCERAINBOWRAINBOWSCIENCE.md — Current publication documentation
+### Document 017 — docs/EXACT-SCIENCERAINBOWRAINBOWSCIENCE.md — Current publication documentation
 
 SHA-256: `85d6fd5fdcfd087fd672f4da602be061f572d9c6f93509f9d97f9740e7f2a53c`.
 
@@ -714,7 +751,7 @@ The receipt records which checks actually passed on the executing host. “Max q
 
 ---
 
-### Document 017 — docs/FOUR-PARALLEL-EDITIONS.md — Current publication documentation
+### Document 018 — docs/FOUR-PARALLEL-EDITIONS.md — Current publication documentation
 
 SHA-256: `0eda49d2466ecc061e3a02910910930bbb6f897d19519f4a2fd4bc705781a25a`.
 
@@ -748,7 +785,7 @@ Open `MAX-RAWFUL.md`, `MAX-RAW.md`, `MAX-LAW.md` or `MAX-LAWFUL.md` from the sta
 
 ---
 
-### Document 018 — docs/handbooks/01-advice-and-guidance.md — Current publication documentation
+### Document 019 — docs/handbooks/01-advice-and-guidance.md — Current publication documentation
 
 SHA-256: `23ec732c7f4ba7d2c56078410010999f98483596484effb5673511cd9ca551a1`.
 
@@ -766,7 +803,7 @@ Before sharing a worked example, replace personal details with a synthetic scena
 
 ---
 
-### Document 019 — docs/handbooks/02-immanuel-emmanuel-manual.md — Current publication documentation
+### Document 020 — docs/handbooks/02-immanuel-emmanuel-manual.md — Current publication documentation
 
 SHA-256: `a8d867f18d72e73489c03bdbc9afacf9865be3c3327f593ad5ba404d15bdb39f`.
 
@@ -784,7 +821,7 @@ Preserve the original source and distinguish a reformatted explanation from a ch
 
 ---
 
-### Document 020 — docs/handbooks/03-family-and-classical-governance.md — Current publication documentation
+### Document 021 — docs/handbooks/03-family-and-classical-governance.md — Current publication documentation
 
 SHA-256: `ec42a6e4c00d56664c67a54b8e958c1502d04164e5ae56087125da410a13ca46`.
 
@@ -802,7 +839,7 @@ Allow disagreements to remain visible and provide an accessible route to propose
 
 ---
 
-### Document 021 — docs/handbooks/04-logistics-and-rudder.md — Current publication documentation
+### Document 022 — docs/handbooks/04-logistics-and-rudder.md — Current publication documentation
 
 SHA-256: `b47abb68ac69bc8b63f10928abaec1ae0cdd5fdeb65dedcefe1f6c34639b9f1b`.
 
@@ -820,7 +857,7 @@ Agree an accessible communication channel, a pause route and a review time. When
 
 ---
 
-### Document 022 — docs/handbooks/05-fandom-merchandise-and-number-seeds.md — Current publication documentation
+### Document 023 — docs/handbooks/05-fandom-merchandise-and-number-seeds.md — Current publication documentation
 
 SHA-256: `6b21fe38106cf799d1c9000fdeee182e381551d7bd3d167810f49ca3182abeeb`.
 
@@ -838,7 +875,7 @@ Before making a public catalogue, remove private addresses, account details and 
 
 ---
 
-### Document 023 — docs/handbooks/06-media-radio-and-pixel-notation.md — Current publication documentation
+### Document 024 — docs/handbooks/06-media-radio-and-pixel-notation.md — Current publication documentation
 
 SHA-256: `1f0d545a50e07c3475443db176916778fb8e4626dfa79a496973e4dbd3a04a22`.
 
@@ -856,7 +893,7 @@ Provide transcripts, captions or descriptive text where those would make the pro
 
 ---
 
-### Document 024 — docs/handbooks/07-learning-mentoring-and-recipes.md — Current publication documentation
+### Document 025 — docs/handbooks/07-learning-mentoring-and-recipes.md — Current publication documentation
 
 SHA-256: `4d0f2c45bc68c39313b0040bee4556f5a78f316afdc7d7a50465db264348c6d5`.
 
@@ -874,7 +911,7 @@ Blood, corrosive acids and amniotic references, when encountered among the reque
 
 ---
 
-### Document 025 — docs/handbooks/08-mapping-time-and-adaptation.md — Current publication documentation
+### Document 026 — docs/handbooks/08-mapping-time-and-adaptation.md — Current publication documentation
 
 SHA-256: `35916072456ec4dbe19b829847e4bb53c1b8957ef4034a2c941e8bef1ac41bd0`.
 
@@ -892,7 +929,7 @@ Recursive review follows the collection, map, route and individual step only as 
 
 ---
 
-### Document 026 — docs/handbooks/09-community-surveys-and-quests.md — Current publication documentation
+### Document 027 — docs/handbooks/09-community-surveys-and-quests.md — Current publication documentation
 
 SHA-256: `e3d7a6e32446cb302cb93ac4d519702ffb3b1b1b36751aea4feea3c24c1eacf3`.
 
@@ -910,7 +947,7 @@ A voluntary leaderboard can count declared task completions under a visible rule
 
 ---
 
-### Document 027 — docs/handbooks/10-self-reported-preferences.md — Current publication documentation
+### Document 028 — docs/handbooks/10-self-reported-preferences.md — Current publication documentation
 
 SHA-256: `eed8af08cda571f802eb4a012cb4cad9a3be773970dd4a8af4b252b9672012a4`.
 
@@ -928,7 +965,7 @@ Recursive preference review can return from a broad learning goal to one exercis
 
 ---
 
-### Document 028 — docs/handbooks/11-accessible-guardrails-and-recovery.md — Current publication documentation
+### Document 029 — docs/handbooks/11-accessible-guardrails-and-recovery.md — Current publication documentation
 
 SHA-256: `bb84e3d60479caf74093acf2df277b663584273f82ac4c08cf109d753be5e19a`.
 
@@ -946,7 +983,7 @@ Recursive scope review follows a collection into its named records only where pe
 
 ---
 
-### Document 029 — docs/handbooks/12-document-types-and-workpapers.md — Current publication documentation
+### Document 030 — docs/handbooks/12-document-types-and-workpapers.md — Current publication documentation
 
 SHA-256: `89fb8167bd948cdf6257175f75d7f9aa114a619051f85138d96a459f5584468e`.
 
@@ -964,7 +1001,7 @@ Reformatting changes presentation while preserving the cited source; reformation
 
 ---
 
-### Document 030 — docs/handbooks/README.md — Current publication documentation
+### Document 031 — docs/handbooks/README.md — Current publication documentation
 
 SHA-256: `f17f8fbd552cfe200b95e945f9c53e2ef245055330883c500c161dbd335c2d2a`.
 
@@ -995,7 +1032,7 @@ The separate [conflict-protection room](../conflict/README.md) supplies ten addi
 
 ---
 
-### Document 031 — docs/HUWSTER-RAWFUL-ARCHITECTURE.md — Current publication documentation
+### Document 032 — docs/HUWSTER-RAWFUL-ARCHITECTURE.md — Current publication documentation
 
 SHA-256: `2171d80fecb5eb14b0c2de915203b2729fd26ee76bd08703ea8946837fa058db`.
 
@@ -1088,7 +1125,7 @@ Validation exercises numeric addressing, all requested category/context packets,
 
 ---
 
-### Document 032 — docs/IMPLEMENTATION.md — Current publication documentation
+### Document 033 — docs/IMPLEMENTATION.md — Current publication documentation
 
 SHA-256: `40ccc2b3ecf36db5aa8ad92f698b17b3d00df3598c9e91f91de3d585b9a87756`.
 
@@ -1201,7 +1238,7 @@ The derivative/franchise manifest records components, source provenance, version
 
 ---
 
-### Document 033 — docs/IMPLEMENTATION.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 034 — docs/IMPLEMENTATION.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `973dd9e337ae4d638ee30e7a3c52cab39e0cdbb70eb7429e56bffed88099286c`.
 
@@ -1304,7 +1341,7 @@ The derivative/franchise manifest records components, source provenance, version
 
 ---
 
-### Document 034 — docs/IOBOT-SCIENTIFIC-RESPONSES.md — Current publication documentation
+### Document 035 — docs/IOBOT-SCIENTIFIC-RESPONSES.md — Current publication documentation
 
 SHA-256: `aca97ed65cadb2691db03734cbba23f57d990261cdbf842b9fc84e7b17b708cb`.
 
@@ -1368,7 +1405,7 @@ Checks cover every supplied heading alias, exact calculation output, division by
 
 ---
 
-### Document 035 — docs/LAIR-OF-LAIRS.md — Current publication documentation
+### Document 036 — docs/LAIR-OF-LAIRS.md — Current publication documentation
 
 SHA-256: `f0fb2fa1a51fe52fea0efb181ab20b2b814c3d2de27dff9339ed08ae7642227b`.
 
@@ -1432,7 +1469,7 @@ The result is a Lair of Lairs whose rooms can be entered, compared, left and vis
 
 ---
 
-### Document 036 — docs/MEDIA-DATA-RENDITION.md — Current publication documentation
+### Document 037 — docs/MEDIA-DATA-RENDITION.md — Current publication documentation
 
 SHA-256: `adb2d0b0e70315e83c6612a8a62dd20e032cabca38fc0ebc2b581dd8dc506a00`.
 
@@ -1480,7 +1517,7 @@ For publication, the operator checks the original source reference, intended aud
 
 ---
 
-### Document 037 — docs/MEDIA-STANDARDISATION-AND-UPDATES.md — Current publication documentation
+### Document 038 — docs/MEDIA-STANDARDISATION-AND-UPDATES.md — Current publication documentation
 
 SHA-256: `b1222945f69a4e6015eb1fc68b2de79518ff86db153cc1918e03d0e7f98618a1`.
 
@@ -1528,7 +1565,7 @@ The requested “ostar”, “lair”, “max”, “greatest” and “surasuch
 
 ---
 
-### Document 038 — docs/MINISTRY.md — Current publication documentation
+### Document 039 — docs/MINISTRY.md — Current publication documentation
 
 SHA-256: `78f0259b82eab2ef93f360a62e671d3a1a4ac9429e7afd2353a13b390648abfd`.
 
@@ -1570,7 +1607,7 @@ The original snapshot has no specified licence. Retaining it with provenance doe
 
 ---
 
-### Document 039 — docs/OFFLINE-ADULT-ROMANCE-AND-COPING.md — Current publication documentation
+### Document 040 — docs/OFFLINE-ADULT-ROMANCE-AND-COPING.md — Current publication documentation
 
 SHA-256: `845376e3e9ef44ce39e06447dcda93be518c88fb2604c61e6728f326804e117b`.
 
@@ -1608,7 +1645,7 @@ Before claiming a future creator is ready, demonstrate offline project creation,
 
 ---
 
-### Document 040 — docs/OMNIARCHY.md — Current publication documentation
+### Document 041 — docs/OMNIARCHY.md — Current publication documentation
 
 SHA-256: `9c52a278b6dd7ded37557346a499fc8a0a9aefc14bca0f2497e5bd1fdca00be8`.
 
@@ -1680,7 +1717,7 @@ The same edition now uses the [Lair of Lairs](LAIR-OF-LAIRS.md) reading form: co
 
 ---
 
-### Document 041 — docs/OWNER-RECOVERY.md — Current publication documentation
+### Document 042 — docs/OWNER-RECOVERY.md — Current publication documentation
 
 SHA-256: `93f6d3ba9c37feaab6a5b91b3410b3fac82bff447523d6d0bec65cccf2eff883`.
 
@@ -1799,7 +1836,7 @@ Run `python -m unittest discover -s tests -p test_recovery.py -v` from the repos
 
 ---
 
-### Document 042 — docs/PROVENANCE.md — Current publication documentation
+### Document 043 — docs/PROVENANCE.md — Current publication documentation
 
 SHA-256: `c3f9565400fe18b8ba533b3b7d3fb48ebad0f53e7ad7f6b982ada92607300a73`.
 
@@ -1829,7 +1866,7 @@ The original bundled `vendor/provenance.json` names its initial `sources/guardia
 
 ---
 
-### Document 043 — docs/PROVENANCE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 044 — docs/PROVENANCE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `43517eae3d9dcadd319fe10d9fd0a6a61e687668c2711db2842ce44ebcd1a50e`.
 
@@ -1850,7 +1887,7 @@ The Python host, SQLite implementation and browser are declared dependencies. Th
 
 ---
 
-### Document 044 — docs/RECURSIVE-SYSTEMS-ATLAS.md — Current publication documentation
+### Document 045 — docs/RECURSIVE-SYSTEMS-ATLAS.md — Current publication documentation
 
 SHA-256: `a206b7a66ae60d81665c967e973acc5725c60bab36e6221b81d49793adafba75`.
 
@@ -2704,7 +2741,7 @@ The continued recovery and media request is included in the same sorted inventor
 
 ---
 
-### Document 045 — docs/RECURSIVE-WORKBENCH.md — Current publication documentation
+### Document 046 — docs/RECURSIVE-WORKBENCH.md — Current publication documentation
 
 SHA-256: `5abda8d6a827102b667418e24de52564912ee992c0cff8cf644d73f425aca7af`.
 
@@ -2772,7 +2809,7 @@ Review a draft's purpose, source, limits, accessibility, withdrawal route and pr
 
 ---
 
-### Document 046 — docs/REPUBLICATION.md — Current publication documentation
+### Document 047 — docs/REPUBLICATION.md — Current publication documentation
 
 SHA-256: `129c4f1268078c036acf99ffbda18025841eda28cf27f0ee155135366e2b300c`.
 
@@ -2788,7 +2825,7 @@ Rebuild with `sh bootstrap.sh`. Inspect the generated `release-hashes.json` and 
 
 ---
 
-### Document 047 — docs/SAFEGUARDING-AND-DEVICE-SCOPE.md — Current publication documentation
+### Document 048 — docs/SAFEGUARDING-AND-DEVICE-SCOPE.md — Current publication documentation
 
 SHA-256: `a6e3c09ce7a0dfb074721c80494143638c326fa66e6888f4d153e8e3eb69be90`.
 
@@ -2812,7 +2849,7 @@ The [owned-media guide](MEDIA-DATA-RENDITION.md), [owner recovery guide](OWNER-R
 
 ---
 
-### Document 048 — docs/SPIRITUAL-SYMBOLIC-WORKBENCH.md — Current publication documentation
+### Document 049 — docs/SPIRITUAL-SYMBOLIC-WORKBENCH.md — Current publication documentation
 
 SHA-256: `8f589b63da5d5496dc198bea4bbcc619ccce5fab5c3e696499ddebed97b85581`.
 
@@ -2859,7 +2896,7 @@ The workbench should be read alongside the [implementation contract](IMPLEMENTAT
 
 ---
 
-### Document 049 — docs/TEMPLE-HUD-LAUNCH-DEFAULTS.md — Current publication documentation
+### Document 050 — docs/TEMPLE-HUD-LAUNCH-DEFAULTS.md — Current publication documentation
 
 SHA-256: `c3861947df16cc8999cd43f6620817d41a44b846d907ff9c3120f76a9997ca48`.
 
@@ -2919,7 +2956,7 @@ Optional browser reproduction uses Playwright and Chromium already available on 
 
 ---
 
-### Document 050 — docs/VALIDATION.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 051 — docs/VALIDATION.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `5811d795e4e76ce7862e500763d42d27627db0a1875a497586ed038899c569c0`.
 
@@ -2949,7 +2986,7 @@ These checks validate the finite hosted implementation. Native boot, UEFI firmwa
 
 ---
 
-### Document 051 — extensions/instagram-orange/README.md — Current publication documentation
+### Document 052 — extensions/instagram-orange/README.md — Current publication documentation
 
 SHA-256: `682b66a5a4c7cdf0c7ad024c41dfb0f52ce368d248be9ad5ffb399241514e376`.
 
@@ -2983,7 +3020,7 @@ Install and run the desktop companion described in `docs/MEDIA-STANDARDISATION-A
 
 ---
 
-### Document 052 — Rasniki-Monarchic-Charter.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 053 — Rasniki-Monarchic-Charter.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `2af53714c3ab5c3451eb35c22929d7a653cfb6465f0a6bd0204dda744407d777`.
 
@@ -3041,7 +3078,7 @@ Thus the proposed Rasniki Crown shall be conceived as an office of continuity, s
 
 ---
 
-### Document 053 — Rasniki-Science-Edition.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 054 — Rasniki-Science-Edition.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `80438ddf6d339c3dbc4689c8b2f6b488a4c93be85d86dd2a89c5b79652606aac`.
 
@@ -3113,7 +3150,7 @@ Republication makes a revised edition available at its chosen destination. The r
 
 ---
 
-### Document 054 — Rasniki-Science-Release.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 055 — Rasniki-Science-Release.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `efe00879826e621b8bd9a660631d4352c8a4238d7ba81f2b4697ee4d3273fab7`.
 
@@ -3139,7 +3176,7 @@ The containing Git commit identifies this release’s repository contents. A suc
 
 ---
 
-### Document 055 — README.md — necurookami2026-jpg/antimalwarecountermalwareantispywarecounterspyware
+### Document 056 — README.md — necurookami2026-jpg/antimalwarecountermalwareantispywarecounterspyware
 
 SHA-256: `c4c73ab7af8ce3f932524e7d39527820e9dd119421b5b2380cd1a5fdbb1529fe`.
 
@@ -3204,7 +3241,7 @@ Use the existing checkout; no worktree is needed. Run `python3 -m unittest -v` b
 
 ---
 
-### Document 056 — README.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 057 — README.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `4648d1f9a26481f05ad83990abee38540ab18b11eeab5f4cdf591d29b761f2df`.
 
@@ -3244,7 +3281,7 @@ Boot, UEFI, the OS kernel and DEMO_CREDIT mint are declared simulations. Guardia
 
 ---
 
-### Document 057 — README.md — necurookami2026-jpg/internetwomanagementministry
+### Document 058 — README.md — necurookami2026-jpg/internetwomanagementministry
 
 SHA-256: `210c2f4e654e7982555e0861baac0938d1c6f187b40091469dbdd24fc9e78c7a`.
 
@@ -3271,7 +3308,7 @@ Upload the contents of `site/` to a static hosting service. On GitHub Pages, pub
 
 ---
 
-### Document 058 — vendor/rasnikism/ADAPTABLE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 059 — vendor/rasnikism/ADAPTABLE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `f926006a8b696b58f558000b8a245cf0bbd2b2d809fd80e50b80b29fbfd38c52`.
 
@@ -3310,7 +3347,7 @@ Each enabled section includes a summary and links to the existing source edition
 
 ---
 
-### Document 059 — vendor/rasnikism/ARCHANGEL.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 060 — vendor/rasnikism/ARCHANGEL.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `d05868825a78156600fc3cb9bbab88c9036f142678d5dc4d5e7137f26cf4ea68`.
 
@@ -3394,7 +3431,7 @@ Run `node software/test_archangel.cjs` for record validation, states, export, de
 
 ---
 
-### Document 060 — vendor/rasnikism/BOOKWRITING.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 061 — vendor/rasnikism/BOOKWRITING.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `5386c93918b917acc684be3c58cee5dc0d2b03b2160aa3fa1b3b9364e52b2f57`.
 
@@ -3514,7 +3551,7 @@ Let the next edition remember what the first could not yet know.
 
 ---
 
-### Document 061 — vendor/rasnikism/CATALOGUE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 062 — vendor/rasnikism/CATALOGUE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `f593b2e67a7147a6462be629c8ad2119b3ca3ccac3699715aadefdf18e0d3aac`.
 
@@ -3568,7 +3605,7 @@ Relevant checks exercise query filtering, pagination, local trend ordering, gene
 
 ---
 
-### Document 062 — vendor/rasnikism/DEVELOPMENT.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 063 — vendor/rasnikism/DEVELOPMENT.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `ab7538a54bb99310fa3b80dc0b8895f165ba95c69f4d3f333db4e2eef9e417d4`.
 
@@ -3618,7 +3655,7 @@ The executable target publication is `language/ostar-final-quilt.kerot` plus its
 
 ---
 
-### Document 063 — vendor/rasnikism/DRIVERS.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 064 — vendor/rasnikism/DRIVERS.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `c6a94239afd38889029132ae279ce2313f33a0c2106c8cae67e9fa65d8db9b65`.
 
@@ -3674,7 +3711,7 @@ Run the Python suite and `node software/test_jerry_pop.cjs`. Checks cover real q
 
 ---
 
-### Document 064 — vendor/rasnikism/editions/OSTAR-AANTONYMMAKKAKAH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 065 — vendor/rasnikism/editions/OSTAR-AANTONYMMAKKAKAH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `ddb3854f6866dba01bc42afbcfe0487ccdd0ddbbbf48c5ae3054db89a00323c0`.
 
@@ -4990,7 +5027,7 @@ sethianism thaumaturgism, romanticism, wizardism, altruism, florist, vampirist, 
 
 ---
 
-### Document 065 — vendor/rasnikism/editions/OSTAR-JURISDICTION-REVIEW.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 066 — vendor/rasnikism/editions/OSTAR-JURISDICTION-REVIEW.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `8c02a39994ab86fc648e68467c6247f6a2d0de455d43636db3d95fbf14e9e9ba`.
 
@@ -6306,7 +6343,7 @@ sethianism thaumaturgism, romanticism, wizardism, altruism, florist, vampirist, 
 
 ---
 
-### Document 066 — vendor/rasnikism/editions/OSTAR-MAKKAKAH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 067 — vendor/rasnikism/editions/OSTAR-MAKKAKAH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `4e2a6f0d0f82a84ca459624ea69da5363f78f26b067eed614fd2b340fa62e8cf`.
 
@@ -7622,7 +7659,7 @@ sethianism thaumaturgism, romanticism, wizardism, altruism, florist, vampirist, 
 
 ---
 
-### Document 067 — vendor/rasnikism/GAME.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 068 — vendor/rasnikism/GAME.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `eb2b188fbc699eb98d3081d5f5e074e652241f5393a8db6b9dcdf8df21fb00ea`.
 
@@ -7664,7 +7701,7 @@ Run `node software/test_game.cjs`. Tests cover state validation, movement, quest
 
 ---
 
-### Document 068 — vendor/rasnikism/GUIDANCE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 069 — vendor/rasnikism/GUIDANCE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `c89f34e45accdfc0e54d76c3648f34e3478ca570b6268d3d52700d31a4c8a333`.
 
@@ -7738,7 +7775,7 @@ Legal, clinical, spiritual, hardware, and emergency-response claims retain their
 
 ---
 
-### Document 069 — vendor/rasnikism/IO.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 070 — vendor/rasnikism/IO.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `d6d24f5a3e93346e7c4c5bc5d65d23e0dd9f734836227c66ba36995dbe28212d`.
 
@@ -7776,7 +7813,7 @@ Run `node software/test_io.cjs`. Checks exercise all-letter rune mapping, case f
 
 ---
 
-### Document 070 — vendor/rasnikism/IO_PUBLICATION.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 071 — vendor/rasnikism/IO_PUBLICATION.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `88ca2922a537b771049914d4baf3a6188e1ea4c282bd5980e4c839a0b5d52b66`.
 
@@ -7808,7 +7845,7 @@ Import limits are 10 MiB of script text, 500 records, 2 MiB per decoded record, 
 
 ---
 
-### Document 071 — vendor/rasnikism/KEROT.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 072 — vendor/rasnikism/KEROT.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `2528cc478b13c8031903ca16bac591050b82a188d65de6aaed672e0374a1360f`.
 
@@ -7921,7 +7958,7 @@ K0 and its decoder, a basic assembler, and console examples are now available in
 
 ---
 
-### Document 072 — vendor/rasnikism/LAIR.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 073 — vendor/rasnikism/LAIR.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `d98fda6426cdeb60f4c0f4f99982baafec2c7171ba24780c45082ff5e4e4b13a`.
 
@@ -7998,7 +8035,7 @@ Here is a return, carrying what we learned.
 
 ---
 
-### Document 073 — vendor/rasnikism/MAKKAKAH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 074 — vendor/rasnikism/MAKKAKAH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `17986532b80a1d2a844f33bbddc578873c4d99a84eb283d6f5c75cae82b5cc0b`.
 
@@ -8153,7 +8190,7 @@ Keep the supplied spellings. Record definition changes with a date and reason. D
 
 ---
 
-### Document 074 — vendor/rasnikism/MANUALS.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 075 — vendor/rasnikism/MANUALS.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `9cda29303fde84179f4728ef142f6faccf09354a46d7447d30bf6f388fe8d46f`.
 
@@ -8217,7 +8254,7 @@ Run `node software/test_manuals.cjs`. Relevant checks cover builder fields, mode
 
 ---
 
-### Document 075 — vendor/rasnikism/OSTAR.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 076 — vendor/rasnikism/OSTAR.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `824847823581ec15bd8f3a7b2dab6604bba9ad5b150cb793d5c04aca118b1fb8`.
 
@@ -8261,7 +8298,7 @@ The browser reformat does not implement proposed specialist software, a native o
 
 ---
 
-### Document 076 — vendor/rasnikism/QUILT.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 077 — vendor/rasnikism/QUILT.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `1e8936be6e5bb42f96f44ec294228972e865e926e7fb24954f9d1ad362ec16b6`.
 
@@ -8305,7 +8342,7 @@ The program does not certify safety, prescribe care, make contracts valid, authe
 
 ---
 
-### Document 077 — vendor/rasnikism/README.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 078 — vendor/rasnikism/README.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `82ca086b1858e2ca32f6f9c2a52e110adf0c298749326ff4b4035957e0290ca4`.
 
@@ -8359,7 +8396,7 @@ sethianism thaumaturgism, romanticism, wizardism, altruism, florist, vampirist, 
 
 ---
 
-### Document 078 — vendor/rasnikism/REINTERPRETATION.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 079 — vendor/rasnikism/REINTERPRETATION.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `9b2e113c70050f7f1fefea44a47f9b3a29fcfd935a5c493fb3db734c502112dc`.
 
@@ -8401,7 +8438,7 @@ Run `sh bootstrap.sh` to rebuild the quilt, program library, reading editions, a
 
 ---
 
-### Document 079 — vendor/rasnikism/SEARCH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 080 — vendor/rasnikism/SEARCH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `6b01dd77a35c7077b4e9b073d86db2e91608309b69b58b212cfdebdd8f0f85ae`.
 
@@ -8425,7 +8462,7 @@ Run `node software/test_search.cjs` for matching, ranking, pagination, integer a
 
 ---
 
-### Document 080 — vendor/rasnikism/SOFTWARE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 081 — vendor/rasnikism/SOFTWARE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `1b78557dc2518b18033c91277cedc184cab02cd4535f898cd05c6d8a29714ebf`.
 
@@ -8508,7 +8545,7 @@ Next useful additions are assembly listings, trace inspection, derived routines,
 
 ---
 
-### Document 081 — vendor/rasnikism/SYSTEMATICS.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 082 — vendor/rasnikism/SYSTEMATICS.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `011fdba3927463d94cc5aa5ab35969dee78ca10a0c0635fd460f3b751520b210`.
 
@@ -8568,7 +8605,7 @@ Run `node software/test_systematics.cjs`. Tests cover quorum, abstentions, ties,
 
 ---
 
-### Document 082 — vendor/rasnikism/TEMPLATES.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 083 — vendor/rasnikism/TEMPLATES.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `23a9f71304975eba13b4b1d86d5067c5738ccfcd39913541232f7cc8dfc562dd`.
 
@@ -8588,7 +8625,7 @@ These are JavaScript-hosted conveniences that produce real primitive source, not
 
 ---
 
-### Document 083 — vendor/rasnikism/UPSTREAM.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 084 — vendor/rasnikism/UPSTREAM.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `66428564026984a2f60bb9911e03a3b6199c7db1e2450a5f06c1ca6b9cf311c9`.
 
