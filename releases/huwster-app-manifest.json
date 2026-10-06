@@ -1,0 +1,9 @@
+{
+  "file": "huwster-rasnikism.pyz",
+  "sha256": "10c179f17ad7ce2be81b5e37cfe477d23ec7f9115d362e4c78e91e60db3271fc",
+  "bytes": 5327249,
+  "python_required": "3.10+",
+  "native_executable": false,
+  "corpus_archives": "Companion repository files; not embedded",
+  "sources_zip": "Companion publication/edition/sources.zip; not embedded"
+}

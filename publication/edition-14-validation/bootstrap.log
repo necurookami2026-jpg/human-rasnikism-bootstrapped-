@@ -1,0 +1,21 @@
+rawful-full-corpus: passed
+health-science-syntax: passed
+temple-hud-syntax: passed
+huwster-ui-syntax: passed
+lab-and-publication-tests: passed
+guardian-tests: passed
+iobot-responses: passed
+iobot-ui-syntax: passed
+ministry-smoke: passed
+instagram-extension-tests: passed
+instagram-content-syntax: passed
+instagram-popup-syntax: passed
+instagram-package: passed
+maintenance-script-syntax: passed
+desktop-script-syntax: passed
+workbench-script-syntax: passed
+media-script-syntax: passed
+contractual-pinned-tests: passed
+rasnikism-full-bootstrap: passed
+Combined publication built; all named checks passed.
+Receipt: /workspace/human-rasnikism-bootstrapped-/.publication-build/bootstrap/run-nzloausb/receipt.json

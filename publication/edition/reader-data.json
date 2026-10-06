@@ -266,6 +266,19 @@
       "title": "docs/EXACT-SCIENCERAINBOWRAINBOWSCIENCE.md — Current publication documentation"
     },
     {
+      "sha256": "93bdabb8a3700af30a526557bd325ab6469947715a7eda877182d2d861d62bd8",
+      "sources": [
+        {
+          "kind": "editorial-document",
+          "name": "Current publication documentation",
+          "path": "docs/EXECUTABLE-PUBLICATION.md",
+          "repository": "current-editorial"
+        }
+      ],
+      "text": "# Executable publication — edition 14\n\nThe publication is distributed as executable software and a local browser app. `releases/huwster-rasnikism.pyz` is a single-file Python executable archive, not a native Windows EXE or macOS application bundle. Python 3.10 or newer and a browser for GUI/HUD are required. It extracts bundled files into a temporary directory, serves only loopback, and removes that directory at exit. Persistent user state is `.huwster-state` beneath the launch working directory; choose a writable working directory or supply `--state PATH` before the command.\n\n## Run\n\n- `python3 releases/huwster-rasnikism.pyz gui`: browser app and HUD.\n- `python3 releases/huwster-rasnikism.pyz hud`: browser app with personalizable HUD.\n- `python3 releases/huwster-rasnikism.pyz reader`: whole collected publication reader.\n- `python3 releases/huwster-rasnikism.pyz read --edition rawful`: terminal reading; raw, law, lawful and complete are also available.\n- `python3 releases/huwster-rasnikism.pyz catalogue`: publication index as JSON.\n- `python3 releases/huwster-rasnikism.pyz run examples/huwster-commons.world`: compile and run an external world script, output final quilt JSON.\n- `python3 releases/huwster-rasnikism.pyz action health-catalogue`: inspect educational modules.\n- `python3 releases/huwster-rasnikism.pyz action health-workpaper --json @record.json`: process explicit local input.\n- `python3 releases/huwster-rasnikism.pyz serve --port 8765`: start without opening a browser.\n\nLinux/macOS can mark the archive executable and run it directly. A checkout also has executable `./huwster` CLI, `Huwster.command` for macOS/Linux and `Huwster.cmd` for Windows with the Python launcher installed. Stop the server with Ctrl+C. If automatic browser launch is unavailable, open the printed localhost URL manually. No installation, cloud model or network service is required for the included finite software.\n\n## Coverage and limits\n\nThe archive includes the current complete collected reader, all four full reading editions, modules, HUD, methods, examples and bundled vendor runtime resources. The 367 MB corpus archives and historical `sources.zip` remain companion repository downloads. Links to those companions require the checkout/server with those files; the portable archive does not embed them. The publication's prose, archival material and proposals are readable data; only implemented commands are executable. Running prose does not make proposals operational.\n\nNo executable can guarantee absence of inability, disability, inhibition or limitation. Hardware, permissions, dependency availability, finite compute budgets, validation and unsupported features remain real conditions. Errors are disclosed instead of represented as success. This app does not bypass another platform's owner settings, policies, access controls or laws. There is no unrestricted generative chatbot in this release.\n\nNon-graphic discussion of child sexual abuse, prevention, safeguarding, reporting and survivor support is legitimate educational material. It is not categorically unavailable. Sexual content involving children is outside this app's educational scope. Existing safeguarding documentation remains included. The reader displays publication text; it does not certify medical/legal claims or contact emergency services.\n\n## Rebuild and verify\n\nRun `sh bootstrap.sh`, then `python3 tools/package_app.py`. `releases/huwster-app-manifest.json` records the executable's SHA-256 and size. The package uses sorted entries and fixed timestamps. CLI and reader checks exercise the actual archive rather than only the source launcher.\n",
+      "title": "docs/EXECUTABLE-PUBLICATION.md — Current publication documentation"
+    },
+    {
       "sha256": "0eda49d2466ecc061e3a02910910930bbb6f897d19519f4a2fd4bc705781a25a",
       "sources": [
         {
@@ -1485,14 +1498,14 @@
       "title": "vendor/rasnikism/UPSTREAM.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers."
     }
   ],
-  "edition": "13",
+  "edition": "14",
   "format": "rasniki-offline-reader",
   "lair": {
-    "editorial_file_count": 49,
+    "editorial_file_count": 50,
     "format": "rasniki-lair-tree",
     "max_depth": 32,
     "max_nodes": 4096,
-    "node_count": 334,
+    "node_count": 335,
     "nodes": [
       {
         "children": [
@@ -5954,6 +5967,7 @@
           "lair-file-cb9426308cdfdb42756b7ea60a4e60c9bb6b3a5d6a615e536d7d0ef106ea9375",
           "lair-file-e03a550a3677d264bd7b50a74ae7ef21eda01b2116635fa716b2bee918fdca22",
           "lair-file-dc4af170310e49e1f511b471cc5f036e800904a81e6dca5ea632035504e644b7",
+          "lair-file-58193a1ce31456e7eddb0c4afde7fe529b256a00feb93723c364a948be2e82a9",
           "lair-file-1c307f58500ea2fa94528e95d407b145d50309245a24d027aa8c8b92d637b81a",
           "lair-file-be73bc9635f6b2da66c779f69cb2f2bb4476e7dbd7572547cedc486f02067ddd",
           "lair-file-894cfca73c9b535be5a7572c14bb07d71a7ca7954ce1a01b34e136b148f7040b",
@@ -6070,6 +6084,21 @@
         "repository": "current-editorial",
         "sha256": "85d6fd5fdcfd087fd672f4da602be061f572d9c6f93509f9d97f9740e7f2a53c",
         "size": 4989
+      },
+      {
+        "archive_path": null,
+        "children": [],
+        "content_kind": "editorial-markdown",
+        "depth": 3,
+        "document_sha256": "93bdabb8a3700af30a526557bd325ab6469947715a7eda877182d2d861d62bd8",
+        "id": "lair-file-58193a1ce31456e7eddb0c4afde7fe529b256a00feb93723c364a948be2e82a9",
+        "kind": "file",
+        "name": "EXECUTABLE-PUBLICATION.md",
+        "parent": "lair-directory-d58aadfe0fff3baf6df58f454d50bfda086f3511f5f13cb2840351a9caefcaaa",
+        "path": "docs/EXECUTABLE-PUBLICATION.md",
+        "repository": "current-editorial",
+        "sha256": "93bdabb8a3700af30a526557bd325ab6469947715a7eda877182d2d861d62bd8",
+        "size": 3648
       },
       {
         "archive_path": null,

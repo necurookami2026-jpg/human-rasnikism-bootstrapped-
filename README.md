@@ -1,3 +1,7 @@
+## Executable app — edition 14
+
+[Download the executable Python app](releases/huwster-rasnikism.pyz) · [CLI, GUI, HUD and reader commands](docs/EXECUTABLE-PUBLICATION.md). Requires Python 3.10+; corpus archives remain companion downloads.
+
 # Huwster Rasnikism — Ostar Rawful, edition 13
 
 Edition 13 adds a [botanical-first temple blueprint and personal HUD](docs/TEMPLE-HUD-LAUNCH-DEFAULTS.md), artificial ancient-jungle/forest/alpine interiors, standard anonymous launch settings and explicitly saved local profiles. [Default settings](publication/edition/TEMPLE-HUD-DEFAULTS.json) · [Schematic blueprint](publication/edition/TEMPLE-BLUEPRINT.svg).
