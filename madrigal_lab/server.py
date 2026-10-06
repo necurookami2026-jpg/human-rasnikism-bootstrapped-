@@ -12,7 +12,7 @@ import urllib.parse
 import urllib.error
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from . import language, defense, hierarchy, symbolic, atlas, papers, recovery, media, huwster
+from . import language, defense, hierarchy, symbolic, atlas, papers, recovery, media, huwster, temple
 from .catalogue import catalogue
 from .finance import Ledger
 from .runtime import Runtime
@@ -44,7 +44,10 @@ class Lab:
         if not isinstance(args,dict):
             raise ValueError('Action arguments must be an object')
         r=self.runtime
-        if action=='huwster-run':return huwster.run(args['source'])
+        if action=='temple-blueprint':return temple.blueprint(args.get('settings'))
+        if action=='temple-settings':return temple.settings(args.get('settings'))
+        if action=='huwster-run':
+            result=huwster.run(args['source']);result['temple_blueprint']=temple.blueprint(args.get('settings'));result.pop('quilt_sha256',None);result['quilt_sha256']=hashlib.sha256(json.dumps(result,sort_keys=True,separators=(',',':')).encode()).hexdigest();return result
         if action=='huwster-compile':return huwster.compile_script(args['source'])
         if action=='huwster-packet':return {'documents':huwster.packet(args['category'],args.get('context','interactive'),args.get('subject','Unspecified subject'),args.get('revision',1))}
         if action=='huwster-document':return huwster.document(args['index'],args.get('subject','Unspecified subject'))
@@ -155,6 +158,8 @@ class Handler(BaseHTTPRequestHandler):
         path=urllib.parse.unquote(urllib.parse.urlsplit(self.path).path)
         try:
             if path=='/api/session':return self.send(200,{'token':self.server.lab.token})
+            if path=='/api/temple-blueprint':return self.send(200,temple.blueprint())
+            if path=='/api/temple':return self.send(200,temple.catalogue())
             if path=='/api/huwster':return self.send(200,huwster.catalogue())
             if path=='/api/catalogue':return self.send(200,catalogue())
             if path=='/api/symbolic':return self.send(200,symbolic.catalogue())

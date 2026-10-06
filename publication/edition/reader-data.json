@@ -675,6 +675,19 @@
       "title": "docs/SPIRITUAL-SYMBOLIC-WORKBENCH.md — Current publication documentation"
     },
     {
+      "sha256": "c3861947df16cc8999cd43f6620817d41a44b846d907ff9c3120f76a9997ca48",
+      "sources": [
+        {
+          "kind": "editorial-document",
+          "name": "Current publication documentation",
+          "path": "docs/TEMPLE-HUD-LAUNCH-DEFAULTS.md",
+          "repository": "current-editorial"
+        }
+      ],
+      "text": "# Temple blueprints and personal HUD — edition 12\n\n## Seven default design priorities\n\nHuwster Rasnikism now opens with a configurable temple blueprint and HUD above its existing architecture workbench. For a fresh or reset session, the exact temple order is botanical primary, rural secondary, urban tertiary, artificial quaternary, aggrestral quinary, modder sexenary and ley line septenary. Personal settings may nominate another primary template; all seven remain available. The default priority and ordinal labels are published in TEMPLE-HUD-DEFAULTS.json.\n\nThe botanical temple is the primary layout style, while its interior foliage uses artificial botanicals. An artificial-foliage material preference does not promote the quaternary artificial temple to first place. Botanical, rural and urban name design contexts; the artificial template is modular/simulated, aggrestral is a provisional cultivation/landscape interpretation of the supplied term, modder provides reversible maker/workshop space, and ley line uses symbolic connecting paths without claiming measurable spiritual energy lines.\n\nThe SVG blueprint supplies seven nonoverlapping schematic zones and connecting paths. Coordinates are conceptual grid units, not construction dimensions. It does not verify structure, drainage, fire escape, accessibility, zoning or site suitability. A real build requires a site survey and qualified architectural, engineering and jurisdiction-specific review. The default SVG can be downloaded or exported with validated custom preferences.\n\n## User-supplied interior brief\n\nThe author prefers artificial botanical products rather than sacrificing plants for decorative interiors, and requests ancient-jungle scenery reminiscent of dinosaur-era movie depictions, Vancouver-inspired coastal forests, Yosemite-inspired valley forests and alpine settings. This release implements four original style presets: ancient-jungle, coastal-forest, valley-forest and alpine. They are schematic palettes and scenery briefs, not copied film assets or photorealistic reconstructions of historical ecosystems.\n\nThe default is rich ancient-jungle detail with artificial botanicals, simulated daylight, repairable furnishings and reusable scenery. Other styles are selectable in the HUD. Artificial botanicals are a material preference, not proof of a lower lifecycle impact; a real procurement plan should review materials, manufacturing, reuse and disposal using supplied evidence. Products and furnishings should serve a supplied client brief; if none exists, record and serve the supplied owner brief. This is a design orientation, not an automatic assignment of duties to a person.\n\nNo specific Amazon brands were named, so none are assumed. The brand/style field accepts only voluntarily supplied names. The software does not read purchase history, authenticate an Amazon account, order goods or spend money. “Great expenditure” means layered multientity artistry across primitives, composites, mechanics, chronological, structural and architectural layers. Its fashion references are paisley chic, Victorian Gothic and steampunk. Benevolent and malevolent Ashram motifs remain distinct symbolic design groups, coordinated through the selected palette rather than mixing primitives. Nomichenpenall records the author’s client-compatibility label without inventing a scientific definition. Rich interior detail remains editable. Budget amount and currency remain unset, and purchasing is disabled.\n\n## Counter-review and settings terminology\n\nThe interior review label is maximum documented counteramakkakah and counterantonymmakkakah review. All supported configuration fields are checked against the declared schema before a blueprint is accepted. In this context, maximum means review of the implemented settings surface, not unlimited protection or universal suitability.\n\nThe settings terminology retains counteramakkakah, counterantonymmakkakah, aantonymmakkakah, makkah, ainsuitable, suitable, hen, apen, nomic and henapenall. The supplied spellings counteramakakah and counterantonymmakkah are recorded as aliases for the configuration labels; this does not alter the historical K0 modes or automatically create language-wide prefix/suffix rules. Ainsuitable/suitable here refer to conformity to this particular schema. Hen, apen and henapenall remain provisional labels without additional executable guarantees. Nomic denotes the documented version/review context rather than automatic lawmaking.\n\nThe persona title is **Rasniki Hoppit Huwster Demihuman**. It is a fictional HUD identity and decorative design brief, not a classification of the user, a biological claim or a third-party franchise licence.\n\n## HUD customization and launch behaviour\n\nThe HUD provides seven panel labels: blueprint, settings, world, paperwork, ranks, lore and evidence. Settings remains visible so a user can recover hidden panels. Blueprint and settings have standard side-by-side and focused layouts. Users can select temple preference, palette, artificial botanical style, detail level, density and text scale, and show/hide the available panel groups. The settings schema limits text scale to 85–140 percent and accepts only declared panel, palette and template values.\n\nApply to this session changes the current view without saving a profile. Save local profile requires a supplied nickname and an explicit action, and stores the validated settings in this browser's local storage. On the next launch, a valid saved profile is restored. Reset launch defaults removes that local profile and restores the anonymous botanical-first defaults. Unreadable, invalid or inaccessible storage produces an explanation and leaves standard defaults available. A local nickname is not an authenticated login; this release contains no account service. With no saved valid profile, the session remains anonymous and unpersonalised by default.\n\nBrand names and profile text are displayed as inert text and do not become executable markup. A blueprint is returned through a validated local API and shown as an SVG image. Download settings exports the current JSON record; Download blueprint SVG exports its schematic. No profile is sent to an external service. The local server validates settings to render a blueprint but does not persist the profile; explicitly chosen browser storage and downloads are the retention mechanisms.\n\n## Runtime and publication compatibility\n\nA world run receives the applied launch settings and includes its temple blueprint in the final-quilt result. The result hash includes that blueprint, so two otherwise identical worlds with different temple preferences have different final records. Applying new settings invalidates an older world export. Original source, legal draft corpus, career/rank records, Ashram grammar and historical licences remain intact. The 5,764,801-document corpus is not regenerated for a HUD change; its existing generation-input fingerprints and archive hashes remain checked.\n\nOstar Rawful remains the default publication mode. The new default JSON and SVG are hash-recorded publication outputs, and this contract is included in every complete reading edition. Earlier budgets or stylistic descriptions in historical sources remain in their original context; the current HUD uses the explicit defaults described here.\n\n## Verification\n\nPython tests exercise the exact seven-template order, independent default objects, valid personal preferences, schema refusal, default non-purchasing state and final-quilt hashes covering the blueprint. Chromium checks exercise fresh anonymous defaults, ancient-jungle artificial botanicals, explicit profile save and restoration, reset, panel visibility and world integration. The existing full bootstrap and repeated publication checks run alongside these changes.\n\n```sh\npython3 -m unittest discover -s tests -p test_temple.py -v\nsh bootstrap.sh\npython3 -m madrigal_lab --port 8765\n```\n\nOptional browser reproduction uses Playwright and Chromium already available on a suitable host: run `node tests/temple-browser.cjs` against the local service. Browser tests are not required dependencies for the Python/Node-only bootstrap.\n",
+      "title": "docs/TEMPLE-HUD-LAUNCH-DEFAULTS.md — Current publication documentation"
+    },
+    {
       "sha256": "5811d795e4e76ce7862e500763d42d27627db0a1875a497586ed038899c569c0",
       "sources": [
         {
@@ -1459,14 +1472,14 @@
       "title": "vendor/rasnikism/UPSTREAM.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers."
     }
   ],
-  "edition": "11",
+  "edition": "12",
   "format": "rasniki-offline-reader",
   "lair": {
-    "editorial_file_count": 47,
+    "editorial_file_count": 48,
     "format": "rasniki-lair-tree",
     "max_depth": 32,
     "max_nodes": 4096,
-    "node_count": 332,
+    "node_count": 333,
     "nodes": [
       {
         "children": [
@@ -5943,7 +5956,8 @@
           "lair-file-2bf175b3da294b035bc958b7104d722616cd4f20866f2ee56019108b196e9fd6",
           "lair-file-17fe361c0a430721aa450b1cc59ca90a2020d32b16b5e5d3da382aa6387a238f",
           "lair-file-05d56eaa0256254b735f8989385ed56d93793c0f6b9a864365ae97ff0107a950",
-          "lair-file-daa6f8be675cf9048f867aefe5f0acb33f1e8e18d7286e1398b8d15b9a8a88ae"
+          "lair-file-daa6f8be675cf9048f867aefe5f0acb33f1e8e18d7286e1398b8d15b9a8a88ae",
+          "lair-file-a9b50a1d645d1c38050ed0864d01ea3f1a0cfd41c532fce413ac0df9917928f8"
         ],
         "depth": 2,
         "id": "lair-directory-d58aadfe0fff3baf6df58f454d50bfda086f3511f5f13cb2840351a9caefcaaa",
@@ -6282,6 +6296,21 @@
         "repository": "current-editorial",
         "sha256": "8f589b63da5d5496dc198bea4bbcc619ccce5fab5c3e696499ddebed97b85581",
         "size": 11958
+      },
+      {
+        "archive_path": null,
+        "children": [],
+        "content_kind": "editorial-markdown",
+        "depth": 3,
+        "document_sha256": "c3861947df16cc8999cd43f6620817d41a44b846d907ff9c3120f76a9997ca48",
+        "id": "lair-file-a9b50a1d645d1c38050ed0864d01ea3f1a0cfd41c532fce413ac0df9917928f8",
+        "kind": "file",
+        "name": "TEMPLE-HUD-LAUNCH-DEFAULTS.md",
+        "parent": "lair-directory-d58aadfe0fff3baf6df58f454d50bfda086f3511f5f13cb2840351a9caefcaaa",
+        "path": "docs/TEMPLE-HUD-LAUNCH-DEFAULTS.md",
+        "repository": "current-editorial",
+        "sha256": "c3861947df16cc8999cd43f6620817d41a44b846d907ff9c3120f76a9997ca48",
+        "size": 8208
       },
       {
         "children": [

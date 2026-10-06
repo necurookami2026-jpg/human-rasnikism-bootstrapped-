@@ -1,0 +1,164 @@
+{
+  "defaults": {
+    "botanical_material": "artificial-botanicals",
+    "brand_preferences": [],
+    "budget_amount": null,
+    "density": "comfortable",
+    "great_expenditure": "layered-multientity-artistry",
+    "hud_layout": "standard",
+    "interior_detail": "rich",
+    "interior_review": "maximum-documented-counter-review",
+    "interior_style": "ancient-jungle",
+    "mode": "ostar-rawful",
+    "palette": "botanical",
+    "persona": "Rasniki Hoppit Huwster Demihuman",
+    "planning_budget": "unset",
+    "primary_temple": "botanical",
+    "profile_name": "",
+    "profile_state": "anonymous",
+    "service_orientation": "client-first",
+    "settings_terms": [
+      "counteramakkakah",
+      "counterantonymmakkakah",
+      "aantonymmakkakah",
+      "makkah",
+      "ainsuitable",
+      "suitable",
+      "hen",
+      "apen",
+      "nomic",
+      "henapenall"
+    ],
+    "text_scale": 100,
+    "version": 1,
+    "visible_panels": [
+      "blueprint",
+      "settings",
+      "world",
+      "paperwork",
+      "ranks",
+      "lore",
+      "evidence"
+    ]
+  },
+  "interior_styles": [
+    "ancient-jungle",
+    "coastal-forest",
+    "valley-forest",
+    "alpine"
+  ],
+  "palettes": [
+    "botanical",
+    "rural",
+    "urban"
+  ],
+  "panels": [
+    "blueprint",
+    "settings",
+    "world",
+    "paperwork",
+    "ranks",
+    "lore",
+    "evidence"
+  ],
+  "personalisation": "Explicitly saved local browser profile; no authenticated account login or Amazon purchase-history access.",
+  "scope": "Conceptual layout and fictional persona, not a structural engineering approval.",
+  "spelling_aliases": {
+    "counteramakakah": "counteramakkakah",
+    "counterantonymmakkah": "counterantonymmakkakah"
+  },
+  "temples": [
+    {
+      "id": "botanical",
+      "name": "Botanical temple",
+      "ordinal": "primary",
+      "priority": 1,
+      "scope": "Planting court, quiet study, water stewardship and accessible circulation."
+    },
+    {
+      "id": "rural",
+      "name": "Rural temple",
+      "ordinal": "secondary",
+      "priority": 2,
+      "scope": "Low-density practice rooms, repair workshop and shared landscape."
+    },
+    {
+      "id": "urban",
+      "name": "Urban temple",
+      "ordinal": "tertiary",
+      "priority": 3,
+      "scope": "Compact shared rooms, transit-facing entry and acoustic buffers."
+    },
+    {
+      "id": "artificial",
+      "name": "Artificial temple",
+      "ordinal": "quaternary",
+      "priority": 4,
+      "scope": "Explicitly simulated modular structure and instrumented service rooms."
+    },
+    {
+      "id": "aggrestral",
+      "name": "Aggrestral temple",
+      "ordinal": "quinary",
+      "priority": 5,
+      "scope": "Proposed cultivation and landscape template; supplied term remains provisional."
+    },
+    {
+      "id": "modder",
+      "name": "Modder temple",
+      "ordinal": "sexenary",
+      "priority": 6,
+      "scope": "Adaptable maker rooms and reversible workshop layouts."
+    },
+    {
+      "id": "ley-line",
+      "name": "Ley line temple",
+      "ordinal": "septenary",
+      "priority": 7,
+      "scope": "Symbolic connecting paths; no verified energy-line or spiritual effects are asserted."
+    }
+  ],
+  "terms": [
+    {
+      "status": "implemented-setting-label",
+      "term": "counteramakkakah"
+    },
+    {
+      "status": "implemented-setting-label",
+      "term": "counterantonymmakkakah"
+    },
+    {
+      "status": "implemented-setting-label",
+      "term": "aantonymmakkakah"
+    },
+    {
+      "status": "implemented-setting-label",
+      "term": "makkah"
+    },
+    {
+      "status": "implemented-setting-label",
+      "term": "ainsuitable"
+    },
+    {
+      "status": "implemented-setting-label",
+      "term": "suitable"
+    },
+    {
+      "status": "provisional-label-not-an-executable-guarantee",
+      "term": "hen"
+    },
+    {
+      "status": "provisional-label-not-an-executable-guarantee",
+      "term": "apen"
+    },
+    {
+      "status": "provisional-label-not-an-executable-guarantee",
+      "term": "nomic"
+    },
+    {
+      "status": "provisional-label-not-an-executable-guarantee",
+      "term": "henapenall"
+    }
+  ],
+  "title": "Huwster Rasnikism — temple HUD"
+}

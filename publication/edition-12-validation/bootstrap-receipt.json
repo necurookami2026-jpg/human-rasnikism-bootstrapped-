@@ -1,0 +1,237 @@
+{
+  "format": "rasniki-bootstrap-receipt",
+  "version": 1,
+  "started_at": "2026-10-06T21:47:46.408657+00:00",
+  "hosts": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "source_lock_sha256": "b39ac18d2013e0fd82ded0b1b5a08d4718d63f4f84280c41394d5830a91640b8",
+  "source_verification": {
+    "ok": true,
+    "repositories": 4,
+    "files": 254,
+    "bytes": 9342556,
+    "errors": []
+  },
+  "checks": [
+    {
+      "name": "rawful-full-corpus",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tools/verify_rawful_corpus.py"
+      ],
+      "exit_code": 0,
+      "log": "rawful-full-corpus.log"
+    },
+    {
+      "name": "temple-hud-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/temple-hud.js"
+      ],
+      "exit_code": 0,
+      "log": "temple-hud-syntax.log"
+    },
+    {
+      "name": "huwster-ui-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/huwster.js"
+      ],
+      "exit_code": 0,
+      "log": "huwster-ui-syntax.log"
+    },
+    {
+      "name": "lab-and-publication-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "lab-and-publication-tests.log"
+    },
+    {
+      "name": "guardian-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "guardian-tests.log"
+    },
+    {
+      "name": "iobot-responses",
+      "command": [
+        "node",
+        "tests/iobot-responses.cjs"
+      ],
+      "exit_code": 0,
+      "log": "iobot-responses.log"
+    },
+    {
+      "name": "iobot-ui-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/iobots/ui.js"
+      ],
+      "exit_code": 0,
+      "log": "iobot-ui-syntax.log"
+    },
+    {
+      "name": "ministry-smoke",
+      "command": [
+        "node",
+        "tests/ministry-smoke.cjs"
+      ],
+      "exit_code": 0,
+      "log": "ministry-smoke.log"
+    },
+    {
+      "name": "instagram-extension-tests",
+      "command": [
+        "node",
+        "tests/instagram-orange/core.cjs"
+      ],
+      "exit_code": 0,
+      "log": "instagram-extension-tests.log"
+    },
+    {
+      "name": "instagram-content-syntax",
+      "command": [
+        "node",
+        "--check",
+        "extensions/instagram-orange/content.js"
+      ],
+      "exit_code": 0,
+      "log": "instagram-content-syntax.log"
+    },
+    {
+      "name": "instagram-popup-syntax",
+      "command": [
+        "node",
+        "--check",
+        "extensions/instagram-orange/popup.js"
+      ],
+      "exit_code": 0,
+      "log": "instagram-popup-syntax.log"
+    },
+    {
+      "name": "instagram-package",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tools/package_instagram.py"
+      ],
+      "exit_code": 0,
+      "log": "instagram-package.log"
+    },
+    {
+      "name": "maintenance-script-syntax",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "py_compile",
+        "tools/media_standardize.py",
+        "tools/checked_update.py",
+        "tools/install_media_maintenance.py"
+      ],
+      "exit_code": 0,
+      "log": "maintenance-script-syntax.log"
+    },
+    {
+      "name": "desktop-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/app.js"
+      ],
+      "exit_code": 0,
+      "log": "desktop-script-syntax.log"
+    },
+    {
+      "name": "workbench-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/workbench.js"
+      ],
+      "exit_code": 0,
+      "log": "workbench-script-syntax.log"
+    },
+    {
+      "name": "media-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/media-studio.js"
+      ],
+      "exit_code": 0,
+      "log": "media-script-syntax.log"
+    },
+    {
+      "name": "contractual-pinned-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "contractual-pinned-tests.log"
+    },
+    {
+      "name": "rasnikism-full-bootstrap",
+      "command": [
+        "sh",
+        "bootstrap.sh"
+      ],
+      "exit_code": 0,
+      "log": "rasnikism-full-bootstrap.log"
+    },
+    {
+      "name": "publication-build-and-repeat",
+      "exit_code": 0,
+      "outputs": {
+        "catalogue.json": "988412b81dc4271da80ee5921391b216c7c1204a3313bcccff773b99f1335863",
+        "MAX-RAW.md": "2e14f5592df143efbd51e8a759ebc40134f5c1755b9e4043546ae472d5500371",
+        "SCIENCERAINBOWRAINBOWSCIENCE-PAPERWORK.html": "a556cb95cf7cc457af100fa7dc25346e1134ac18801c55c39f79c9101c080a62",
+        "sources.zip": "6eef61cc47f52c5338b681893211aebd25f9f1b83b55835572e263d65ab8b839",
+        "MAX-LAW.md": "bab312663f46cdeb74af53561ec5971c7602689e7303e9a80128d00347b5473b",
+        "release-hashes.json": "7b697a985e221f48afe5e600583a194dddb5266d9f760bf0450a3f2ff1f93a11",
+        "HUWSTER-ARCHITECTURE.json": "7fef1bd9179fd2ce0cd54591499783d3704960696a1ab231a46e78301292e403",
+        "SCIENCERAINBOWRAINBOWSCIENCE.md": "ef64aa89f591b31baae40825265c7813c95decfb6b5fe75268295716eb8494ba",
+        "TEMPLE-HUD-DEFAULTS.json": "a901834b1e8eb14a97c667526b19ffa21222bc88b4ef40d929fed2998174ea72",
+        "RAWFUL-CORPUS.json": "1a81f97c204fae29aec4e9a04bfc55496b160330149aa4bb3fe413cb9b359e41",
+        "SCIENCERAINBOWRAINBOWSCIENCE-COMPUTERWORK.json": "a46282b755b6df53071552a6c432947cd2bafa3859ea7621bdced9c0ffd62c23",
+        "TEMPLE-BLUEPRINT.svg": "8ea313d0f9e5d2ec08e12ad6a3c5b1ad65a9677445ead922a90bc841661adc99",
+        "HUWSTER-RAWFUL.md": "e0d18b0b0ca4fefcfc482e66279a0c1510420077563c5b4dbd0cfc5f068ace5b",
+        "reader-data.json": "44e85bd094442f5e06f2d69004815c09a6fcc974e1da530fba6b021592f83b55",
+        "ASHRAM-LEXICON.json": "43fd534205ea80d7ca29bef3d896ea7f76bf2b742dbfe7206166435b85b9066d",
+        "EXTRA-COMPLETE.md": "43a964d7eed332859f0a071af5f36ffc3c3f4460fc97eaf357e92542dbec97d9",
+        "ASHRAM-SPECIFICATION.json": "d8a8860998c9af57f1a5be0974a313a94a36e2d44c786cad694c05753130218a",
+        "MAX-LAWFUL.md": "84817a9c9b3a0db7c8c5c28c02f315229d52b0a42981a15d62ef27d8d54b0dbd",
+        "MAX-RAWFUL.md": "c68259336c3e526fca6c67ba704fd48c0d8c4661dda012027e7db78c5eb74429",
+        "ASHRAM-SEQUENTIAL.md": "eb112b3370da77ef092dbf96ad0298b94dc9e830909e40a7c7f3fedb9fffb8d0",
+        "HUWSTER-RANKS.json": "9d771668ffa5443075919f36ee060d2201e9dc3e03592358e43110b74e73d95d",
+        "PUBLICATION.md": "e4f165ca51938ef4b890a60316e2f7293927c6230e87c9ba9ef4da78190bab93",
+        "index.html": "fcbb12b4f9a3ebfff48ecb467ad6d2e6d33f6194193975ef5dedc2e73294fb5e"
+      }
+    }
+  ],
+  "scope": "Named finite source, construction and test checks; not universal scientific or legal certification",
+  "completed_at": "2026-10-06T21:48:03.316012+00:00",
+  "checks_passed": true
+}

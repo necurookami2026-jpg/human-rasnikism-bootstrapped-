@@ -1,6 +1,6 @@
 # Max Law — full collection
 
-Publication edition 11.
+Publication edition 12.
 
 Review ownership and licensing, consent and personal-data handling, platform access terms, consumer claims, financial representations and jurisdiction-specific duties for every relevant chapter. No jurisdiction or legal clearance is assumed; obtain qualified advice before making legal claims.
 
@@ -12,7 +12,7 @@ All four editions retain the same complete collected body below. Their review gu
 
 ## Ostar Rawful — regenerative architecture, drafting and life simulation
 
-Edition 11.
+Edition 12.
 
 This reproducible offline edition verifies 254 pinned files (9342556 bytes) in 4 source snapshots.
 
@@ -2820,7 +2820,67 @@ The workbench should be read alongside the [implementation contract](IMPLEMENTAT
 
 ---
 
-### Document 049 — docs/VALIDATION.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 049 — docs/TEMPLE-HUD-LAUNCH-DEFAULTS.md — Current publication documentation
+
+SHA-256: `c3861947df16cc8999cd43f6620817d41a44b846d907ff9c3120f76a9997ca48`.
+
+Source: Current publication documentation · editorial-document · docs/TEMPLE-HUD-LAUNCH-DEFAULTS.md.
+
+# Temple blueprints and personal HUD — edition 12
+
+## Seven default design priorities
+
+Huwster Rasnikism now opens with a configurable temple blueprint and HUD above its existing architecture workbench. For a fresh or reset session, the exact temple order is botanical primary, rural secondary, urban tertiary, artificial quaternary, aggrestral quinary, modder sexenary and ley line septenary. Personal settings may nominate another primary template; all seven remain available. The default priority and ordinal labels are published in TEMPLE-HUD-DEFAULTS.json.
+
+The botanical temple is the primary layout style, while its interior foliage uses artificial botanicals. An artificial-foliage material preference does not promote the quaternary artificial temple to first place. Botanical, rural and urban name design contexts; the artificial template is modular/simulated, aggrestral is a provisional cultivation/landscape interpretation of the supplied term, modder provides reversible maker/workshop space, and ley line uses symbolic connecting paths without claiming measurable spiritual energy lines.
+
+The SVG blueprint supplies seven nonoverlapping schematic zones and connecting paths. Coordinates are conceptual grid units, not construction dimensions. It does not verify structure, drainage, fire escape, accessibility, zoning or site suitability. A real build requires a site survey and qualified architectural, engineering and jurisdiction-specific review. The default SVG can be downloaded or exported with validated custom preferences.
+
+## User-supplied interior brief
+
+The author prefers artificial botanical products rather than sacrificing plants for decorative interiors, and requests ancient-jungle scenery reminiscent of dinosaur-era movie depictions, Vancouver-inspired coastal forests, Yosemite-inspired valley forests and alpine settings. This release implements four original style presets: ancient-jungle, coastal-forest, valley-forest and alpine. They are schematic palettes and scenery briefs, not copied film assets or photorealistic reconstructions of historical ecosystems.
+
+The default is rich ancient-jungle detail with artificial botanicals, simulated daylight, repairable furnishings and reusable scenery. Other styles are selectable in the HUD. Artificial botanicals are a material preference, not proof of a lower lifecycle impact; a real procurement plan should review materials, manufacturing, reuse and disposal using supplied evidence. Products and furnishings should serve a supplied client brief; if none exists, record and serve the supplied owner brief. This is a design orientation, not an automatic assignment of duties to a person.
+
+No specific Amazon brands were named, so none are assumed. The brand/style field accepts only voluntarily supplied names. The software does not read purchase history, authenticate an Amazon account, order goods or spend money. “Great expenditure” means layered multientity artistry across primitives, composites, mechanics, chronological, structural and architectural layers. Its fashion references are paisley chic, Victorian Gothic and steampunk. Benevolent and malevolent Ashram motifs remain distinct symbolic design groups, coordinated through the selected palette rather than mixing primitives. Nomichenpenall records the author’s client-compatibility label without inventing a scientific definition. Rich interior detail remains editable. Budget amount and currency remain unset, and purchasing is disabled.
+
+## Counter-review and settings terminology
+
+The interior review label is maximum documented counteramakkakah and counterantonymmakkakah review. All supported configuration fields are checked against the declared schema before a blueprint is accepted. In this context, maximum means review of the implemented settings surface, not unlimited protection or universal suitability.
+
+The settings terminology retains counteramakkakah, counterantonymmakkakah, aantonymmakkakah, makkah, ainsuitable, suitable, hen, apen, nomic and henapenall. The supplied spellings counteramakakah and counterantonymmakkah are recorded as aliases for the configuration labels; this does not alter the historical K0 modes or automatically create language-wide prefix/suffix rules. Ainsuitable/suitable here refer to conformity to this particular schema. Hen, apen and henapenall remain provisional labels without additional executable guarantees. Nomic denotes the documented version/review context rather than automatic lawmaking.
+
+The persona title is **Rasniki Hoppit Huwster Demihuman**. It is a fictional HUD identity and decorative design brief, not a classification of the user, a biological claim or a third-party franchise licence.
+
+## HUD customization and launch behaviour
+
+The HUD provides seven panel labels: blueprint, settings, world, paperwork, ranks, lore and evidence. Settings remains visible so a user can recover hidden panels. Blueprint and settings have standard side-by-side and focused layouts. Users can select temple preference, palette, artificial botanical style, detail level, density and text scale, and show/hide the available panel groups. The settings schema limits text scale to 85–140 percent and accepts only declared panel, palette and template values.
+
+Apply to this session changes the current view without saving a profile. Save local profile requires a supplied nickname and an explicit action, and stores the validated settings in this browser's local storage. On the next launch, a valid saved profile is restored. Reset launch defaults removes that local profile and restores the anonymous botanical-first defaults. Unreadable, invalid or inaccessible storage produces an explanation and leaves standard defaults available. A local nickname is not an authenticated login; this release contains no account service. With no saved valid profile, the session remains anonymous and unpersonalised by default.
+
+Brand names and profile text are displayed as inert text and do not become executable markup. A blueprint is returned through a validated local API and shown as an SVG image. Download settings exports the current JSON record; Download blueprint SVG exports its schematic. No profile is sent to an external service. The local server validates settings to render a blueprint but does not persist the profile; explicitly chosen browser storage and downloads are the retention mechanisms.
+
+## Runtime and publication compatibility
+
+A world run receives the applied launch settings and includes its temple blueprint in the final-quilt result. The result hash includes that blueprint, so two otherwise identical worlds with different temple preferences have different final records. Applying new settings invalidates an older world export. Original source, legal draft corpus, career/rank records, Ashram grammar and historical licences remain intact. The 5,764,801-document corpus is not regenerated for a HUD change; its existing generation-input fingerprints and archive hashes remain checked.
+
+Ostar Rawful remains the default publication mode. The new default JSON and SVG are hash-recorded publication outputs, and this contract is included in every complete reading edition. Earlier budgets or stylistic descriptions in historical sources remain in their original context; the current HUD uses the explicit defaults described here.
+
+## Verification
+
+Python tests exercise the exact seven-template order, independent default objects, valid personal preferences, schema refusal, default non-purchasing state and final-quilt hashes covering the blueprint. Chromium checks exercise fresh anonymous defaults, ancient-jungle artificial botanicals, explicit profile save and restoration, reset, panel visibility and world integration. The existing full bootstrap and repeated publication checks run alongside these changes.
+
+```sh
+python3 -m unittest discover -s tests -p test_temple.py -v
+sh bootstrap.sh
+python3 -m madrigal_lab --port 8765
+```
+
+Optional browser reproduction uses Playwright and Chromium already available on a suitable host: run `node tests/temple-browser.cjs` against the local service. Browser tests are not required dependencies for the Python/Node-only bootstrap.
+
+---
+
+### Document 050 — docs/VALIDATION.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `5811d795e4e76ce7862e500763d42d27627db0a1875a497586ed038899c569c0`.
 
@@ -2850,7 +2910,7 @@ These checks validate the finite hosted implementation. Native boot, UEFI firmwa
 
 ---
 
-### Document 050 — extensions/instagram-orange/README.md — Current publication documentation
+### Document 051 — extensions/instagram-orange/README.md — Current publication documentation
 
 SHA-256: `682b66a5a4c7cdf0c7ad024c41dfb0f52ce368d248be9ad5ffb399241514e376`.
 
@@ -2884,7 +2944,7 @@ Install and run the desktop companion described in `docs/MEDIA-STANDARDISATION-A
 
 ---
 
-### Document 051 — Rasniki-Monarchic-Charter.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 052 — Rasniki-Monarchic-Charter.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `2af53714c3ab5c3451eb35c22929d7a653cfb6465f0a6bd0204dda744407d777`.
 
@@ -2942,7 +3002,7 @@ Thus the proposed Rasniki Crown shall be conceived as an office of continuity, s
 
 ---
 
-### Document 052 — Rasniki-Science-Edition.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 053 — Rasniki-Science-Edition.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `80438ddf6d339c3dbc4689c8b2f6b488a4c93be85d86dd2a89c5b79652606aac`.
 
@@ -3014,7 +3074,7 @@ Republication makes a revised edition available at its chosen destination. The r
 
 ---
 
-### Document 053 — Rasniki-Science-Release.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 054 — Rasniki-Science-Release.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `efe00879826e621b8bd9a660631d4352c8a4238d7ba81f2b4697ee4d3273fab7`.
 
@@ -3040,7 +3100,7 @@ The containing Git commit identifies this release’s repository contents. A suc
 
 ---
 
-### Document 054 — README.md — necurookami2026-jpg/antimalwarecountermalwareantispywarecounterspyware
+### Document 055 — README.md — necurookami2026-jpg/antimalwarecountermalwareantispywarecounterspyware
 
 SHA-256: `c4c73ab7af8ce3f932524e7d39527820e9dd119421b5b2380cd1a5fdbb1529fe`.
 
@@ -3105,7 +3165,7 @@ Use the existing checkout; no worktree is needed. Run `python3 -m unittest -v` b
 
 ---
 
-### Document 055 — README.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 056 — README.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `4648d1f9a26481f05ad83990abee38540ab18b11eeab5f4cdf591d29b761f2df`.
 
@@ -3145,7 +3205,7 @@ Boot, UEFI, the OS kernel and DEMO_CREDIT mint are declared simulations. Guardia
 
 ---
 
-### Document 056 — README.md — necurookami2026-jpg/internetwomanagementministry
+### Document 057 — README.md — necurookami2026-jpg/internetwomanagementministry
 
 SHA-256: `210c2f4e654e7982555e0861baac0938d1c6f187b40091469dbdd24fc9e78c7a`.
 
@@ -3172,7 +3232,7 @@ Upload the contents of `site/` to a static hosting service. On GitHub Pages, pub
 
 ---
 
-### Document 057 — vendor/rasnikism/ADAPTABLE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 058 — vendor/rasnikism/ADAPTABLE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `f926006a8b696b58f558000b8a245cf0bbd2b2d809fd80e50b80b29fbfd38c52`.
 
@@ -3211,7 +3271,7 @@ Each enabled section includes a summary and links to the existing source edition
 
 ---
 
-### Document 058 — vendor/rasnikism/ARCHANGEL.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 059 — vendor/rasnikism/ARCHANGEL.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `d05868825a78156600fc3cb9bbab88c9036f142678d5dc4d5e7137f26cf4ea68`.
 
@@ -3295,7 +3355,7 @@ Run `node software/test_archangel.cjs` for record validation, states, export, de
 
 ---
 
-### Document 059 — vendor/rasnikism/BOOKWRITING.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 060 — vendor/rasnikism/BOOKWRITING.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `5386c93918b917acc684be3c58cee5dc0d2b03b2160aa3fa1b3b9364e52b2f57`.
 
@@ -3415,7 +3475,7 @@ Let the next edition remember what the first could not yet know.
 
 ---
 
-### Document 060 — vendor/rasnikism/CATALOGUE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 061 — vendor/rasnikism/CATALOGUE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `f593b2e67a7147a6462be629c8ad2119b3ca3ccac3699715aadefdf18e0d3aac`.
 
@@ -3469,7 +3529,7 @@ Relevant checks exercise query filtering, pagination, local trend ordering, gene
 
 ---
 
-### Document 061 — vendor/rasnikism/DEVELOPMENT.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 062 — vendor/rasnikism/DEVELOPMENT.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `ab7538a54bb99310fa3b80dc0b8895f165ba95c69f4d3f333db4e2eef9e417d4`.
 
@@ -3519,7 +3579,7 @@ The executable target publication is `language/ostar-final-quilt.kerot` plus its
 
 ---
 
-### Document 062 — vendor/rasnikism/DRIVERS.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 063 — vendor/rasnikism/DRIVERS.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `c6a94239afd38889029132ae279ce2313f33a0c2106c8cae67e9fa65d8db9b65`.
 
@@ -3575,7 +3635,7 @@ Run the Python suite and `node software/test_jerry_pop.cjs`. Checks cover real q
 
 ---
 
-### Document 063 — vendor/rasnikism/editions/OSTAR-AANTONYMMAKKAKAH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 064 — vendor/rasnikism/editions/OSTAR-AANTONYMMAKKAKAH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `ddb3854f6866dba01bc42afbcfe0487ccdd0ddbbbf48c5ae3054db89a00323c0`.
 
@@ -4891,7 +4951,7 @@ sethianism thaumaturgism, romanticism, wizardism, altruism, florist, vampirist, 
 
 ---
 
-### Document 064 — vendor/rasnikism/editions/OSTAR-JURISDICTION-REVIEW.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 065 — vendor/rasnikism/editions/OSTAR-JURISDICTION-REVIEW.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `8c02a39994ab86fc648e68467c6247f6a2d0de455d43636db3d95fbf14e9e9ba`.
 
@@ -6207,7 +6267,7 @@ sethianism thaumaturgism, romanticism, wizardism, altruism, florist, vampirist, 
 
 ---
 
-### Document 065 — vendor/rasnikism/editions/OSTAR-MAKKAKAH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 066 — vendor/rasnikism/editions/OSTAR-MAKKAKAH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `4e2a6f0d0f82a84ca459624ea69da5363f78f26b067eed614fd2b340fa62e8cf`.
 
@@ -7523,7 +7583,7 @@ sethianism thaumaturgism, romanticism, wizardism, altruism, florist, vampirist, 
 
 ---
 
-### Document 066 — vendor/rasnikism/GAME.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 067 — vendor/rasnikism/GAME.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `eb2b188fbc699eb98d3081d5f5e074e652241f5393a8db6b9dcdf8df21fb00ea`.
 
@@ -7565,7 +7625,7 @@ Run `node software/test_game.cjs`. Tests cover state validation, movement, quest
 
 ---
 
-### Document 067 — vendor/rasnikism/GUIDANCE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 068 — vendor/rasnikism/GUIDANCE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `c89f34e45accdfc0e54d76c3648f34e3478ca570b6268d3d52700d31a4c8a333`.
 
@@ -7639,7 +7699,7 @@ Legal, clinical, spiritual, hardware, and emergency-response claims retain their
 
 ---
 
-### Document 068 — vendor/rasnikism/IO.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 069 — vendor/rasnikism/IO.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `d6d24f5a3e93346e7c4c5bc5d65d23e0dd9f734836227c66ba36995dbe28212d`.
 
@@ -7677,7 +7737,7 @@ Run `node software/test_io.cjs`. Checks exercise all-letter rune mapping, case f
 
 ---
 
-### Document 069 — vendor/rasnikism/IO_PUBLICATION.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 070 — vendor/rasnikism/IO_PUBLICATION.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `88ca2922a537b771049914d4baf3a6188e1ea4c282bd5980e4c839a0b5d52b66`.
 
@@ -7709,7 +7769,7 @@ Import limits are 10 MiB of script text, 500 records, 2 MiB per decoded record, 
 
 ---
 
-### Document 070 — vendor/rasnikism/KEROT.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 071 — vendor/rasnikism/KEROT.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `2528cc478b13c8031903ca16bac591050b82a188d65de6aaed672e0374a1360f`.
 
@@ -7822,7 +7882,7 @@ K0 and its decoder, a basic assembler, and console examples are now available in
 
 ---
 
-### Document 071 — vendor/rasnikism/LAIR.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 072 — vendor/rasnikism/LAIR.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `d98fda6426cdeb60f4c0f4f99982baafec2c7171ba24780c45082ff5e4e4b13a`.
 
@@ -7899,7 +7959,7 @@ Here is a return, carrying what we learned.
 
 ---
 
-### Document 072 — vendor/rasnikism/MAKKAKAH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 073 — vendor/rasnikism/MAKKAKAH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `17986532b80a1d2a844f33bbddc578873c4d99a84eb283d6f5c75cae82b5cc0b`.
 
@@ -8054,7 +8114,7 @@ Keep the supplied spellings. Record definition changes with a date and reason. D
 
 ---
 
-### Document 073 — vendor/rasnikism/MANUALS.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 074 — vendor/rasnikism/MANUALS.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `9cda29303fde84179f4728ef142f6faccf09354a46d7447d30bf6f388fe8d46f`.
 
@@ -8118,7 +8178,7 @@ Run `node software/test_manuals.cjs`. Relevant checks cover builder fields, mode
 
 ---
 
-### Document 074 — vendor/rasnikism/OSTAR.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 075 — vendor/rasnikism/OSTAR.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `824847823581ec15bd8f3a7b2dab6604bba9ad5b150cb793d5c04aca118b1fb8`.
 
@@ -8162,7 +8222,7 @@ The browser reformat does not implement proposed specialist software, a native o
 
 ---
 
-### Document 075 — vendor/rasnikism/QUILT.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 076 — vendor/rasnikism/QUILT.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `1e8936be6e5bb42f96f44ec294228972e865e926e7fb24954f9d1ad362ec16b6`.
 
@@ -8206,7 +8266,7 @@ The program does not certify safety, prescribe care, make contracts valid, authe
 
 ---
 
-### Document 076 — vendor/rasnikism/README.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 077 — vendor/rasnikism/README.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `82ca086b1858e2ca32f6f9c2a52e110adf0c298749326ff4b4035957e0290ca4`.
 
@@ -8260,7 +8320,7 @@ sethianism thaumaturgism, romanticism, wizardism, altruism, florist, vampirist, 
 
 ---
 
-### Document 077 — vendor/rasnikism/REINTERPRETATION.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 078 — vendor/rasnikism/REINTERPRETATION.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `9b2e113c70050f7f1fefea44a47f9b3a29fcfd935a5c493fb3db734c502112dc`.
 
@@ -8302,7 +8362,7 @@ Run `sh bootstrap.sh` to rebuild the quilt, program library, reading editions, a
 
 ---
 
-### Document 078 — vendor/rasnikism/SEARCH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 079 — vendor/rasnikism/SEARCH.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `6b01dd77a35c7077b4e9b073d86db2e91608309b69b58b212cfdebdd8f0f85ae`.
 
@@ -8326,7 +8386,7 @@ Run `node software/test_search.cjs` for matching, ranking, pagination, integer a
 
 ---
 
-### Document 079 — vendor/rasnikism/SOFTWARE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 080 — vendor/rasnikism/SOFTWARE.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `1b78557dc2518b18033c91277cedc184cab02cd4535f898cd05c6d8a29714ebf`.
 
@@ -8409,7 +8469,7 @@ Next useful additions are assembly listings, trace inspection, derived routines,
 
 ---
 
-### Document 080 — vendor/rasnikism/SYSTEMATICS.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 081 — vendor/rasnikism/SYSTEMATICS.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `011fdba3927463d94cc5aa5ab35969dee78ca10a0c0635fd460f3b751520b210`.
 
@@ -8469,7 +8529,7 @@ Run `node software/test_systematics.cjs`. Tests cover quorum, abstentions, ties,
 
 ---
 
-### Document 081 — vendor/rasnikism/TEMPLATES.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 082 — vendor/rasnikism/TEMPLATES.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `23a9f71304975eba13b4b1d86d5067c5738ccfcd39913541232f7cc8dfc562dd`.
 
@@ -8489,7 +8549,7 @@ These are JavaScript-hosted conveniences that produce real primitive source, not
 
 ---
 
-### Document 082 — vendor/rasnikism/UPSTREAM.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
+### Document 083 — vendor/rasnikism/UPSTREAM.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.
 
 SHA-256: `66428564026984a2f60bb9911e03a3b6199c7db1e2450a5f06c1ca6b9cf311c9`.
 

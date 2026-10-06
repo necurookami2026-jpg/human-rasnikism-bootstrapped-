@@ -1,4 +1,6 @@
-# Huwster Rasnikism — Ostar Rawful, edition 11
+# Huwster Rasnikism — Ostar Rawful, edition 12
+
+Edition 12 adds a [botanical-first temple blueprint and personal HUD](docs/TEMPLE-HUD-LAUNCH-DEFAULTS.md), artificial ancient-jungle/forest/alpine interiors, standard anonymous launch settings and explicitly saved local profiles. [Default settings](publication/edition/TEMPLE-HUD-DEFAULTS.json) · [Schematic blueprint](publication/edition/TEMPLE-BLUEPRINT.svg).
 
 The default workbench now models regenerative architecture before incremental environmental choices, compiles world scripts into a bounded life-simulation game, and supplies a complete 7^8 corpus of individual Rawful legal drafts in [49 archives](publication/rawful-corpus/manifest.json). Every simulated encounter receives 49 document references in each of interactive, roleplay and jobrole contexts. [Engineering and runtime guide](docs/HUWSTER-RAWFUL-ARCHITECTURE.md).
 
