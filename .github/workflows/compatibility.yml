@@ -1,0 +1,22 @@
+name: Compatibility and publication
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '17 6 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Install optional conversion tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg python3-pil
+      - name: Test and reproduce publication
+        run: sh bootstrap.sh
+      - name: Verify generated publication is current
+        run: git diff --exit-code -- publication/edition releases

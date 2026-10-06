@@ -1,0 +1,93 @@
+{
+  "format": "ostar-kerot-quilt",
+  "version": 1,
+  "source": "ostar-final-quilt.kerot",
+  "binary": "ostar-final-quilt.k0",
+  "source_sha256": "38878a37dd022f06d89fe7e49331acfba96cb3a13f64426b2913972f4c1580b9",
+  "binary_sha256": "3f5289f3c11f5866166ac75940c694d5946a1dd780c516ba512d1dc277602405",
+  "binary_bytes": 6056,
+  "host": "Python 3 K0 reference interpreter",
+  "input": "3 Boolean mode bytes, then the selected mode payload; 0 false, nonzero true",
+  "scope": "Finite Boolean computation and decision records; no domain certification.",
+  "trace_memory": {
+    "mode_bits": [
+      60000,
+      60001,
+      60002
+    ],
+    "selected_mode": 60003,
+    "payload_start": 60010
+  },
+  "modes": [
+    {
+      "code": 0,
+      "name": "exact-science",
+      "payload": [
+        "first_bit",
+        "second_bit"
+      ],
+      "scope": "Exact addition of two Boolean bits; output is 0, 1, or 2."
+    },
+    {
+      "code": 1,
+      "name": "sakety",
+      "payload": [
+        "consent",
+        "readiness",
+        "resources"
+      ],
+      "scope": "Record a planning gate; not a safety certification."
+    },
+    {
+      "code": 2,
+      "name": "asakety",
+      "payload": [
+        "reconsideration",
+        "independent_check"
+      ],
+      "scope": "Record whether a review has both supplied conditions."
+    },
+    {
+      "code": 3,
+      "name": "sake",
+      "payload": [
+        "purpose_present"
+      ],
+      "scope": "Record whether a purpose was supplied."
+    },
+    {
+      "code": 4,
+      "name": "asake",
+      "payload": [
+        "alternative_requested"
+      ],
+      "scope": "Choose a reconsideration or continuation record."
+    },
+    {
+      "code": 5,
+      "name": "makkakah",
+      "payload": [
+        "resource_available"
+      ],
+      "scope": "Record a bounded care decision; no real-world action occurs."
+    },
+    {
+      "code": 6,
+      "name": "aantonymmakkakah",
+      "payload": [
+        "reframe_requested",
+        "permission_present"
+      ],
+      "scope": "Record a reframing decision."
+    },
+    {
+      "code": 7,
+      "name": "counterantonymmakkkah",
+      "payload": [
+        "reversal_requested",
+        "original_useful"
+      ],
+      "scope": "Reconsider a reversal while preserving useful work."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+; general primitive console demonstration
+mark r0 75
+signal r0 0 1
+mark r0 69
+signal r0 0 1
+mark r0 82
+signal r0 0 1
+mark r0 79
+signal r0 0 1
+mark r0 84
+signal r0 0 1
+mark r0 32
+signal r0 0 1
+mark r0 82
+signal r0 0 1
+mark r0 69
+signal r0 0 1
+mark r0 65
+signal r0 0 1
+mark r0 68
+signal r0 0 1
+mark r0 89
+signal r0 0 1
+mark r0 10
+signal r0 0 1
+signal r0 2 1

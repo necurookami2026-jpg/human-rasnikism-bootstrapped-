@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rasniki · Adaptable edition</title>
+<style>
+:root{color-scheme:dark;--bg:#161d19;--fg:#f1ead8;--accent:#e2ca89;--panel:#222e25;--border:#a0ab91;--size:18px;--spacing:1.7}body{margin:0;background:var(--bg);color:var(--fg);font:var(--size)/var(--spacing) Georgia,serif}body.light{color-scheme:light;--bg:#fffdf4;--fg:#18251c;--accent:#554000;--panel:#f0f2e7;--border:#52634f}main{max-width:960px;margin:auto;padding:28px 24px}a{color:var(--accent)}h1{font-size:clamp(32px,6vw,52px);line-height:1.15}h2{color:var(--accent)}fieldset,article{border:1px solid var(--border);padding:20px;margin:22px 0}legend{padding:0 8px}button,select{font:inherit;background:var(--panel);color:var(--fg);border:1px solid var(--border);padding:10px;margin:5px 8px 5px 0}button{cursor:pointer}label{display:inline-block;margin:8px 18px 8px 0}input[type=checkbox]{width:20px;height:20px;vertical-align:middle}a:focus,button:focus,select:focus,input:focus{outline:3px solid var(--accent);outline-offset:4px}.controls{display:flex;flex-wrap:wrap;gap:8px}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:12px;padding:12px;background:var(--bg)}[hidden]{display:none!important}
+</style>
+<link rel="stylesheet" href="ostar.css">
+<aside class="ostar-shell" aria-label="Ostar collection edition">
+<nav aria-label="Ostar editions"><a href="ostar.html">Ostar collection</a><a href="?edition=makkakah" data-ostar-edition="makkakah">Makkakah</a><a href="?edition=aantonymmakkakah" data-ostar-edition="aantonymmakkakah">Aantonymmakkakah</a><a href="?edition=jurisdiction" data-ostar-edition="jurisdiction">Jurisdiction review</a></nav>
+<strong>Ostar Rawful Lair · <span data-ostar-name>Makkakah</span></strong>
+<p data-ostar-guidance>Sustain purpose, care, resources, and useful work. Record effects and the next review.</p>
+<p>Edition framing does not change implementation status or certify legal validity. <a href="publication.html?document=OSTAR.md">Edition rules</a>.</p>
+</aside>
+<a class="skip" href="#content">Skip to enabled content</a>
+<main><nav><a href="index.html">Archive</a> · <a href="publication.html?document=ADAPTABLE.md">Edition definitions</a></nav>
+<h1>The adaptable edition</h1><p>Choose the parts you want to read. Emable restores access; aemdisable suspends a section in this view. These are provisional meanings of the author's terms.</p>
+<p>This edition offers reading controls; “max” is an aspiration rather than a universal accessibility claim. Changes stay in this page and are not saved.</p>
+<fieldset><legend>Sections</legend><div id="toggles"></div><div class="controls"><button type="button" id="all">Enable all · emable</button><button type="button" id="none">Disable all · aemdisable</button><button type="button" id="reset">Reset edition</button></div></fieldset>
+<fieldset><legend>Reading settings</legend>
+<label for="size">Type size <select id="size"><option value="18px">Standard</option><option value="22px">Large</option><option value="28px">Extra large</option></select></label>
+<label for="spacing">Line spacing <select id="spacing"><option value="1.7">Comfortable</option><option value="2">Spacious</option></select></label>
+<label for="theme">Palette <select id="theme"><option value="dark">Dark</option><option value="light">Light</option></select></label>
+</fieldset><p id="status" role="status" aria-live="polite"></p>
+<section id="content" tabindex="-1" aria-label="Enabled Rasniki material">
+<article id="manuals" data-title="Manual and planning studio"><h2>Manual and planning studio</h2><p>Immanuel/Emanuel manuals, advocacy, rewriting, K0 source generation, dependency blueprints, strategy, and Ostar editions.</p><a href="manuals.html">Open the studio</a></article>
+<article id="systems" data-title="Systematics and negotiation"><h2>Systematics and negotiation</h2><p>Proposals, amendments, unverified reflective votes, and local definition changes.</p><a href="systematics.html">Open systematics</a></article>
+<article id="management" data-title="Archangel management"><h2>Archangel management</h2><p>Local profiles, account metadata, publication records, and optional support.</p><a href="archangel.html">Open management</a></article>
+<article id="game" data-title="Lair gaming edition"><h2>Lair gaming edition</h2><p>Eight rooms, quests, provisions, care, repair, and JSON game saves.</p><a href="game.html">Open the game</a></article>
+<article id="io" data-title="IO IAU and IObot"><h2>I/O, IAU, and IObot</h2><p>Text exchange, provisional rune notation, and deterministic local commands.</p><a href="io.html">Open I/O</a></article>
+<article id="search" data-title="Search and math"><h2>Search and math</h2><p>Exact and approximate catalogue matching, selected workspace links, and integer arithmetic.</p><a href="search.html">Open search</a></article>
+<article id="catalogue" data-title="ACGI catalogue"><h2>ACGI catalogue</h2><p>Paginated software categories, local trends, multimedia preview, and project briefs.</p><a href="catalogue.html">Open catalogue</a></article>
+<article id="lore" data-title="Recursive lore"><h2>Recursive lore</h2><p>Mark becomes word. Word becomes dwelling. Dwelling becomes teaching. Teaching returns to mark. Rasniki keeps the memory of each return.</p><a href="index.html#lore">Read the lore</a></article>
+<article id="dictionary" data-title="Dictionary and tongue"><h2>Dictionary and tongue</h2><p>Kerot is the foundational mark; ras is return; miki is memory. The glossary and composition examples remain provisional.</p><a href="index.html#dictionary">Search the dictionary</a></article>
+<article id="ashram" data-title="Ashram and curriculum"><h2>Ashram and curriculum</h2><p>Observe, name, make, share, and revise. Keep shared records, rotate stewardship, and preserve voluntary participation.</p><a href="index.html#ashram">Read the curriculum</a></article>
+<article id="steadings" data-title="Steadings"><h2>Steadings</h2><p>Names, marks, personal boundaries, homes, houses, and cooperation become fields of responsibility. These fictional practices grant no legal sovereignty.</p><a href="index.html#steadings">Read the provisions</a></article>
+<article id="kerot" data-title="Kerot and Magrigal"><h2>Kerot and Magrigal</h2><p>The architecture proposes primitive operations, boot adapters, an OS, and a browser. These target components are not implemented by the specification.</p><a href="kerot.html">Read the architecture</a></article>
+<article id="makkakah" data-title="Makkakah and aantonymmakkakah"><h2>Makkakah and aantonymmakkakah</h2><p>Makkakah sustains care. Aantonymmakkakah reframes an issue and opens a route to repair. Both have their own entries and practices.</p><a href="makkakah.html">Read the practices</a></article>
+<article id="writing" data-title="Bookswriting"><h2>Bookswriting</h2><p>Nomicest examines judging principles, aimest states purpose, and sentest examines sentences. Books confront issues through evidence, stories, and repair.</p><a href="bookwriting.html">Read the writing framework</a></article>
+<article id="lair" data-title="Existential lair"><h2>Existential lair</h2><p>A chosen place of attention, creation, rest, and return connects the collection through lived choices.</p><a href="lair.html">Read the lair edition</a></article>
+<article id="jurisdiction" data-title="Jurisdiction guidance"><h2>Jurisdiction guidance</h2><p>Declare relevant locations and activities to generate review notes. Adaptations remain unreviewed and do not establish legal validity.</p><a href="jurisdiction.html">Open the adaptation tool</a></article>
+</section><p id="empty" hidden>All content sections are disabled. Use Enable all or choose a section above to restore content.</p>
+</main>
+<script>
+const articles=[...document.querySelectorAll('#content article')],toggles=document.querySelector('#toggles'),checks=[];
+for(const article of articles){const label=document.createElement('label'),check=document.createElement('input');check.type='checkbox';check.checked=true;check.setAttribute('aria-controls',article.id);label.append(check,document.createTextNode(' '+article.dataset.title));toggles.append(label);checks.push(check);check.addEventListener('change',refresh);}
+function refresh(){let shown=0;articles.forEach((article,i)=>{article.hidden=!checks[i].checked;if(checks[i].checked)shown++;});document.querySelector('#status').textContent=shown+' of '+articles.length+' sections enabled.';document.querySelector('#empty').hidden=shown!==0;}
+function setAll(value){checks.forEach(check=>check.checked=value);refresh();}
+function reading(){document.documentElement.style.setProperty('--size',document.querySelector('#size').value);document.documentElement.style.setProperty('--spacing',document.querySelector('#spacing').value);document.body.classList.toggle('light',document.querySelector('#theme').value==='light');}
+document.querySelector('#all').addEventListener('click',()=>setAll(true));document.querySelector('#none').addEventListener('click',()=>setAll(false));
+for(const id of ['size','spacing','theme'])document.querySelector('#'+id).addEventListener('change',reading);
+document.querySelector('#reset').addEventListener('click',()=>{document.querySelector('#size').value='18px';document.querySelector('#spacing').value='1.7';document.querySelector('#theme').value='dark';reading();setAll(true);});refresh();
+</script><script src="ostar.js"></script></html>

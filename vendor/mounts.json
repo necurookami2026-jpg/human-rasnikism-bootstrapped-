@@ -1,0 +1,16 @@
+{
+  "format": "rasniki-vendor-mount-map",
+  "version": 1,
+  "original_provenance": "provenance.json",
+  "entries": [
+    {
+      "original_directory": "sources/guardian",
+      "mount_path": "vendor/guardian"
+    },
+    {
+      "original_directory": "sources/rasnikism",
+      "mount_path": "vendor/rasnikism"
+    }
+  ],
+  "note": "Original bundled provenance bytes are retained; source-lock.json records all four verified local mount paths."
+}

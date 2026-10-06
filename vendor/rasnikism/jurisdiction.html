@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rasniki · Jurisdiction-aware edition</title>
+<style>body{margin:0;background:#161d19;color:#e9e1cc;font:18px/1.7 Georgia,serif}main{max-width:900px;margin:auto;padding:32px 24px}h1{font-size:42px;line-height:1.2}h2,a{color:#ccb677}label{display:block;margin-top:18px}input,select,button{box-sizing:border-box;padding:12px;font:16px system-ui;background:#222e25;color:#e9e1cc;border:1px solid #818b70}input,select{width:100%}button{margin-top:20px;cursor:pointer}button:focus,input:focus,select:focus{outline:2px solid #ccb677}.notice{border-left:3px solid #ccb677;padding-left:18px}pre{white-space:pre-wrap;font:16px/1.7 system-ui;background:#1c251f;padding:24px}small{font:14px/1.6 system-ui}</style>
+<link rel="stylesheet" href="ostar.css">
+<aside class="ostar-shell" aria-label="Ostar collection edition">
+<nav aria-label="Ostar editions"><a href="ostar.html">Ostar collection</a><a href="?edition=makkakah" data-ostar-edition="makkakah">Makkakah</a><a href="?edition=aantonymmakkakah" data-ostar-edition="aantonymmakkakah">Aantonymmakkakah</a><a href="?edition=jurisdiction" data-ostar-edition="jurisdiction">Jurisdiction review</a></nav>
+<strong>Ostar Rawful Lair · <span data-ostar-name>Makkakah</span></strong>
+<p data-ostar-guidance>Sustain purpose, care, resources, and useful work. Record effects and the next review.</p>
+<p>Edition framing does not change implementation status or certify legal validity. <a href="publication.html?document=OSTAR.md">Edition rules</a>.</p>
+</aside>
+<main><nav><a href="index.html">Rasniki archive</a> · <a href="lair.html">Existential lair</a></nav>
+<h1>Jurisdiction-aware edition</h1>
+<p class="notice">This tool generates a provisional adaptation and review checklist. It has no verified jurisdiction-specific rule database and cannot certify legal validity. No edition is approved automatically.</p>
+<p>Declare the relevant locations and activity. Notes change automatically as you edit. Nothing is uploaded, stored, or inferred from your location.</p>
+<label for="jurisdiction">Relevant jurisdictions or locations</label><input id="jurisdiction" maxlength="500" placeholder="Country, state or province; include other relevant locations">
+<label for="activity">Intended activity</label><select id="activity"><option value="reading">Private reading and fictional worldbuilding</option><option value="publication">Public book or website publication</option><option value="community">Ashram or community organization</option><option value="housing">Dwelling or shared housing</option><option value="software">Software or device distribution</option></select>
+<h2>Adapted edition</h2><small>Status: UNREVIEWED · Context updates alter guidance, not legal status.</small>
+<pre id="edition" aria-live="polite"></pre><button id="download" type="button">Download provisional edition</button>
+<h2>Before relying on an adaptation</h2><p>Identify which laws actually apply, consult current authoritative sources, resolve conflicting requirements, and obtain appropriate local review for the intended use. Record sources, effective dates, scope, changes, and the reviewer's conclusion. Review again when the activity, locations, or relevant rules change.</p>
+<p>Existing legal rights and obligations remain in force. Selecting a location here creates no sovereignty, tenancy, ownership, waiver, immunity, or permission.</p></main>
+<script>
+const profiles={
+reading:{wording:'The lair is a fictional place of reflection. Its rites and steadings express chosen meanings and grant no external authority.',checks:['Identify any planned use beyond private reading before relying on this profile.']},
+publication:{wording:'Makkakah sustains careful writing; aantonymmakkakah re-examines its framing. Criticism addresses supported claims and conduct, while fiction is labeled as fiction.',checks:['Review copyright and permissions for quoted or reused material.','Review privacy, defamation, publication restrictions, and material allegations.','Check accessibility and consumer requirements where relevant.']},
+community:{wording:'The ashram is a proposed voluntary association. Stewardship and participation depend on explicit agreements and applicable requirements.',checks:['Review association status, governance, safeguarding, and duties to participants.','Check employment, volunteer, tax, insurance, and fundraising requirements where relevant.']},
+housing:{wording:'Homesteading and housesteading describe care practices. Occupation, ownership, tenancy, and changes to a dwelling require appropriate rights and agreements.',checks:['Review ownership or tenancy permissions, occupancy, building and fire requirements.','Check contracts, accessibility, insurance, and responsibilities for shared resources.']},
+software:{wording:'Kerot and Magrigal remain architectural proposals. The HTML archive is implemented, but no bootable OS or kerot browser is supplied.',checks:['Review software licenses, distribution terms, privacy, security, and product claims.','Review device safety or sector-specific requirements if the intended use requires them.']}
+};
+const locationInput=document.querySelector('#jurisdiction'), activity=document.querySelector('#activity'), edition=document.querySelector('#edition');
+function render(){const p=profiles[activity.value];const place=locationInput.value.trim()||'Not specified';edition.textContent=['RASNIKI — PROVISIONAL JURISDICTION-AWARE EDITION','Status: UNREVIEWED','Prepared: '+new Date().toISOString().slice(0,10),'Declared locations: '+place,'Activity: '+activity.options[activity.selectedIndex].text,'','Existential lair: a chosen place of attention, creation, rest, and return.','Makkakah and aantonymmakkakah are distinct provisional practices; neither is reduced to an antonym label.',p.wording,'','REVIEW ITEMS',...p.checks.map(x=>'• '+x),'• Determine applicable law from the full circumstances, not readership location alone.','• No current jurisdiction-specific legal rules have been checked by this tool.','• Preserve source editions and record reviewed changes separately.','','This adaptation is guidance for review, not a certificate of validity.'].join('\n');}
+locationInput.addEventListener('input',render);activity.addEventListener('change',render);
+document.querySelector('#download').addEventListener('click',()=>{const url=URL.createObjectURL(new Blob([edition.textContent],{type:'text/plain;charset=utf-8'}));const link=document.createElement('a');link.href=url;link.download='rasniki-provisional-edition.txt';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});render();
+</script><script src="ostar.js"></script></html>

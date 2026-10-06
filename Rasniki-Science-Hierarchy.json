@@ -1,0 +1,61 @@
+{
+  "title": "Rasniki Science Edition \u2014 compact hierarchical specification",
+  "status": "schema_only_not_expanded_not_executed",
+  "levels": [
+    "stanza",
+    "paragraph",
+    "sentence",
+    "word",
+    "rune",
+    "condo",
+    "condominium",
+    "tier",
+    "floor",
+    "room",
+    "suite",
+    "app",
+    "application",
+    "program",
+    "encode_or_emrome",
+    "op"
+  ],
+  "children_per_nonterminal_node": 4,
+  "transitions_per_stanza": 15,
+  "terminal_positions_per_formal_stanza": 1073741824,
+  "payload_mapping": "formal nodes carry prose or annotations; fixed counts do not describe literal natural-language segmentation",
+  "sample_terminal_address": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "sample_op": {
+    "input": "initial-property ownership record",
+    "action": "examine ownership evidence",
+    "expected_outcome": "identified owner with supporting evidence",
+    "observation": null,
+    "status": "illustrative_not_executed"
+  },
+  "generated_terminal_records": 0,
+  "edition": 2,
+  "reading_stanzas": 6,
+  "editorial_procedures": {
+    "formation": "establish an identified edition",
+    "reformation": "record a substantive revision",
+    "format": "Markdown prose and JSON hierarchy",
+    "reformat": "revise presentation while checking meaning",
+    "franchise": "proposed authorised derivative; no rights granted",
+    "refranchise": "proposed review and renewal of derivative authorisation; no rights granted"
+  }
+}

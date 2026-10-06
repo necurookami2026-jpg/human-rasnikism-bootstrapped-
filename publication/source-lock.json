@@ -1,0 +1,1076 @@
+{
+  "format": "rasniki-hopput-source-lock",
+  "version": 1,
+  "title": "Rasniki Hopput \u2014 Max Greatest Exact Sciencerainbow, Exact Finalisable Catch, Finalisable Exact Final Quilt, Max Greatest Aimat, Max Rawful Omniarchy",
+  "edition": "8",
+  "repositories": [
+    {
+      "id": "guardian",
+      "name": "necurookami2026-jpg/antimalwarecountermalwareantispywarecounterspyware",
+      "commit": "21e05fcfee4a9f098345d260ee3c6b2825c09cb0",
+      "mount_path": "vendor/guardian",
+      "license_status": "no separate licence supplied; upstream terms not reassigned",
+      "url": "https://github.com/necurookami2026-jpg/antimalwarecountermalwareantispywarecounterspyware",
+      "requested_url": "https://github.com/necurookami2026-jpg/antimalwarecountermalwareantispywarecounterspyware",
+      "files": {
+        ".gitignore": {
+          "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+          "size": 19
+        },
+        "README.md": {
+          "sha256": "c4c73ab7af8ce3f932524e7d39527820e9dd119421b5b2380cd1a5fdbb1529fe",
+          "size": 5475
+        },
+        "guardian.py": {
+          "sha256": "0fc520d61c44a8abb03e1039c3d082d4d458f7a6acd2535ad4edae705c41adbe",
+          "size": 7615
+        },
+        "mechanics.py": {
+          "sha256": "bfa5df2b32f0b700772246b8bc6af09a0e8117fdc04b94e9005cab8bf19b364d",
+          "size": 5486
+        },
+        "test_guardian.py": {
+          "sha256": "22c046a9c92198b21a15eba6c37440d559879a3fae4cc3380efab7b822879ab0",
+          "size": 6991
+        }
+      },
+      "status": "complete tracked source snapshot; Git metadata excluded"
+    },
+    {
+      "id": "contractual",
+      "name": "necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.",
+      "commit": "6af7d654e2550d91d38894e9fb6519fcd259fcde",
+      "mount_path": "publication/sources/contractual",
+      "license_status": "mixed: new lab software GPL-3.0-or-later; retained source/prose licences unchanged",
+      "url": "https://github.com/necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.",
+      "requested_url": "https://github.com/necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers",
+      "files": {
+        ".gitignore": {
+          "sha256": "e067da29c3fcb063c1f13861055c36fcaf0ab5c4939adefe6f11e8bfe5dd49e3",
+          "size": 35
+        },
+        "README.md": {
+          "sha256": "4648d1f9a26481f05ad83990abee38540ab18b11eeab5f4cdf591d29b761f2df",
+          "size": 2082
+        },
+        "Rasniki-Monarchic-Charter.md": {
+          "sha256": "2af53714c3ab5c3451eb35c22929d7a653cfb6465f0a6bd0204dda744407d777",
+          "size": 15059
+        },
+        "Rasniki-Science-Edition.md": {
+          "sha256": "80438ddf6d339c3dbc4689c8b2f6b488a4c93be85d86dd2a89c5b79652606aac",
+          "size": 11816
+        },
+        "Rasniki-Science-Hierarchy.json": {
+          "sha256": "5775f0e3ba5d860d7b94d348da79ebe12edea03de5bb7534cbd50960bfa99994",
+          "size": 1525
+        },
+        "Rasniki-Science-Release.md": {
+          "sha256": "efe00879826e621b8bd9a660631d4352c8a4238d7ba81f2b4697ee4d3273fab7",
+          "size": 1344
+        },
+        "docs/IMPLEMENTATION.md": {
+          "sha256": "973dd9e337ae4d638ee30e7a3c52cab39e0cdbb70eb7429e56bffed88099286c",
+          "size": 11442
+        },
+        "docs/PROVENANCE.md": {
+          "sha256": "43517eae3d9dcadd319fe10d9fd0a6a61e687668c2711db2842ce44ebcd1a50e",
+          "size": 1522
+        },
+        "docs/VALIDATION.md": {
+          "sha256": "5811d795e4e76ce7862e500763d42d27627db0a1875a497586ed038899c569c0",
+          "size": 2704
+        },
+        "docs/desktop.png": {
+          "sha256": "44662c4d3ba05e1c5b81131e5745edfa9cd109552267315b554a48589d14d53f",
+          "size": 89640
+        },
+        "docs/franchise-manifest.json": {
+          "sha256": "c32ef3ff516a91d115f8448319007b47e49919d72261a34174956e6bcce19d2a",
+          "size": 10285
+        },
+        "examples/care.ras": {
+          "sha256": "4bc2b0b49d66b7e9d5557e5d202faaf19bf544ec17cfb968cbd0b658e85385e1",
+          "size": 58
+        },
+        "examples/hello.kerot": {
+          "sha256": "d1498e4a0b365d94f8aeb7c9b5732cb8cdda2209b080c0a8e42129fc50f0cedc",
+          "size": 44
+        },
+        "madrigal_lab/__init__.py": {
+          "sha256": "3772014bf65558799ec9752da99b39a202458b359860351109a57de66584b30b",
+          "size": 85
+        },
+        "madrigal_lab/__main__.py": {
+          "sha256": "e3da231473221541f3027a9a4433832707bd4ba31394aa8ffbe1809bcdd8a7f3",
+          "size": 32
+        },
+        "madrigal_lab/catalogue.py": {
+          "sha256": "a58d41030a0457542010054b056fe1c9456680fff8e51ae1b6f131b7399a8f59",
+          "size": 6623
+        },
+        "madrigal_lab/defense.py": {
+          "sha256": "9825540aef634c4d473c96d6de8ca4303dadd1fbd3ab8a8ea47cb51152196b80",
+          "size": 2964
+        },
+        "madrigal_lab/finance.py": {
+          "sha256": "f0e985476b1afa79c6b9e633fe7aed4bca58a9d18de0c90879b59227d99b57e2",
+          "size": 4791
+        },
+        "madrigal_lab/hierarchy.py": {
+          "sha256": "bf020196df5becd68949f80181c64f7a9a5829132c68e8571b59ffc5d45480c2",
+          "size": 939
+        },
+        "madrigal_lab/language.py": {
+          "sha256": "49d6747376132774a68657c3c1dc4ca36b9e5527637d8c126c0be6c420278984",
+          "size": 4773
+        },
+        "madrigal_lab/runtime.py": {
+          "sha256": "2bdf4d7c639f12253c54191b67bb083d4ce8de5077ac5643c62010c89af81829",
+          "size": 11359
+        },
+        "madrigal_lab/server.py": {
+          "sha256": "560fc48d03e19333ea277a01dfe7429710160320297657fdc4f659b4725fbfce",
+          "size": 9613
+        },
+        "madrigal_lab/web/app.js": {
+          "sha256": "a420de6e7a0fb7d49aa1d90609d3ea424facee3a4dc3f03625d3c45afd866305",
+          "size": 4424
+        },
+        "madrigal_lab/web/heraldry.svg": {
+          "sha256": "5534645fb6aec51574ead8a80047dcca88e269293a61dc9a6ef7336026b27f7c",
+          "size": 551
+        },
+        "madrigal_lab/web/index.html": {
+          "sha256": "17bbb9027a1fba831de4d15b03ba82a727a22879d84c2bb022d9c55ddc65e5fe",
+          "size": 8353
+        },
+        "madrigal_lab/web/style.css": {
+          "sha256": "d7950cbe636b84272b642e5ea2327c257ae3df15a7f59e708a14bdde01ba5af9",
+          "size": 2506
+        },
+        "tests/test_lab.py": {
+          "sha256": "47dc1e60afbd493de8bdc7d4afd4c44bc002f3cd819f17ecb00b930bcb3bf92a",
+          "size": 12475
+        },
+        "vendor/guardian/.gitignore": {
+          "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+          "size": 19
+        },
+        "vendor/guardian/README.md": {
+          "sha256": "c4c73ab7af8ce3f932524e7d39527820e9dd119421b5b2380cd1a5fdbb1529fe",
+          "size": 5475
+        },
+        "vendor/guardian/guardian.py": {
+          "sha256": "0fc520d61c44a8abb03e1039c3d082d4d458f7a6acd2535ad4edae705c41adbe",
+          "size": 7615
+        },
+        "vendor/guardian/mechanics.py": {
+          "sha256": "bfa5df2b32f0b700772246b8bc6af09a0e8117fdc04b94e9005cab8bf19b364d",
+          "size": 5486
+        },
+        "vendor/guardian/test_guardian.py": {
+          "sha256": "22c046a9c92198b21a15eba6c37440d559879a3fae4cc3380efab7b822879ab0",
+          "size": 6991
+        },
+        "vendor/provenance.json": {
+          "sha256": "1d9212fec0fd52f652396cd44854905dd36672572bda5739b4bf9930169a38b0",
+          "size": 11034
+        },
+        "vendor/rasnikism/ADAPTABLE.md": {
+          "sha256": "f926006a8b696b58f558000b8a245cf0bbd2b2d809fd80e50b80b29fbfd38c52",
+          "size": 2642
+        },
+        "vendor/rasnikism/ARCHANGEL.md": {
+          "sha256": "d05868825a78156600fc3cb9bbab88c9036f142678d5dc4d5e7137f26cf4ea68",
+          "size": 6721
+        },
+        "vendor/rasnikism/BOOKWRITING.md": {
+          "sha256": "5386c93918b917acc684be3c58cee5dc0d2b03b2160aa3fa1b3b9364e52b2f57",
+          "size": 8096
+        },
+        "vendor/rasnikism/CATALOGUE.md": {
+          "sha256": "f593b2e67a7147a6462be629c8ad2119b3ca3ccac3699715aadefdf18e0d3aac",
+          "size": 4453
+        },
+        "vendor/rasnikism/DEVELOPMENT.md": {
+          "sha256": "ab7538a54bb99310fa3b80dc0b8895f165ba95c69f4d3f333db4e2eef9e417d4",
+          "size": 2991
+        },
+        "vendor/rasnikism/DRIVERS.md": {
+          "sha256": "c6a94239afd38889029132ae279ce2313f33a0c2106c8cae67e9fa65d8db9b65",
+          "size": 3981
+        },
+        "vendor/rasnikism/GAME.md": {
+          "sha256": "eb2b188fbc699eb98d3081d5f5e074e652241f5393a8db6b9dcdf8df21fb00ea",
+          "size": 3440
+        },
+        "vendor/rasnikism/GUIDANCE.md": {
+          "sha256": "c89f34e45accdfc0e54d76c3648f34e3478ca570b6268d3d52700d31a4c8a333",
+          "size": 5789
+        },
+        "vendor/rasnikism/IO.md": {
+          "sha256": "d6d24f5a3e93346e7c4c5bc5d65d23e0dd9f734836227c66ba36995dbe28212d",
+          "size": 2733
+        },
+        "vendor/rasnikism/IO_PUBLICATION.md": {
+          "sha256": "88ca2922a537b771049914d4baf3a6188e1ea4c282bd5980e4c839a0b5d52b66",
+          "size": 2640
+        },
+        "vendor/rasnikism/KEROT.md": {
+          "sha256": "2528cc478b13c8031903ca16bac591050b82a188d65de6aaed672e0374a1360f",
+          "size": 10675
+        },
+        "vendor/rasnikism/LAIR.md": {
+          "sha256": "d98fda6426cdeb60f4c0f4f99982baafec2c7171ba24780c45082ff5e4e4b13a",
+          "size": 4433
+        },
+        "vendor/rasnikism/LICENSE": {
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "size": 35149
+        },
+        "vendor/rasnikism/MAKKAKAH.md": {
+          "sha256": "17986532b80a1d2a844f33bbddc578873c4d99a84eb283d6f5c75cae82b5cc0b",
+          "size": 9210
+        },
+        "vendor/rasnikism/MANUALS.md": {
+          "sha256": "9cda29303fde84179f4728ef142f6faccf09354a46d7447d30bf6f388fe8d46f",
+          "size": 5345
+        },
+        "vendor/rasnikism/OSTAR.md": {
+          "sha256": "824847823581ec15bd8f3a7b2dab6604bba9ad5b150cb793d5c04aca118b1fb8",
+          "size": 3154
+        },
+        "vendor/rasnikism/QUILT.md": {
+          "sha256": "1e8936be6e5bb42f96f44ec294228972e865e926e7fb24954f9d1ad362ec16b6",
+          "size": 3090
+        },
+        "vendor/rasnikism/README.md": {
+          "sha256": "82ca086b1858e2ca32f6f9c2a52e110adf0c298749326ff4b4035957e0290ca4",
+          "size": 2284
+        },
+        "vendor/rasnikism/REINTERPRETATION.md": {
+          "sha256": "9b2e113c70050f7f1fefea44a47f9b3a29fcfd935a5c493fb3db734c502112dc",
+          "size": 3898
+        },
+        "vendor/rasnikism/SEARCH.md": {
+          "sha256": "6b01dd77a35c7077b4e9b073d86db2e91608309b69b58b212cfdebdd8f0f85ae",
+          "size": 1771
+        },
+        "vendor/rasnikism/SOFTWARE.md": {
+          "sha256": "1b78557dc2518b18033c91277cedc184cab02cd4535f898cd05c6d8a29714ebf",
+          "size": 4803
+        },
+        "vendor/rasnikism/SYSTEMATICS.md": {
+          "sha256": "011fdba3927463d94cc5aa5ab35969dee78ca10a0c0635fd460f3b751520b210",
+          "size": 5252
+        },
+        "vendor/rasnikism/TEMPLATES.md": {
+          "sha256": "23a9f71304975eba13b4b1d86d5067c5738ccfcd39913541232f7cc8dfc562dd",
+          "size": 1056
+        },
+        "vendor/rasnikism/UPSTREAM.md": {
+          "sha256": "66428564026984a2f60bb9911e03a3b6199c7db1e2450a5f06c1ca6b9cf311c9",
+          "size": 5571
+        },
+        "vendor/rasnikism/adaptable.html": {
+          "sha256": "3de4165ce30a9e028f9fb530adb308bd049139e75431ca814447fc80fad5401b",
+          "size": 9513
+        },
+        "vendor/rasnikism/archangel-ui.js": {
+          "sha256": "bf6a37923c9c01e2467d46a8dc22e6de7984256b5b3498271045aa7a6e378b95",
+          "size": 3419
+        },
+        "vendor/rasnikism/archangel.html": {
+          "sha256": "6cf5d8547c7a8f41f88897ed765f07e333efefb1f3389b682e5a829bbdbe0679",
+          "size": 6225
+        },
+        "vendor/rasnikism/archangel.js": {
+          "sha256": "114635653a794a7444af629d47fa96ad2531570a410857d864f32474255ed0a3",
+          "size": 3521
+        },
+        "vendor/rasnikism/bookwriting.html": {
+          "sha256": "948e0d14caeee91813da3df5cf277a3ab1350c220f43b03e5fa504a95f58084d",
+          "size": 10548
+        },
+        "vendor/rasnikism/bootstrap.sh": {
+          "sha256": "9622188dfa327c22b81724419035f8cba170d80ead1b5e5d0e40d4fc2a28f7ba",
+          "size": 475
+        },
+        "vendor/rasnikism/catalogue-ui.js": {
+          "sha256": "6738380949545238c60b7be3ea09d01133a27cf24c53bb24d98e2347313869ba",
+          "size": 4705
+        },
+        "vendor/rasnikism/catalogue.html": {
+          "sha256": "412620576264f3b9893a02b1a7d34847ad224a519b897b469fb1a02fdbff18a7",
+          "size": 5360
+        },
+        "vendor/rasnikism/catalogue.js": {
+          "sha256": "c6ed1b2765a6734bd29527e6aa04bf1637d5778c92d6cefc256a6e67f4382d26",
+          "size": 14193
+        },
+        "vendor/rasnikism/editions/OSTAR-AANTONYMMAKKAKAH.md": {
+          "sha256": "ddb3854f6866dba01bc42afbcfe0487ccdd0ddbbbf48c5ae3054db89a00323c0",
+          "size": 106052
+        },
+        "vendor/rasnikism/editions/OSTAR-JURISDICTION-REVIEW.md": {
+          "sha256": "8c02a39994ab86fc648e68467c6247f6a2d0de455d43636db3d95fbf14e9e9ba",
+          "size": 106122
+        },
+        "vendor/rasnikism/editions/OSTAR-MAKKAKAH.md": {
+          "sha256": "4e2a6f0d0f82a84ca459624ea69da5363f78f26b067eed614fd2b340fa62e8cf",
+          "size": 106029
+        },
+        "vendor/rasnikism/encoded/ostar-aantonymmakkakah.io": {
+          "sha256": "ad7a120a1d6952caf15ad2be3ca1c196c984e9a01faa97fd5c838032788983c1",
+          "size": 622739
+        },
+        "vendor/rasnikism/encoded/ostar-jurisdiction.io": {
+          "sha256": "8f916c35e4241e8612b5f7b9317a62abfb5263fa6ba7c3213050c4bdf2931391",
+          "size": 622769
+        },
+        "vendor/rasnikism/encoded/ostar-makkakah.io": {
+          "sha256": "da6e5f70a5554b7143fbe8a6c1ca9fad22d2867f8a2a1c7b64143a969a70f616",
+          "size": 622730
+        },
+        "vendor/rasnikism/game-ui.js": {
+          "sha256": "0df4b4ca5cd505d37abf0eb68d158ba9c77985e74cbed68422b3cd30965d1ede",
+          "size": 2842
+        },
+        "vendor/rasnikism/game.html": {
+          "sha256": "81b36c37d66e61b2735aca598b909330d8e331638353ae03babf125ea375571a",
+          "size": 3924
+        },
+        "vendor/rasnikism/game.js": {
+          "sha256": "56dca6ba3d540134e7669f0cc01e84687fb5dddf82ee99480a8ad20e614004c4",
+          "size": 4001
+        },
+        "vendor/rasnikism/guidance.html": {
+          "sha256": "e1d1144f973213d94f02591db1976988fb7ebee147b82ef3be722173260c9f4a",
+          "size": 7473
+        },
+        "vendor/rasnikism/index.html": {
+          "sha256": "28fc9a06233dcf27968f2276a5d12c9aadb416a4342b51a22b9be2b0b82fc86d",
+          "size": 11610
+        },
+        "vendor/rasnikism/io-ui.js": {
+          "sha256": "757582caf0ffd75062e5c32facd0c3f8ca43ad72100ccde5c1769d60b2c0eac8",
+          "size": 3318
+        },
+        "vendor/rasnikism/io.html": {
+          "sha256": "cee030b02e0f28d5a1002d4d09c0e85c4c186806307eb5c40bb515c100c48c46",
+          "size": 4388
+        },
+        "vendor/rasnikism/io.js": {
+          "sha256": "ee47a1c46bee5224a24344957abdba3b6406f1b21059b84b2cd4f58c06d016de",
+          "size": 2693
+        },
+        "vendor/rasnikism/jerry-pop-ui.js": {
+          "sha256": "756ea794a8e9e5887d5f62b09792461bcde7d4b8ac796728231025b5b7428424",
+          "size": 6235
+        },
+        "vendor/rasnikism/jerry-pop.html": {
+          "sha256": "0065833344dff31222b53623cea8f94eb2bc4fb6057437989a6feb7d249da3f3",
+          "size": 6452
+        },
+        "vendor/rasnikism/jerry-pop.js": {
+          "sha256": "fcb229fc9f448c1ea2cf1978807f9f74e605b1570db93a54127bab882d1a48e7",
+          "size": 5892
+        },
+        "vendor/rasnikism/jurisdiction.html": {
+          "sha256": "b5ef405a6bb95e6a2c4245f0e3447a8ddb2c1daa3bbe1b8be5d77dafbf47ca74",
+          "size": 6768
+        },
+        "vendor/rasnikism/kerot.html": {
+          "sha256": "0f785b8e6eb0b9c4f47254515a9eb0ff7f0f1e35127165f4c05e26bf1588c58d",
+          "size": 13084
+        },
+        "vendor/rasnikism/lair.html": {
+          "sha256": "78dbd297ae56c9f79f2117db5be5e0058f073f3f4f48b4522ca3a2066a82a581",
+          "size": 6510
+        },
+        "vendor/rasnikism/language.html": {
+          "sha256": "ec20decd38c5c29b610a0a587384d5658f0014e132279b88e8a203af81490e1d",
+          "size": 2306
+        },
+        "vendor/rasnikism/language/ostar-final-quilt.k0": {
+          "sha256": "3f5289f3c11f5866166ac75940c694d5946a1dd780c516ba512d1dc277602405",
+          "size": 6056
+        },
+        "vendor/rasnikism/language/ostar-final-quilt.kerot": {
+          "sha256": "38878a37dd022f06d89fe7e49331acfba96cb3a13f64426b2913972f4c1580b9",
+          "size": 11344
+        },
+        "vendor/rasnikism/language/ports.json": {
+          "sha256": "4699b923f952234bbbdf06fc89e7eef617e1e3a558a7e89949a710850dbb2a69",
+          "size": 630
+        },
+        "vendor/rasnikism/language/quilt-manifest.json": {
+          "sha256": "0e2bfed2d7a4116e2644b2853b6806a8847fe6321b0d7a6f0ffacaa9d0539adc",
+          "size": 2287
+        },
+        "vendor/rasnikism/language/quilt-program.js": {
+          "sha256": "498496b1aac98c286e869b6b5ff377f7dc6143bf63cb3fb77633e16c27776428",
+          "size": 13954
+        },
+        "vendor/rasnikism/makkakah.html": {
+          "sha256": "9fbe5fcaf7d65bfb6acd6759e7e94557269db068113d120c5e95e9b019f3f37e",
+          "size": 12225
+        },
+        "vendor/rasnikism/manuals-ui.js": {
+          "sha256": "e7a8ea836b36ddcd24b62226a65f6dbe8460d8eac7b1b5aa4cccfa1567cbd3fb",
+          "size": 2494
+        },
+        "vendor/rasnikism/manuals.html": {
+          "sha256": "a44ae5e0670358fbd19c249e00d6becf537964b5283cecf5c026d5088b1f84ac",
+          "size": 5438
+        },
+        "vendor/rasnikism/manuals.js": {
+          "sha256": "7578a49ef77e8081b949260dad557c82a802fa0e14e41dbe5f18b12e49d28261",
+          "size": 3969
+        },
+        "vendor/rasnikism/ostar.css": {
+          "sha256": "814cee8f1ff388f603f01f26a2c7b70a8e0675fa516c6e2f8304cf2c3cb145e9",
+          "size": 1006
+        },
+        "vendor/rasnikism/ostar.html": {
+          "sha256": "50ae02f5629630813d01c6b94ef420023c53a72829830cac6a23c1d207ce7b52",
+          "size": 3758
+        },
+        "vendor/rasnikism/ostar.js": {
+          "sha256": "c71d44d17d76f93adfedaded7064335b492738d8a43fefe8e285382ab1aa2ede",
+          "size": 1332
+        },
+        "vendor/rasnikism/program-library.js": {
+          "sha256": "17172f6ead97a1b1419b0888588d6bca5ca4bd52abe2f2c1c1cd36cc52c30afe",
+          "size": 2357
+        },
+        "vendor/rasnikism/publication-data.js": {
+          "sha256": "7c0a3da7565bc6aaf5b8602a485d4236188f14a2b957c3cb98c851a57b99d77a",
+          "size": 1873894
+        },
+        "vendor/rasnikism/publication-ui.js": {
+          "sha256": "1244eb275b66d3a88b105a824d0783c3c06d49ac7ef880b862269c6679e1e96c",
+          "size": 2707
+        },
+        "vendor/rasnikism/publication.html": {
+          "sha256": "3462c0628eb4b583ccedb9b838aa86386a25d8c45bc7b465f8934650b7d1987b",
+          "size": 2521
+        },
+        "vendor/rasnikism/publication.js": {
+          "sha256": "73a359cb63a9c477e64671b9740aaeb11f3bf7f0e568ea5707e659fec5a12da1",
+          "size": 2146
+        },
+        "vendor/rasnikism/reinterpret.js": {
+          "sha256": "d3099e9b704a81c1acb2d1435237ed193fd848332201fd65929602fc92e661be",
+          "size": 3635
+        },
+        "vendor/rasnikism/search-ui.js": {
+          "sha256": "0f78bb083b957d8dd9947edb2b87795ad200b218107654c375b59d270a22ee2b",
+          "size": 1683
+        },
+        "vendor/rasnikism/search.html": {
+          "sha256": "f2b363602696fba4f05adaf774c97715b95d754a0d244070e54c33f0056b9c59",
+          "size": 3287
+        },
+        "vendor/rasnikism/search.js": {
+          "sha256": "f2100c0d74c7285de809b9aa70466504760bab7b609756805b0390f620b38c73",
+          "size": 2244
+        },
+        "vendor/rasnikism/software/build_editions.py": {
+          "sha256": "08c8b4588351024619ce5ceb6408c29a8063c067bd6564023c5016e746a3d4ab",
+          "size": 2288
+        },
+        "vendor/rasnikism/software/build_io_publication.py": {
+          "sha256": "845254a11d27a0b32bf6fb7ac30dd39dc368cd35856c3ebcbf86e88e1acb6471",
+          "size": 2277
+        },
+        "vendor/rasnikism/software/build_program_library.py": {
+          "sha256": "98d917e6e564def0daa2d4557635b61a1c35b479b0ce6a64515f77bd2a665de5",
+          "size": 825
+        },
+        "vendor/rasnikism/software/build_quilt.py": {
+          "sha256": "4a53636413d183e39d1eb1b0dfb8bb4ad1963d822386751d5997a55509950324",
+          "size": 5779
+        },
+        "vendor/rasnikism/software/drivers.py": {
+          "sha256": "e80086648dbf587442e2ee8134427bedcee41988d9037dd68269230be2c4ea68",
+          "size": 1875
+        },
+        "vendor/rasnikism/software/examples/aantonymmakkakah.kerot": {
+          "sha256": "3234bef0fd8fe0a8c142ecc49738fed8a34dadefa84b7ad9173ecce8a80a172a",
+          "size": 540
+        },
+        "vendor/rasnikism/software/examples/drivers.kerot": {
+          "sha256": "bb947e7747ffeb59aa8370b0dd365042c6501a0270f8941a75aa6fe46f841c98",
+          "size": 183
+        },
+        "vendor/rasnikism/software/examples/echo.kerot": {
+          "sha256": "ceb4e7a2cf625537dd155ba42a458655463f605f55c73db865f05a22efd01fb7",
+          "size": 80
+        },
+        "vendor/rasnikism/software/examples/general.kerot": {
+          "sha256": "1eb1fac749d03f5c004a85e17668a1030c4ce65b8634b7a0189610721c3f2fde",
+          "size": 356
+        },
+        "vendor/rasnikism/software/examples/makkakah.kerot": {
+          "sha256": "dc9fbfed9533d744ab0a6abd141c5ff9c29953c653ec4df30511ca2a169c465d",
+          "size": 382
+        },
+        "vendor/rasnikism/software/kerot.py": {
+          "sha256": "2ff43289c6aa4f7c8987db51d205b9486e86c253ca7aecdc07cc0c461ff08fa5",
+          "size": 7342
+        },
+        "vendor/rasnikism/software/quilt.py": {
+          "sha256": "c113ca2eec74f27956c333917d419b06809e7de7fb5bd47eebc3f570939a0a45",
+          "size": 1468
+        },
+        "vendor/rasnikism/software/test_archangel.cjs": {
+          "sha256": "be7ac99c16e34fedaf70535a7e8844a8dcdc07ae0bf59d2af63aaf29afdde6ab",
+          "size": 3523
+        },
+        "vendor/rasnikism/software/test_catalogue.cjs": {
+          "sha256": "d50523a576246a5d65800d573fb42ab5112d9f5aa2092e5cea54ebc6951e797d",
+          "size": 4515
+        },
+        "vendor/rasnikism/software/test_drivers.py": {
+          "sha256": "6d40fa944501ba9bbcdf6eb148ed1196ccd9ce6406aef7982f76c59c0d119a06",
+          "size": 2372
+        },
+        "vendor/rasnikism/software/test_game.cjs": {
+          "sha256": "66f666bd3f8430292f8e0373d8c815e2d0321149b07b5ee137527f745c5e8f9d",
+          "size": 3965
+        },
+        "vendor/rasnikism/software/test_io.cjs": {
+          "sha256": "c3f4fdf62181b4ba453185db7537e12b48f244d0e9e77cb6770f55326511024d",
+          "size": 3795
+        },
+        "vendor/rasnikism/software/test_jerry_pop.cjs": {
+          "sha256": "5160cb80e2f436237189817691556882b795f480a28c9096b0df31f1bda8e803",
+          "size": 6242
+        },
+        "vendor/rasnikism/software/test_kerot.py": {
+          "sha256": "a1ad8e61e333571a9926875f7b3400b74481452e9eeb1d1efddf58474ebf3db3",
+          "size": 3306
+        },
+        "vendor/rasnikism/software/test_manuals.cjs": {
+          "sha256": "abdb758cd7797db7b55779efadf54f623a78db98a2a7c705ac1f02114ad17019",
+          "size": 3676
+        },
+        "vendor/rasnikism/software/test_ostar.cjs": {
+          "sha256": "81874c521a20cc0055d38eeeeb6bccb26f74ba11a9a3a5628592e8f28a1fbe63",
+          "size": 2735
+        },
+        "vendor/rasnikism/software/test_publication.cjs": {
+          "sha256": "8b6f51cb88b5daa614aeeba8ebc00c52a57003193a3aca3310d3fe08290579a5",
+          "size": 4251
+        },
+        "vendor/rasnikism/software/test_quilt.py": {
+          "sha256": "7ae3f928629191b4003ed1057bf96fc0212a8c01930532fbac74528f0b5bedeb",
+          "size": 4346
+        },
+        "vendor/rasnikism/software/test_reinterpret.cjs": {
+          "sha256": "e948904d84f8c34ec4c772fb4d4ec47f72f2a8e8f51a84176a0c8e8eee7b0a99",
+          "size": 4124
+        },
+        "vendor/rasnikism/software/test_search.cjs": {
+          "sha256": "9adaffb128b70c339ffb7807b5bf474620d0475b58c2eb20cea43f0073350c79",
+          "size": 2691
+        },
+        "vendor/rasnikism/software/test_systematics.cjs": {
+          "sha256": "3748827d65fb355deffa18ef360f77552ea06b54a60ad55f3c65ce0b7676bf30",
+          "size": 4121
+        },
+        "vendor/rasnikism/software/test_templates.cjs": {
+          "sha256": "4f653409b7ba95c0e14f39fe1255be938448266a610fc3d4ee31de2190a04163",
+          "size": 1247
+        },
+        "vendor/rasnikism/systematics-ui.js": {
+          "sha256": "f01b828f77bdf0d71d4c7792b7a6081553ed53696d8c5727a9a0538d79ba54b0",
+          "size": 4042
+        },
+        "vendor/rasnikism/systematics.html": {
+          "sha256": "e33d2e4cdbdcb79bc47058b508eec90287d13675714a5150aa523ee7154c2bc9",
+          "size": 5175
+        },
+        "vendor/rasnikism/systematics.js": {
+          "sha256": "af5d8b5a661674820ae44e87e961b393efb28b6b21dd7ea844be6e359e071496",
+          "size": 4095
+        },
+        "vendor/rasnikism/templates.js": {
+          "sha256": "a96fe05689901b44d803cfb4b83c318344a2b278f9d627ef23eff76c0304703d",
+          "size": 1074
+        }
+      },
+      "status": "complete tracked source snapshot; Git metadata excluded"
+    },
+    {
+      "id": "ministry",
+      "name": "necurookami2026-jpg/internetwomanagementministry",
+      "commit": "2cba17e4e95a33ffd50ea4c43368a33a64650394",
+      "mount_path": "vendor/internetwomanagementministry",
+      "license_status": "no licence declaration supplied; upstream terms not reassigned",
+      "url": "https://github.com/necurookami2026-jpg/internetwomanagementministry",
+      "requested_url": "https://github.com/necurookami2026-jpg/internetwomanagementministry",
+      "files": {
+        "README.md": {
+          "sha256": "210c2f4e654e7982555e0861baac0938d1c6f187b40091469dbdd24fc9e78c7a",
+          "size": 880
+        },
+        "docs/.nojekyll": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        "docs/index.html": {
+          "sha256": "fac9ebbde6b0549108de22d2afb8232d2f5e0105eb831d63af54b394dd6cdce0",
+          "size": 8483
+        },
+        "site/index.html": {
+          "sha256": "fac9ebbde6b0549108de22d2afb8232d2f5e0105eb831d63af54b394dd6cdce0",
+          "size": 8483
+        }
+      },
+      "status": "complete tracked source snapshot; Git metadata excluded"
+    },
+    {
+      "id": "rasnikism",
+      "name": "necurookami2026-jpg/rasnikism-bootstrapped",
+      "commit": "575340ab2aacfc914c5a3c56342d4bd1d8225eb1",
+      "mount_path": "vendor/rasnikism",
+      "license_status": "GPL licence retained in LICENSE",
+      "url": "https://github.com/necurookami2026-jpg/rasnikism-bootstrapped",
+      "requested_url": "https://github.com/necurookami2026-jpg/rasnikism-bootstrapped",
+      "files": {
+        "ADAPTABLE.md": {
+          "sha256": "f926006a8b696b58f558000b8a245cf0bbd2b2d809fd80e50b80b29fbfd38c52",
+          "size": 2642
+        },
+        "ARCHANGEL.md": {
+          "sha256": "d05868825a78156600fc3cb9bbab88c9036f142678d5dc4d5e7137f26cf4ea68",
+          "size": 6721
+        },
+        "BOOKWRITING.md": {
+          "sha256": "5386c93918b917acc684be3c58cee5dc0d2b03b2160aa3fa1b3b9364e52b2f57",
+          "size": 8096
+        },
+        "CATALOGUE.md": {
+          "sha256": "f593b2e67a7147a6462be629c8ad2119b3ca3ccac3699715aadefdf18e0d3aac",
+          "size": 4453
+        },
+        "DEVELOPMENT.md": {
+          "sha256": "ab7538a54bb99310fa3b80dc0b8895f165ba95c69f4d3f333db4e2eef9e417d4",
+          "size": 2991
+        },
+        "DRIVERS.md": {
+          "sha256": "c6a94239afd38889029132ae279ce2313f33a0c2106c8cae67e9fa65d8db9b65",
+          "size": 3981
+        },
+        "GAME.md": {
+          "sha256": "eb2b188fbc699eb98d3081d5f5e074e652241f5393a8db6b9dcdf8df21fb00ea",
+          "size": 3440
+        },
+        "GUIDANCE.md": {
+          "sha256": "c89f34e45accdfc0e54d76c3648f34e3478ca570b6268d3d52700d31a4c8a333",
+          "size": 5789
+        },
+        "IO.md": {
+          "sha256": "d6d24f5a3e93346e7c4c5bc5d65d23e0dd9f734836227c66ba36995dbe28212d",
+          "size": 2733
+        },
+        "IO_PUBLICATION.md": {
+          "sha256": "88ca2922a537b771049914d4baf3a6188e1ea4c282bd5980e4c839a0b5d52b66",
+          "size": 2640
+        },
+        "KEROT.md": {
+          "sha256": "2528cc478b13c8031903ca16bac591050b82a188d65de6aaed672e0374a1360f",
+          "size": 10675
+        },
+        "LAIR.md": {
+          "sha256": "d98fda6426cdeb60f4c0f4f99982baafec2c7171ba24780c45082ff5e4e4b13a",
+          "size": 4433
+        },
+        "LICENSE": {
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "size": 35149
+        },
+        "MAKKAKAH.md": {
+          "sha256": "17986532b80a1d2a844f33bbddc578873c4d99a84eb283d6f5c75cae82b5cc0b",
+          "size": 9210
+        },
+        "MANUALS.md": {
+          "sha256": "9cda29303fde84179f4728ef142f6faccf09354a46d7447d30bf6f388fe8d46f",
+          "size": 5345
+        },
+        "OSTAR.md": {
+          "sha256": "824847823581ec15bd8f3a7b2dab6604bba9ad5b150cb793d5c04aca118b1fb8",
+          "size": 3154
+        },
+        "QUILT.md": {
+          "sha256": "1e8936be6e5bb42f96f44ec294228972e865e926e7fb24954f9d1ad362ec16b6",
+          "size": 3090
+        },
+        "README.md": {
+          "sha256": "82ca086b1858e2ca32f6f9c2a52e110adf0c298749326ff4b4035957e0290ca4",
+          "size": 2284
+        },
+        "REINTERPRETATION.md": {
+          "sha256": "9b2e113c70050f7f1fefea44a47f9b3a29fcfd935a5c493fb3db734c502112dc",
+          "size": 3898
+        },
+        "SEARCH.md": {
+          "sha256": "6b01dd77a35c7077b4e9b073d86db2e91608309b69b58b212cfdebdd8f0f85ae",
+          "size": 1771
+        },
+        "SOFTWARE.md": {
+          "sha256": "1b78557dc2518b18033c91277cedc184cab02cd4535f898cd05c6d8a29714ebf",
+          "size": 4803
+        },
+        "SYSTEMATICS.md": {
+          "sha256": "011fdba3927463d94cc5aa5ab35969dee78ca10a0c0635fd460f3b751520b210",
+          "size": 5252
+        },
+        "TEMPLATES.md": {
+          "sha256": "23a9f71304975eba13b4b1d86d5067c5738ccfcd39913541232f7cc8dfc562dd",
+          "size": 1056
+        },
+        "UPSTREAM.md": {
+          "sha256": "66428564026984a2f60bb9911e03a3b6199c7db1e2450a5f06c1ca6b9cf311c9",
+          "size": 5571
+        },
+        "adaptable.html": {
+          "sha256": "3de4165ce30a9e028f9fb530adb308bd049139e75431ca814447fc80fad5401b",
+          "size": 9513
+        },
+        "archangel-ui.js": {
+          "sha256": "bf6a37923c9c01e2467d46a8dc22e6de7984256b5b3498271045aa7a6e378b95",
+          "size": 3419
+        },
+        "archangel.html": {
+          "sha256": "6cf5d8547c7a8f41f88897ed765f07e333efefb1f3389b682e5a829bbdbe0679",
+          "size": 6225
+        },
+        "archangel.js": {
+          "sha256": "114635653a794a7444af629d47fa96ad2531570a410857d864f32474255ed0a3",
+          "size": 3521
+        },
+        "bookwriting.html": {
+          "sha256": "948e0d14caeee91813da3df5cf277a3ab1350c220f43b03e5fa504a95f58084d",
+          "size": 10548
+        },
+        "bootstrap.sh": {
+          "sha256": "9622188dfa327c22b81724419035f8cba170d80ead1b5e5d0e40d4fc2a28f7ba",
+          "size": 475
+        },
+        "catalogue-ui.js": {
+          "sha256": "6738380949545238c60b7be3ea09d01133a27cf24c53bb24d98e2347313869ba",
+          "size": 4705
+        },
+        "catalogue.html": {
+          "sha256": "412620576264f3b9893a02b1a7d34847ad224a519b897b469fb1a02fdbff18a7",
+          "size": 5360
+        },
+        "catalogue.js": {
+          "sha256": "c6ed1b2765a6734bd29527e6aa04bf1637d5778c92d6cefc256a6e67f4382d26",
+          "size": 14193
+        },
+        "editions/OSTAR-AANTONYMMAKKAKAH.md": {
+          "sha256": "ddb3854f6866dba01bc42afbcfe0487ccdd0ddbbbf48c5ae3054db89a00323c0",
+          "size": 106052
+        },
+        "editions/OSTAR-JURISDICTION-REVIEW.md": {
+          "sha256": "8c02a39994ab86fc648e68467c6247f6a2d0de455d43636db3d95fbf14e9e9ba",
+          "size": 106122
+        },
+        "editions/OSTAR-MAKKAKAH.md": {
+          "sha256": "4e2a6f0d0f82a84ca459624ea69da5363f78f26b067eed614fd2b340fa62e8cf",
+          "size": 106029
+        },
+        "encoded/ostar-aantonymmakkakah.io": {
+          "sha256": "ad7a120a1d6952caf15ad2be3ca1c196c984e9a01faa97fd5c838032788983c1",
+          "size": 622739
+        },
+        "encoded/ostar-jurisdiction.io": {
+          "sha256": "8f916c35e4241e8612b5f7b9317a62abfb5263fa6ba7c3213050c4bdf2931391",
+          "size": 622769
+        },
+        "encoded/ostar-makkakah.io": {
+          "sha256": "da6e5f70a5554b7143fbe8a6c1ca9fad22d2867f8a2a1c7b64143a969a70f616",
+          "size": 622730
+        },
+        "game-ui.js": {
+          "sha256": "0df4b4ca5cd505d37abf0eb68d158ba9c77985e74cbed68422b3cd30965d1ede",
+          "size": 2842
+        },
+        "game.html": {
+          "sha256": "81b36c37d66e61b2735aca598b909330d8e331638353ae03babf125ea375571a",
+          "size": 3924
+        },
+        "game.js": {
+          "sha256": "56dca6ba3d540134e7669f0cc01e84687fb5dddf82ee99480a8ad20e614004c4",
+          "size": 4001
+        },
+        "guidance.html": {
+          "sha256": "e1d1144f973213d94f02591db1976988fb7ebee147b82ef3be722173260c9f4a",
+          "size": 7473
+        },
+        "index.html": {
+          "sha256": "28fc9a06233dcf27968f2276a5d12c9aadb416a4342b51a22b9be2b0b82fc86d",
+          "size": 11610
+        },
+        "io-ui.js": {
+          "sha256": "757582caf0ffd75062e5c32facd0c3f8ca43ad72100ccde5c1769d60b2c0eac8",
+          "size": 3318
+        },
+        "io.html": {
+          "sha256": "cee030b02e0f28d5a1002d4d09c0e85c4c186806307eb5c40bb515c100c48c46",
+          "size": 4388
+        },
+        "io.js": {
+          "sha256": "ee47a1c46bee5224a24344957abdba3b6406f1b21059b84b2cd4f58c06d016de",
+          "size": 2693
+        },
+        "jerry-pop-ui.js": {
+          "sha256": "756ea794a8e9e5887d5f62b09792461bcde7d4b8ac796728231025b5b7428424",
+          "size": 6235
+        },
+        "jerry-pop.html": {
+          "sha256": "0065833344dff31222b53623cea8f94eb2bc4fb6057437989a6feb7d249da3f3",
+          "size": 6452
+        },
+        "jerry-pop.js": {
+          "sha256": "fcb229fc9f448c1ea2cf1978807f9f74e605b1570db93a54127bab882d1a48e7",
+          "size": 5892
+        },
+        "jurisdiction.html": {
+          "sha256": "b5ef405a6bb95e6a2c4245f0e3447a8ddb2c1daa3bbe1b8be5d77dafbf47ca74",
+          "size": 6768
+        },
+        "kerot.html": {
+          "sha256": "0f785b8e6eb0b9c4f47254515a9eb0ff7f0f1e35127165f4c05e26bf1588c58d",
+          "size": 13084
+        },
+        "lair.html": {
+          "sha256": "78dbd297ae56c9f79f2117db5be5e0058f073f3f4f48b4522ca3a2066a82a581",
+          "size": 6510
+        },
+        "language.html": {
+          "sha256": "ec20decd38c5c29b610a0a587384d5658f0014e132279b88e8a203af81490e1d",
+          "size": 2306
+        },
+        "language/ostar-final-quilt.k0": {
+          "sha256": "3f5289f3c11f5866166ac75940c694d5946a1dd780c516ba512d1dc277602405",
+          "size": 6056
+        },
+        "language/ostar-final-quilt.kerot": {
+          "sha256": "38878a37dd022f06d89fe7e49331acfba96cb3a13f64426b2913972f4c1580b9",
+          "size": 11344
+        },
+        "language/ports.json": {
+          "sha256": "4699b923f952234bbbdf06fc89e7eef617e1e3a558a7e89949a710850dbb2a69",
+          "size": 630
+        },
+        "language/quilt-manifest.json": {
+          "sha256": "0e2bfed2d7a4116e2644b2853b6806a8847fe6321b0d7a6f0ffacaa9d0539adc",
+          "size": 2287
+        },
+        "language/quilt-program.js": {
+          "sha256": "498496b1aac98c286e869b6b5ff377f7dc6143bf63cb3fb77633e16c27776428",
+          "size": 13954
+        },
+        "makkakah.html": {
+          "sha256": "9fbe5fcaf7d65bfb6acd6759e7e94557269db068113d120c5e95e9b019f3f37e",
+          "size": 12225
+        },
+        "manuals-ui.js": {
+          "sha256": "e7a8ea836b36ddcd24b62226a65f6dbe8460d8eac7b1b5aa4cccfa1567cbd3fb",
+          "size": 2494
+        },
+        "manuals.html": {
+          "sha256": "a44ae5e0670358fbd19c249e00d6becf537964b5283cecf5c026d5088b1f84ac",
+          "size": 5438
+        },
+        "manuals.js": {
+          "sha256": "7578a49ef77e8081b949260dad557c82a802fa0e14e41dbe5f18b12e49d28261",
+          "size": 3969
+        },
+        "ostar.css": {
+          "sha256": "814cee8f1ff388f603f01f26a2c7b70a8e0675fa516c6e2f8304cf2c3cb145e9",
+          "size": 1006
+        },
+        "ostar.html": {
+          "sha256": "50ae02f5629630813d01c6b94ef420023c53a72829830cac6a23c1d207ce7b52",
+          "size": 3758
+        },
+        "ostar.js": {
+          "sha256": "c71d44d17d76f93adfedaded7064335b492738d8a43fefe8e285382ab1aa2ede",
+          "size": 1332
+        },
+        "program-library.js": {
+          "sha256": "17172f6ead97a1b1419b0888588d6bca5ca4bd52abe2f2c1c1cd36cc52c30afe",
+          "size": 2357
+        },
+        "publication-data.js": {
+          "sha256": "7c0a3da7565bc6aaf5b8602a485d4236188f14a2b957c3cb98c851a57b99d77a",
+          "size": 1873894
+        },
+        "publication-ui.js": {
+          "sha256": "1244eb275b66d3a88b105a824d0783c3c06d49ac7ef880b862269c6679e1e96c",
+          "size": 2707
+        },
+        "publication.html": {
+          "sha256": "3462c0628eb4b583ccedb9b838aa86386a25d8c45bc7b465f8934650b7d1987b",
+          "size": 2521
+        },
+        "publication.js": {
+          "sha256": "73a359cb63a9c477e64671b9740aaeb11f3bf7f0e568ea5707e659fec5a12da1",
+          "size": 2146
+        },
+        "reinterpret.js": {
+          "sha256": "d3099e9b704a81c1acb2d1435237ed193fd848332201fd65929602fc92e661be",
+          "size": 3635
+        },
+        "search-ui.js": {
+          "sha256": "0f78bb083b957d8dd9947edb2b87795ad200b218107654c375b59d270a22ee2b",
+          "size": 1683
+        },
+        "search.html": {
+          "sha256": "f2b363602696fba4f05adaf774c97715b95d754a0d244070e54c33f0056b9c59",
+          "size": 3287
+        },
+        "search.js": {
+          "sha256": "f2100c0d74c7285de809b9aa70466504760bab7b609756805b0390f620b38c73",
+          "size": 2244
+        },
+        "software/build_editions.py": {
+          "sha256": "08c8b4588351024619ce5ceb6408c29a8063c067bd6564023c5016e746a3d4ab",
+          "size": 2288
+        },
+        "software/build_io_publication.py": {
+          "sha256": "845254a11d27a0b32bf6fb7ac30dd39dc368cd35856c3ebcbf86e88e1acb6471",
+          "size": 2277
+        },
+        "software/build_program_library.py": {
+          "sha256": "98d917e6e564def0daa2d4557635b61a1c35b479b0ce6a64515f77bd2a665de5",
+          "size": 825
+        },
+        "software/build_quilt.py": {
+          "sha256": "4a53636413d183e39d1eb1b0dfb8bb4ad1963d822386751d5997a55509950324",
+          "size": 5779
+        },
+        "software/drivers.py": {
+          "sha256": "e80086648dbf587442e2ee8134427bedcee41988d9037dd68269230be2c4ea68",
+          "size": 1875
+        },
+        "software/examples/aantonymmakkakah.kerot": {
+          "sha256": "3234bef0fd8fe0a8c142ecc49738fed8a34dadefa84b7ad9173ecce8a80a172a",
+          "size": 540
+        },
+        "software/examples/drivers.kerot": {
+          "sha256": "bb947e7747ffeb59aa8370b0dd365042c6501a0270f8941a75aa6fe46f841c98",
+          "size": 183
+        },
+        "software/examples/echo.kerot": {
+          "sha256": "ceb4e7a2cf625537dd155ba42a458655463f605f55c73db865f05a22efd01fb7",
+          "size": 80
+        },
+        "software/examples/general.kerot": {
+          "sha256": "1eb1fac749d03f5c004a85e17668a1030c4ce65b8634b7a0189610721c3f2fde",
+          "size": 356
+        },
+        "software/examples/makkakah.kerot": {
+          "sha256": "dc9fbfed9533d744ab0a6abd141c5ff9c29953c653ec4df30511ca2a169c465d",
+          "size": 382
+        },
+        "software/kerot.py": {
+          "sha256": "2ff43289c6aa4f7c8987db51d205b9486e86c253ca7aecdc07cc0c461ff08fa5",
+          "size": 7342
+        },
+        "software/quilt.py": {
+          "sha256": "c113ca2eec74f27956c333917d419b06809e7de7fb5bd47eebc3f570939a0a45",
+          "size": 1468
+        },
+        "software/test_archangel.cjs": {
+          "sha256": "be7ac99c16e34fedaf70535a7e8844a8dcdc07ae0bf59d2af63aaf29afdde6ab",
+          "size": 3523
+        },
+        "software/test_catalogue.cjs": {
+          "sha256": "d50523a576246a5d65800d573fb42ab5112d9f5aa2092e5cea54ebc6951e797d",
+          "size": 4515
+        },
+        "software/test_drivers.py": {
+          "sha256": "6d40fa944501ba9bbcdf6eb148ed1196ccd9ce6406aef7982f76c59c0d119a06",
+          "size": 2372
+        },
+        "software/test_game.cjs": {
+          "sha256": "66f666bd3f8430292f8e0373d8c815e2d0321149b07b5ee137527f745c5e8f9d",
+          "size": 3965
+        },
+        "software/test_io.cjs": {
+          "sha256": "c3f4fdf62181b4ba453185db7537e12b48f244d0e9e77cb6770f55326511024d",
+          "size": 3795
+        },
+        "software/test_jerry_pop.cjs": {
+          "sha256": "5160cb80e2f436237189817691556882b795f480a28c9096b0df31f1bda8e803",
+          "size": 6242
+        },
+        "software/test_kerot.py": {
+          "sha256": "a1ad8e61e333571a9926875f7b3400b74481452e9eeb1d1efddf58474ebf3db3",
+          "size": 3306
+        },
+        "software/test_manuals.cjs": {
+          "sha256": "abdb758cd7797db7b55779efadf54f623a78db98a2a7c705ac1f02114ad17019",
+          "size": 3676
+        },
+        "software/test_ostar.cjs": {
+          "sha256": "81874c521a20cc0055d38eeeeb6bccb26f74ba11a9a3a5628592e8f28a1fbe63",
+          "size": 2735
+        },
+        "software/test_publication.cjs": {
+          "sha256": "8b6f51cb88b5daa614aeeba8ebc00c52a57003193a3aca3310d3fe08290579a5",
+          "size": 4251
+        },
+        "software/test_quilt.py": {
+          "sha256": "7ae3f928629191b4003ed1057bf96fc0212a8c01930532fbac74528f0b5bedeb",
+          "size": 4346
+        },
+        "software/test_reinterpret.cjs": {
+          "sha256": "e948904d84f8c34ec4c772fb4d4ec47f72f2a8e8f51a84176a0c8e8eee7b0a99",
+          "size": 4124
+        },
+        "software/test_search.cjs": {
+          "sha256": "9adaffb128b70c339ffb7807b5bf474620d0475b58c2eb20cea43f0073350c79",
+          "size": 2691
+        },
+        "software/test_systematics.cjs": {
+          "sha256": "3748827d65fb355deffa18ef360f77552ea06b54a60ad55f3c65ce0b7676bf30",
+          "size": 4121
+        },
+        "software/test_templates.cjs": {
+          "sha256": "4f653409b7ba95c0e14f39fe1255be938448266a610fc3d4ee31de2190a04163",
+          "size": 1247
+        },
+        "systematics-ui.js": {
+          "sha256": "f01b828f77bdf0d71d4c7792b7a6081553ed53696d8c5727a9a0538d79ba54b0",
+          "size": 4042
+        },
+        "systematics.html": {
+          "sha256": "e33d2e4cdbdcb79bc47058b508eec90287d13675714a5150aa523ee7154c2bc9",
+          "size": 5175
+        },
+        "systematics.js": {
+          "sha256": "af5d8b5a661674820ae44e87e961b393efb28b6b21dd7ea844be6e359e071496",
+          "size": 4095
+        },
+        "templates.js": {
+          "sha256": "a96fe05689901b44d803cfb4b83c318344a2b278f9d627ef23eff76c0304703d",
+          "size": 1074
+        }
+      },
+      "status": "complete tracked source snapshot; Git metadata excluded"
+    }
+  ],
+  "scope": "Four pinned source editions. Max and greatest are edition labels; exactness is limited to identified finite checks.",
+  "requested_url_correction": "The contractual repository exists with a final period; the supplied URL without that period returned Repository not found.",
+  "subtitle": "Lair of Lairs \u2014 Recursive Form, Format and Formate",
+  "layout": "bounded-recursive-source-lairs"
+}

@@ -1,0 +1,50 @@
+{
+  "format": "sciencerainbowrainbowscience-computerwork",
+  "samples": [
+    {
+      "colour": "red",
+      "frequency_hz": "428274940000000",
+      "roundtrip_nm": "700",
+      "wavelength_nm": "700"
+    },
+    {
+      "colour": "orange",
+      "frequency_hz": "14989622900000000/31",
+      "roundtrip_nm": "620",
+      "wavelength_nm": "620"
+    },
+    {
+      "colour": "yellow",
+      "frequency_hz": "14989622900000000/29",
+      "roundtrip_nm": "580",
+      "wavelength_nm": "580"
+    },
+    {
+      "colour": "green",
+      "frequency_hz": "29979245800000000/53",
+      "roundtrip_nm": "530",
+      "wavelength_nm": "530"
+    },
+    {
+      "colour": "blue",
+      "frequency_hz": "29979245800000000/47",
+      "roundtrip_nm": "470",
+      "wavelength_nm": "470"
+    },
+    {
+      "colour": "indigo",
+      "frequency_hz": "59958491600000000/89",
+      "roundtrip_nm": "445",
+      "wavelength_nm": "445"
+    },
+    {
+      "colour": "violet",
+      "frequency_hz": "749481145000000",
+      "roundtrip_nm": "400",
+      "wavelength_nm": "400"
+    }
+  ],
+  "scope": "Exact arithmetic on declared samples; not measured colour boundaries or a complete optical simulation.",
+  "speed_of_light_m_per_s": 299792458,
+  "version": 1
+}

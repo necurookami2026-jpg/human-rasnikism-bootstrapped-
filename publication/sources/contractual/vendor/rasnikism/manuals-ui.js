@@ -1,0 +1,12 @@
+'use strict';
+const studio=globalThis.RasnikiManuals,byId=id=>document.getElementById(id),outputs={};
+function download(content,name,type){const url=URL.createObjectURL(new Blob([content],{type})),link=document.createElement('a');link.href=url;link.download=name;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+function run(kind,fn){try{outputs[kind]=fn();byId(kind+'-output').textContent=outputs[kind];byId(kind+'-save').disabled=false;byId(kind+'-status').textContent='Generated locally; review before use.';}catch(e){delete outputs[kind];byId(kind+'-save').disabled=true;byId(kind+'-output').textContent='';byId(kind+'-status').textContent=e.message;}}
+function invalidate(kind){delete outputs[kind];byId(kind+'-save').disabled=true;byId(kind+'-status').textContent='Inputs changed. Generate a fresh result before exporting.';}
+for(const [value,[label]] of Object.entries(studio.modes)){const option=document.createElement('option');option.value=value;option.textContent=label;byId('mode').append(option);}
+byId('generate').addEventListener('click',()=>run('manual',()=>{const fields={};for(const key of ['title','purpose','procedure','acceptance','rights','locations','review'])fields[key]=byId(key).value;return studio.manual(byId('mode').value,fields);}));
+byId('rewrite').addEventListener('click',()=>run('rewrite',()=>{const result=studio.rewrite(byId('source').value,byId('find').value,byId('replacement').value);return 'Replacement count: '+result.count+'\n\n'+result.text;}));
+byId('program').addEventListener('click',()=>run('program',()=>studio.program(byId('message').value)));
+byId('validate').addEventListener('click',()=>run('blueprint',()=>JSON.stringify(studio.blueprint(byId('blueprint').value),null,2)));
+for(const [kind,ids] of Object.entries({manual:['mode','title','purpose','procedure','acceptance','rights','locations','review'],rewrite:['source','find','replacement'],program:['message'],blueprint:['blueprint']}))for(const id of ids)byId(id).addEventListener(id==='mode'?'change':'input',()=>invalidate(kind));
+for(const [kind,name,type] of [['manual','rasniki-manual.md','text/markdown'],['rewrite','rasniki-rewritten.txt','text/plain'],['program','rasniki-message.kerot','text/plain'],['blueprint','rasniki-blueprint.json','application/json']])byId(kind+'-save').addEventListener('click',()=>{if(outputs[kind]!==undefined){const content=kind==='rewrite'?outputs[kind].split('\n\n').slice(1).join('\n\n'):outputs[kind];download(content,name,type);}});

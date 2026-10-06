@@ -1,0 +1,780 @@
+; Ostar Rawful Lair final quilt — K0 primitive programming-language edition
+; Three input bytes select a mode as Boolean bits, most significant first.
+; Payload bytes are Boolean: zero is false, any nonzero byte is true.
+; Finite planning decisions, not universal safety or scientific certification.
+signal r0 1 0
+write r0 60000
+signal r1 1 0
+write r1 60001
+signal r2 1 0
+write r2 60002
+choose r0 select_0 select_1
+select_0: choose r1 select_00 select_01
+select_00: choose r2 mode_0 mode_1
+select_01: choose r2 mode_2 mode_3
+select_1: choose r1 select_10 select_11
+select_10: choose r2 mode_4 mode_5
+select_11: choose r2 mode_6 mode_7
+mode_0: mark r15 0
+write r15 60003
+signal r3 1 0
+write r3 60010
+signal r4 1 0
+write r4 60011
+choose r3 add_zero add_one
+add_zero: choose r4 sum_0 sum_1
+add_one: choose r4 sum_1 sum_2
+sum_0:
+mark r14 48
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+sum_1:
+mark r14 49
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+sum_2:
+mark r14 50
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+mode_1: mark r15 1
+write r15 60003
+signal r3 1 0
+write r3 60010
+signal r4 1 0
+write r4 60011
+signal r5 1 0
+write r5 60012
+gate_1_0: choose r3 review_1 gate_1_1
+gate_1_1: choose r4 review_1 gate_1_2
+gate_1_2: choose r5 review_1 pass_1
+pass_1:
+mark r14 80
+signal r14 0 1
+mark r14 76
+signal r14 0 1
+mark r14 65
+signal r14 0 1
+mark r14 78
+signal r14 0 1
+mark r14 78
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 78
+signal r14 0 1
+mark r14 71
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 67
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 78
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 84
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 78
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 67
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+review_1:
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 86
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 87
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 81
+signal r14 0 1
+mark r14 85
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+mode_2: mark r15 2
+write r15 60003
+signal r3 1 0
+write r3 60010
+signal r4 1 0
+write r4 60011
+gate_2_0: choose r3 review_2 gate_2_1
+gate_2_1: choose r4 review_2 pass_2
+pass_2:
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 86
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 87
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 67
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 78
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 84
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 78
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 67
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+review_2:
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 86
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 87
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 81
+signal r14 0 1
+mark r14 85
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+mode_3: mark r15 3
+write r15 60003
+signal r3 1 0
+write r3 60010
+choose r3 false_3 true_3
+false_3:
+mark r14 80
+signal r14 0 1
+mark r14 85
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 80
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 78
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 84
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 84
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+true_3:
+mark r14 80
+signal r14 0 1
+mark r14 85
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 80
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 84
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+mode_4: mark r15 4
+write r15 60003
+signal r3 1 0
+write r3 60010
+choose r3 false_4 true_4
+false_4:
+mark r14 67
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 78
+signal r14 0 1
+mark r14 84
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 78
+signal r14 0 1
+mark r14 85
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 86
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 87
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+true_4:
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 67
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 78
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 80
+signal r14 0 1
+mark r14 85
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 80
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+mode_5: mark r15 5
+write r15 60003
+signal r3 1 0
+write r3 60010
+choose r3 false_5 true_5
+false_5:
+mark r14 67
+signal r14 0 1
+mark r14 65
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 78
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 85
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 67
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+true_5:
+mark r14 67
+signal r14 0 1
+mark r14 65
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 67
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 78
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 67
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+mode_6: mark r15 6
+write r15 60003
+signal r3 1 0
+write r3 60010
+signal r4 1 0
+write r4 60011
+choose r3 no_reframe check_permission
+check_permission: choose r4 reframe_review reframe_record
+no_reframe:
+mark r14 78
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 70
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 65
+signal r14 0 1
+mark r14 77
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 81
+signal r14 0 1
+mark r14 85
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 84
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+reframe_review:
+mark r14 80
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 77
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 78
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 86
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 87
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 81
+signal r14 0 1
+mark r14 85
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+reframe_record:
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 70
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 65
+signal r14 0 1
+mark r14 77
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 67
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 78
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 67
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+mode_7: mark r15 7
+write r15 60003
+signal r3 1 0
+write r3 60010
+signal r4 1 0
+write r4 60011
+choose r3 no_reversal check_original
+check_original: choose r4 reversal_review preserve_original
+no_reversal:
+mark r14 78
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 86
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 65
+signal r14 0 1
+mark r14 76
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 81
+signal r14 0 1
+mark r14 85
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 84
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 68
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+reversal_review:
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 86
+signal r14 0 1
+mark r14 73
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 87
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 86
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 65
+signal r14 0 1
+mark r14 76
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1
+preserve_original:
+mark r14 80
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 86
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 85
+signal r14 0 1
+mark r14 83
+signal r14 0 1
+mark r14 69
+signal r14 0 1
+mark r14 70
+signal r14 0 1
+mark r14 85
+signal r14 0 1
+mark r14 76
+signal r14 0 1
+mark r14 32
+signal r14 0 1
+mark r14 87
+signal r14 0 1
+mark r14 79
+signal r14 0 1
+mark r14 82
+signal r14 0 1
+mark r14 75
+signal r14 0 1
+mark r14 10
+signal r14 0 1
+signal r14 2 1

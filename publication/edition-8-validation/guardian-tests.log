@@ -1,0 +1,20 @@
+test_cli_baseline_check_and_exit_codes (test_guardian.GuardianTests.test_cli_baseline_check_and_exit_codes) ... ok
+test_detection_and_preservation (test_guardian.GuardianTests.test_detection_and_preservation) ... ok
+test_encryption_change_composites (test_guardian.GuardianTests.test_encryption_change_composites) ... ok
+test_entropy_alone_is_not_an_alert (test_guardian.GuardianTests.test_entropy_alone_is_not_an_alert) ... ok
+test_executable_masquerading (test_guardian.GuardianTests.test_executable_masquerading) ... ok
+test_incomplete_scan_suppresses_correlations (test_guardian.GuardianTests.test_incomplete_scan_suppresses_correlations) ... ok
+test_integrity_changes (test_guardian.GuardianTests.test_integrity_changes) ... ok
+test_invalid_signature_and_wrong_root (test_guardian.GuardianTests.test_invalid_signature_and_wrong_root) ... ok
+test_legacy_baseline_uses_content_not_new_metadata (test_guardian.GuardianTests.test_legacy_baseline_uses_content_not_new_metadata) ... ok
+test_marker_across_chunk_boundary (test_guardian.GuardianTests.test_marker_across_chunk_boundary) ... ok
+test_prefix_memory_is_bounded (test_guardian.GuardianTests.test_prefix_memory_is_bounded) ... ok
+test_read_error_is_reported_and_baseline_not_saved (test_guardian.GuardianTests.test_read_error_is_reported_and_baseline_not_saved) ... Error: Cannot save incomplete baseline: [{"path": "unreadable", "error": "denied"}]
+ok
+test_script_composites_require_both_primitives (test_guardian.GuardianTests.test_script_composites_require_both_primitives) ... ok
+test_symlink_not_followed (test_guardian.GuardianTests.test_symlink_not_followed) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.393s
+
+OK

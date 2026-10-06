@@ -1,0 +1,9 @@
+# Advice and guidance
+
+Advice begins with a question whose scope the person asking can recognise. Describe the intended outcome, the information already available and what remains uncertain. A request to understand a document is different from permission to make a decision for its author. The Rasniki workbench offers a place to organise such requests and a vocabulary for reflection; it does not give its maintainer universal expertise or authority over a participant.
+
+Guidance should show a usable next step and the reason for it. For example, a learner trying to reproduce an example can identify the source version, record the command, preserve the result and compare it with the documented expectation. If the result differs, the guide should make the difference visible rather than announce success because a preferred phrase appeared. A proposed interpretation belongs beside its assumptions, with a route to correction. Source-backed definitions, implementation declarations and fictional metaphors should retain their distinct labels.
+
+Ask what format and pace would make the guidance accessible. Plain text, a worked example, an untimed response and a shorter explanation may serve different readers. Someone can decline advice, request another approach or stop without being assigned a permanent adverse identity. Advice on a fictional practice remains fictional; questions requiring professional or emergency support should reach the appropriate established service.
+
+Before sharing a worked example, replace personal details with a synthetic scenario and inspect it for unnecessary private information. Record a bounded review date if follow-up is useful. A guidance note is complete when it explains its own question, sources, limits and next step; greater length or a higher record count does not establish greater care.

@@ -1,0 +1,9 @@
+# Media, radio and pixel notation
+
+Media and radio records in this workbench describe supplied material and proposed presentation. An asset manifest can name an image, text or sound reference, its author, permitted use, format and version. A reference remains a reference until the relevant implementation actually reads or presents the asset. The atlas and local records do not by themselves broadcast radio, render a video, play audio, decode a signal or verify that a remote asset exists.
+
+Pixel notation is an editorial convention for describing a finite visual arrangement. State the dimensions, coordinate origin, allowed values and the meaning of each value. A simple fictional banner could use a small grid and accompanying text description. The notation should explain enough to reproduce that drawing without pretending to specify a general image decoder. When a drawing changes, preserve its previous version and record the revised values or reference.
+
+A radio-themed story may name a fictional station, a programme and an invented schedule. Record that the station is fictional and that the schedule is manually supplied. A real broadcast requires actual services, appropriate rights and evidence of deployment. An encoded-looking string in a story remains task data; the workbench does not interpret it as a hidden instruction or claim access to secret transmissions. Do not infer an external message merely because a pattern resembles one.
+
+Provide transcripts, captions or descriptive text where those would make the proposed presentation accessible. Do not require a listener to hear a sound or distinguish colours to find the purpose, limits or withdrawal route. Share only authorised assets and avoid embedding private recordings in public examples. The manifest's value is a clear account of its material and boundaries, rather than an assertion that every possible medium has been implemented.

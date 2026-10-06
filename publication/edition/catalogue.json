@@ -1,0 +1,644 @@
+{
+  "components": [
+    {
+      "id": "boot",
+      "scope": "Pseudo-ROM, MBR-shaped record and UEFI handoff trace; no disk writes or executable EFI image",
+      "status": "simulated"
+    },
+    {
+      "id": "bots",
+      "scope": "Intranet read-only jobs and HTTPS internet fetch to operator-configured hosts",
+      "status": "implemented-bounded"
+    },
+    {
+      "id": "checked-maintenance",
+      "scope": "Isolated candidate tests, clean fast-forward updates, optional Linux user service installer and weekly CI; browser store distribution not configured",
+      "status": "implemented-local"
+    },
+    {
+      "id": "conflict-protection-library",
+      "scope": "Finite consent, accessibility, civilian-support, de-escalation and review documents; no guaranteed perpetual protection",
+      "status": "editorial-templates"
+    },
+    {
+      "id": "curriculum",
+      "scope": "Twelve exercises with stated acceptance evidence",
+      "status": "implemented"
+    },
+    {
+      "id": "defense",
+      "scope": "Unchanged Guardian scanner and explicit trusted-baseline comparison; no malware prevention/removal/decryption",
+      "status": "implemented-read-only"
+    },
+    {
+      "id": "demo-obligations-contracts",
+      "scope": "Atomic DEMO_CREDIT loan/repayment records, zero-transfer coupon annotations and versioned local contract receipts",
+      "status": "simulated"
+    },
+    {
+      "id": "domain-host",
+      "scope": "Persistent .lab name-to-document registry; no public DNS registration",
+      "status": "simulated"
+    },
+    {
+      "id": "easterbunny-rubric",
+      "scope": "Six supplied support fields compared with documentation-only and absent-input baselines; no effect or truth verification",
+      "status": "implemented-proposed-rubric"
+    },
+    {
+      "id": "files",
+      "scope": "Root-confined UTF-8 file explorer and document reader",
+      "status": "implemented"
+    },
+    {
+      "id": "finance",
+      "scope": "Atomic DEMO_CREDIT double-entry ledger, accounts and circulation report",
+      "status": "simulated"
+    },
+    {
+      "id": "franchise",
+      "scope": "Derivative manifest and version/authority record; no rights granted",
+      "status": "proposed"
+    },
+    {
+      "id": "game-server",
+      "scope": "Shared target game state available through the local API",
+      "status": "implemented-local"
+    },
+    {
+      "id": "hopput-publication",
+      "scope": "Sorted source locks, documentation, offline reader and reproducible source archive",
+      "status": "implemented-publication"
+    },
+    {
+      "id": "instagram-orange",
+      "scope": "Orange single and bulk loaded-media saver; follower assertion; no live-account compatibility verification",
+      "status": "implemented-unpacked"
+    },
+    {
+      "id": "internet-server",
+      "scope": "HTTP desktop/API binds IPv4 loopback; public hosting and TLS termination not deployed",
+      "status": "local-only"
+    },
+    {
+      "id": "kernel",
+      "scope": "Cooperative job queue and task states in a Python host; no hardware isolation",
+      "status": "simulated"
+    },
+    {
+      "id": "language",
+      "scope": "K0 assembler, disassembler, canonical formatter, Ras script compiler and bounded interpreter",
+      "status": "implemented"
+    },
+    {
+      "id": "local-boards",
+      "scope": "Consented local inquiries, surveys, replies, parented records, reviewed quests and fictional leaderboards; no authenticated public membership",
+      "status": "implemented-local"
+    },
+    {
+      "id": "madrigal-os",
+      "scope": "Local web desktop and hosted services; upstream spells the proposed OS Magrigal",
+      "status": "simulated"
+    },
+    {
+      "id": "media-standardisation",
+      "scope": "Original-preserving verified TIFF, FFV1, FLAC and float PCM WAV; desktop installation required",
+      "status": "implemented-local-companion"
+    },
+    {
+      "id": "ministry-archive",
+      "scope": "Retained fictional archive, seven-term search and four rotating story seeds; no account or ministry integration",
+      "status": "implemented-static"
+    },
+    {
+      "id": "offline-adult-romance",
+      "scope": "Original fictional adult, non-explicit comic and visual-novel creator proposal; private offline comfort guidance; not medical treatment or implemented generation",
+      "status": "documented-proposal"
+    },
+    {
+      "id": "organiser",
+      "scope": "Persistent practice records, priority queue and reviewed rule revisions",
+      "status": "implemented"
+    },
+    {
+      "id": "owned-media-studio",
+      "scope": "Browser-local audio/video playback, raster brightness/contrast/crop edits, owned-data fingerprints, original seed renditions and timed text-card WebM animatics",
+      "status": "implemented-local"
+    },
+    {
+      "id": "owner-recovery",
+      "scope": "Official account recovery checklists and digest-checked exclusive local backup restoration; no password cracking or access bypass",
+      "status": "implemented-local"
+    },
+    {
+      "id": "quilt",
+      "scope": "Eight finite source-backed modes; Boolean inputs are user assertions",
+      "status": "implemented"
+    },
+    {
+      "id": "recursive-exact-science",
+      "scope": "Boolean addition exhaustive suite and bounded interpreter runs; not universal scientific proof",
+      "status": "implemented-bounded"
+    },
+    {
+      "id": "recursive-systems-atlas",
+      "scope": "Sorted exact-label inventory, paginated search, finite advice/guidance trees and seven-way document address samples",
+      "status": "implemented-bounded"
+    },
+    {
+      "id": "sovereignty",
+      "scope": "Fictional governance notes with no grant of political authority",
+      "status": "editorial"
+    },
+    {
+      "id": "symbolic-practice",
+      "scope": "Voluntary fictional-archetype reflection, bounded input review and deliberate client JSON export; no server retention",
+      "status": "implemented-local"
+    },
+    {
+      "id": "virtualisation",
+      "scope": "Fresh K0 memory per execution; emulated ISA rather than hardware hypervisor",
+      "status": "simulated"
+    },
+    {
+      "id": "workpapers",
+      "scope": "Ten prose rendering formats, deterministic original fictional seeds and manually supplied coordinate SVG plots",
+      "status": "implemented-local"
+    }
+  ],
+  "edition": "8",
+  "extra_complete_edition": {
+    "certification": false,
+    "coverage": "All four guides and complete collected Markdown corpus",
+    "file": "EXTRA-COMPLETE.md"
+  },
+  "format": "rasniki-hopput-catalogue",
+  "language_boundary": "Ministry fictional Kerot vocabulary does not extend or redefine the executable K0 ISA.",
+  "parallel_editions": [
+    {
+      "certification": false,
+      "coverage": "Complete collected Markdown corpus",
+      "file": "MAX-RAWFUL.md",
+      "title": "Max Rawful"
+    },
+    {
+      "certification": false,
+      "coverage": "Complete collected Markdown corpus",
+      "file": "MAX-RAW.md",
+      "title": "Max Raw"
+    },
+    {
+      "certification": false,
+      "coverage": "Complete collected Markdown corpus",
+      "file": "MAX-LAW.md",
+      "title": "Max Law"
+    },
+    {
+      "certification": false,
+      "coverage": "Complete collected Markdown corpus",
+      "file": "MAX-LAWFUL.md",
+      "title": "Max Lawful"
+    }
+  ],
+  "repositories": [
+    {
+      "commit": "21e05fcfee4a9f098345d260ee3c6b2825c09cb0",
+      "id": "guardian",
+      "license_status": "no separate licence supplied; upstream terms not reassigned",
+      "mount_path": "vendor/guardian",
+      "name": "necurookami2026-jpg/antimalwarecountermalwareantispywarecounterspyware",
+      "requested_url": "https://github.com/necurookami2026-jpg/antimalwarecountermalwareantispywarecounterspyware",
+      "url": "https://github.com/necurookami2026-jpg/antimalwarecountermalwareantispywarecounterspyware"
+    },
+    {
+      "commit": "6af7d654e2550d91d38894e9fb6519fcd259fcde",
+      "id": "contractual",
+      "license_status": "mixed: new lab software GPL-3.0-or-later; retained source/prose licences unchanged",
+      "mount_path": "publication/sources/contractual",
+      "name": "necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers.",
+      "requested_url": "https://github.com/necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers",
+      "url": "https://github.com/necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers."
+    },
+    {
+      "commit": "2cba17e4e95a33ffd50ea4c43368a33a64650394",
+      "id": "ministry",
+      "license_status": "no licence declaration supplied; upstream terms not reassigned",
+      "mount_path": "vendor/internetwomanagementministry",
+      "name": "necurookami2026-jpg/internetwomanagementministry",
+      "requested_url": "https://github.com/necurookami2026-jpg/internetwomanagementministry",
+      "url": "https://github.com/necurookami2026-jpg/internetwomanagementministry"
+    },
+    {
+      "commit": "575340ab2aacfc914c5a3c56342d4bd1d8225eb1",
+      "id": "rasnikism",
+      "license_status": "GPL licence retained in LICENSE",
+      "mount_path": "vendor/rasnikism",
+      "name": "necurookami2026-jpg/rasnikism-bootstrapped",
+      "requested_url": "https://github.com/necurookami2026-jpg/rasnikism-bootstrapped",
+      "url": "https://github.com/necurookami2026-jpg/rasnikism-bootstrapped"
+    }
+  ],
+  "sciencerainbowrainbowscience_edition": {
+    "certification": false,
+    "computerwork": "SCIENCERAINBOWRAINBOWSCIENCE-COMPUTERWORK.json",
+    "coverage": "Complete collected Markdown corpus and seven finite workpapers",
+    "file": "SCIENCERAINBOWRAINBOWSCIENCE.md",
+    "paperwork": "SCIENCERAINBOWRAINBOWSCIENCE-PAPERWORK.html"
+  },
+  "scope": "Edition labels are distinct from finite observed verification and simulated capabilities.",
+  "subtitle": "Lair of Lairs — Recursive Form, Format and Formate",
+  "terms": [
+    {
+      "meaning": null,
+      "source": "user supplied label",
+      "status": "awaiting-author-definition",
+      "term": "aaantonymbolshivik"
+    },
+    {
+      "fields": [
+        "reframe_requested",
+        "permission_present"
+      ],
+      "meaning": "Record a reframing decision.",
+      "source": "vendor/rasnikism/QUILT.md",
+      "status": "implemented-finite-mode",
+      "term": "aantonymmakkakah"
+    },
+    {
+      "meaning": "Author-supplied publication label; no additional executable or governing semantics are established.",
+      "source": "user supplied edition title",
+      "status": "edition-label",
+      "term": "aimat"
+    },
+    {
+      "meaning": "Conformity to a declared specification; not a safety certification.",
+      "source": "vendor/rasnikism/KEROT.md",
+      "status": "source-defined",
+      "term": "ainsuitable"
+    },
+    {
+      "fields": [
+        "alternative_requested"
+      ],
+      "meaning": "Choose a reconsideration or continuation record.",
+      "source": "vendor/rasnikism/QUILT.md",
+      "status": "implemented-finite-mode",
+      "term": "asake"
+    },
+    {
+      "fields": [
+        "reconsideration",
+        "independent_check"
+      ],
+      "meaning": "Record whether a review has both supplied conditions.",
+      "source": "vendor/rasnikism/QUILT.md",
+      "status": "implemented-finite-mode",
+      "term": "asakety"
+    },
+    {
+      "meaning": "Voluntary learning and practice records within the lore.",
+      "source": "vendor/rasnikism/MAKKAKAH.md",
+      "status": "source-defined",
+      "term": "ashram"
+    },
+    {
+      "meaning": "User label retained for a fictional reflection archetype; no affiliation, endorsement or franchise rights are asserted.",
+      "source": "madrigal_lab/symbolic.py",
+      "status": "implemented-fictional-archetype",
+      "term": "asith-inspired"
+    },
+    {
+      "meaning": "A fictional symbolic-reflection archetype in the voluntary workbench.",
+      "source": "madrigal_lab/symbolic.py",
+      "status": "implemented-fictional-archetype",
+      "term": "asorcery"
+    },
+    {
+      "meaning": null,
+      "source": "user supplied label",
+      "status": "awaiting-author-definition",
+      "term": "asuresuch"
+    },
+    {
+      "meaning": "User spelling retained as a provisional alias of urgency.",
+      "source": "user spelling",
+      "status": "provisional-alias",
+      "term": "aurgency"
+    },
+    {
+      "meaning": null,
+      "source": "user supplied label",
+      "status": "awaiting-author-definition",
+      "term": "bloshivik"
+    },
+    {
+      "meaning": null,
+      "source": "user supplied label",
+      "status": "awaiting-author-definition",
+      "term": "counter noninterpretable software"
+    },
+    {
+      "meaning": null,
+      "source": "user supplied label",
+      "status": "awaiting-author-definition",
+      "term": "counteraaantonymrandomware"
+    },
+    {
+      "meaning": null,
+      "source": "user supplied label",
+      "status": "awaiting-author-definition",
+      "term": "counteraaantonymspyware"
+    },
+    {
+      "meaning": null,
+      "source": "user supplied label",
+      "status": "awaiting-author-definition",
+      "term": "counteraantonymbloshivik"
+    },
+    {
+      "meaning": null,
+      "source": "user supplied label",
+      "status": "awaiting-author-definition",
+      "term": "counterabolshivik"
+    },
+    {
+      "meaning": null,
+      "source": "user supplied label",
+      "status": "awaiting-author-definition",
+      "term": "counteraemergency"
+    },
+    {
+      "meaning": "Lab convention: read-only protective review preserving useful records.",
+      "source": "Rasniki-Monarchic-Charter.md",
+      "status": "proposed-convention",
+      "term": "counteramakkakah"
+    },
+    {
+      "meaning": "Explicit alias of the finite counterantonymmakkkah mode.",
+      "source": "vendor/rasnikism/SYSTEMATICS.md",
+      "status": "implemented-alias",
+      "term": "counterantonymmakkakah"
+    },
+    {
+      "fields": [
+        "reversal_requested",
+        "original_useful"
+      ],
+      "meaning": "Reconsider a reversal while preserving useful work.",
+      "source": "vendor/rasnikism/QUILT.md",
+      "status": "implemented-finite-mode",
+      "term": "counterantonymmakkkah"
+    },
+    {
+      "meaning": null,
+      "source": "user supplied label",
+      "status": "awaiting-author-definition",
+      "term": "counterurgency"
+    },
+    {
+      "meaning": "Proposed local six-field documentation-presence rubric with transparent absent-support and documentation-only baselines.",
+      "source": "madrigal_lab/symbolic.py",
+      "status": "implemented-proposed-rubric",
+      "term": "Easterbunny"
+    },
+    {
+      "meaning": "Highest-priority simulated organiser item; no emergency service dispatch.",
+      "source": "lab design",
+      "status": "implemented-convention",
+      "term": "emergency"
+    },
+    {
+      "meaning": null,
+      "source": "user supplied label",
+      "status": "awaiting-author-definition",
+      "term": "emrome"
+    },
+    {
+      "meaning": null,
+      "source": "user supplied label",
+      "status": "awaiting-author-definition",
+      "term": "etceranative"
+    },
+    {
+      "meaning": "A preserved version with a recorded boundary and keeper; exact does not mean universal perfection.",
+      "source": "vendor/internetwomanagementministry/site/index.html",
+      "status": "fictional-worldbuilding",
+      "term": "Exact Final (Ministry)"
+    },
+    {
+      "fields": [
+        "first_bit",
+        "second_bit"
+      ],
+      "meaning": "Exact addition of two Boolean bits; output is 0, 1, or 2.",
+      "source": "vendor/rasnikism/QUILT.md",
+      "status": "implemented-finite-mode",
+      "term": "exact-science"
+    },
+    {
+      "meaning": "The fictional living archive of accepted patterns, preserving versions while new branches grow.",
+      "source": "vendor/internetwomanagementministry/site/index.html",
+      "status": "fictional-worldbuilding",
+      "term": "Final Quilt (Ministry)"
+    },
+    {
+      "meaning": "Author-supplied publication label; no additional executable or governing semantics are established.",
+      "source": "user supplied edition title",
+      "status": "edition-label",
+      "term": "finalisable catch"
+    },
+    {
+      "meaning": "User spelling retained as an editorial label for the selected view of a recorded form; no new instruction.",
+      "source": "docs/LAIR-OF-LAIRS.md",
+      "status": "proposed-presentation-label",
+      "term": "formate"
+    },
+    {
+      "meaning": null,
+      "source": "user supplied label",
+      "status": "awaiting-author-definition",
+      "term": "henapenall"
+    },
+    {
+      "meaning": "Coined fictional mutual awareness among parts of a composite.",
+      "source": "vendor/internetwomanagementministry/site/index.html",
+      "status": "fictional-worldbuilding",
+      "term": "Hensensual (Ministry)"
+    },
+    {
+      "meaning": "Local decorative emblem accompanying the collection.",
+      "source": "madrigal_lab/web/heraldry.svg",
+      "status": "implemented-artwork",
+      "term": "heraldry"
+    },
+    {
+      "meaning": "Author-supplied publication label; no additional executable or governing semantics are established.",
+      "source": "user supplied edition title",
+      "status": "edition-label",
+      "term": "hopput"
+    },
+    {
+      "meaning": "A fictional reflection archetype; no affiliation, endorsement or franchise rights are asserted.",
+      "source": "madrigal_lab/symbolic.py",
+      "status": "implemented-fictional-archetype",
+      "term": "Jedi-inspired"
+    },
+    {
+      "meaning": "Fictional craft of tracing how a change to a thread affects its pattern; distinct from executable K0.",
+      "source": "vendor/internetwomanagementministry/site/index.html",
+      "status": "fictional-worldbuilding",
+      "term": "Kerot (Ministry)"
+    },
+    {
+      "meaning": "A chosen place of attention, rest, creation and return; here a bounded source or document container.",
+      "source": "vendor/rasnikism/LAIR.md",
+      "status": "source-defined-with-editorial-application",
+      "term": "lair"
+    },
+    {
+      "meaning": "Lab alias for makkakah, subject to author confirmation.",
+      "source": "user spelling",
+      "status": "provisional-alias",
+      "term": "makkah"
+    },
+    {
+      "fields": [
+        "resource_available"
+      ],
+      "meaning": "Record a bounded care decision; no real-world action occurs.",
+      "source": "vendor/rasnikism/QUILT.md",
+      "status": "implemented-finite-mode",
+      "term": "makkakah"
+    },
+    {
+      "meaning": "Author-supplied publication label; no additional executable or governing semantics are established.",
+      "source": "user supplied edition title",
+      "status": "edition-label",
+      "term": "max greatest"
+    },
+    {
+      "meaning": "Versioned rule proposals reviewed before adoption; no automatic lawmaking.",
+      "source": "lab design",
+      "status": "proposed-convention",
+      "term": "nomic"
+    },
+    {
+      "meaning": "In this proposed rubric, the absent-support comparison contains no supplied supporting fields; no conclusion about people or beings.",
+      "source": "docs/SPIRITUAL-SYMBOLIC-WORKBENCH.md",
+      "status": "proposed-comparison-label",
+      "term": "nonexistenced"
+    },
+    {
+      "meaning": "Author-supplied publication label; no additional executable or governing semantics are established.",
+      "source": "user supplied edition title",
+      "status": "edition-label",
+      "term": "omniarchy"
+    },
+    {
+      "meaning": "The fictional reviewable stage before acceptance into the archive.",
+      "source": "vendor/internetwomanagementministry/site/index.html",
+      "status": "fictional-worldbuilding",
+      "term": "Penfinal (Ministry)"
+    },
+    {
+      "meaning": "In-memory copy of validated K0 bytecode used for simulated boot.",
+      "source": "lab design",
+      "status": "implemented-simulation",
+      "term": "pseudo ROM"
+    },
+    {
+      "meaning": "Direct construction with recorded derivations, as provisionally defined by the project.",
+      "source": "vendor/rasnikism/KEROT.md",
+      "status": "source-defined",
+      "term": "rawful"
+    },
+    {
+      "meaning": "Bounded repeated review or computation, with an explicit budget.",
+      "source": "lab design",
+      "status": "implemented-convention",
+      "term": "recursive"
+    },
+    {
+      "fields": [
+        "purpose_present"
+      ],
+      "meaning": "Record whether a purpose was supplied.",
+      "source": "vendor/rasnikism/QUILT.md",
+      "status": "implemented-finite-mode",
+      "term": "sake"
+    },
+    {
+      "fields": [
+        "consent",
+        "readiness",
+        "resources"
+      ],
+      "meaning": "Record a planning gate; not a safety certification.",
+      "source": "vendor/rasnikism/QUILT.md",
+      "status": "implemented-finite-mode",
+      "term": "sakety"
+    },
+    {
+      "meaning": "Author-supplied publication label; no additional executable or governing semantics are established.",
+      "source": "user supplied edition title",
+      "status": "edition-label",
+      "term": "sciencerainbow"
+    },
+    {
+      "meaning": "Documented fictional governance concept; no state recognition or governmental power.",
+      "source": "Rasniki-Monarchic-Charter.md",
+      "status": "editorial",
+      "term": "sovereignty"
+    },
+    {
+      "meaning": "Participant-chosen reflective subject label, with spiritual beliefs distinguished from tested software behavior.",
+      "source": "docs/SPIRITUAL-SYMBOLIC-WORKBENCH.md",
+      "status": "editorial-scope",
+      "term": "spiritual sciences"
+    },
+    {
+      "meaning": "Lab convention: acceptance criteria recorded with their checks.",
+      "source": "lab design",
+      "status": "proposed-convention",
+      "term": "suitable"
+    },
+    {
+      "meaning": null,
+      "source": "user supplied label",
+      "status": "awaiting-author-definition",
+      "term": "surasuch"
+    },
+    {
+      "meaning": null,
+      "source": "user supplied label",
+      "status": "awaiting-author-definition",
+      "term": "sureasuch"
+    },
+    {
+      "meaning": "A fictional wonder-working narrative archetype; no measured supernatural ability is inferred.",
+      "source": "madrigal_lab/symbolic.py",
+      "status": "implemented-fictional-archetype",
+      "term": "thaumaturgy"
+    },
+    {
+      "meaning": "User spelling retained as an alias of the thaumaturgy archetype.",
+      "source": "madrigal_lab/symbolic.py",
+      "status": "implemented-alias",
+      "term": "thaumturgy"
+    },
+    {
+      "meaning": "Second-priority simulated organiser item.",
+      "source": "lab design",
+      "status": "implemented-convention",
+      "term": "urgency"
+    },
+    {
+      "meaning": "A fictional study and worldbuilding archetype.",
+      "source": "madrigal_lab/symbolic.py",
+      "status": "implemented-fictional-archetype",
+      "term": "wizardry"
+    }
+  ],
+  "title": "Rasniki Hopput — Max Greatest Exact Sciencerainbow, Exact Finalisable Catch, Finalisable Exact Final Quilt, Max Greatest Aimat, Max Rawful Omniarchy",
+  "version": 1
+}

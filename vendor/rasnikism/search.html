@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rasniki · Searching and matching</title>
+<style>body{margin:0;background:#161d19;color:#f1ead8;font:18px/1.7 Georgia,serif}main{max-width:950px;margin:auto;padding:32px 24px}a,h2{color:#e2ca89}label{display:block;margin:14px 0}input,select,button{font:16px system-ui;padding:12px;background:#222e25;color:#f1ead8;border:1px solid #a0ab91}input{box-sizing:border-box;width:100%}button{cursor:pointer;margin:8px 10px 8px 0}button:disabled{opacity:.5}article,section{border:1px solid #586550;padding:20px;margin:20px 0}:focus{outline:3px solid #e2ca89;outline-offset:3px}</style>
+<link rel="stylesheet" href="ostar.css">
+<aside class="ostar-shell" aria-label="Ostar collection edition">
+<nav aria-label="Ostar editions"><a href="ostar.html">Ostar collection</a><a href="?edition=makkakah" data-ostar-edition="makkakah">Makkakah</a><a href="?edition=aantonymmakkakah" data-ostar-edition="aantonymmakkakah">Aantonymmakkakah</a><a href="?edition=jurisdiction" data-ostar-edition="jurisdiction">Jurisdiction review</a></nav>
+<strong>Ostar Rawful Lair · <span data-ostar-name>Makkakah</span></strong>
+<p data-ostar-guidance>Sustain purpose, care, resources, and useful work. Record effects and the next review.</p>
+<p>Edition framing does not change implementation status or certify legal validity. <a href="publication.html?document=OSTAR.md">Edition rules</a>.</p>
+</aside>
+<main><nav><a href="index.html">Archive</a> · <a href="catalogue.html">Catalogue</a> · <a href="publication.html?document=SEARCH.md">Scope and definitions</a></nav>
+<h1>Searching, matching, finding</h1><p>Search the local software collection. Summoning means opening a result's draft workspace or documentation; it does not start a service or reach external systems.</p>
+<label for="query">Search terms<input id="query" type="search" maxlength="200" placeholder="Try solicitor, kerot, or multimedia"></label><label for="mode">Match method <select id="mode"><option value="all">All terms</option><option value="exact">Exact category name</option><option value="fuzzy">Approximate name</option></select></label>
+<p id="status" role="status"></p><div id="results"></div><button id="previous" type="button">Previous</button><button id="next" type="button">Next</button>
+<section><h2>Mathing · exact integer work</h2><p>Division truncates toward zero and reports its remainder. GCD uses nonnegative magnitudes; GCD(0, 0) is defined as 0 here. No floating-point approximations or scientific validity claims.</p><label for="a">First integer<input id="a" value="0" maxlength="1000"></label><label for="b">Second integer<input id="b" value="0" maxlength="1000"></label><label for="op">Operation <select id="op"><option value="add">Add</option><option value="subtract">Subtract</option><option value="multiply">Multiply</option><option value="divide">Integer division</option><option value="gcd">Greatest common divisor</option></select></label><button id="calculate" type="button">Calculate</button><p id="answer" role="status"></p></section>
+</main><script src="catalogue.js"></script><script src="search.js"></script><script src="search-ui.js"></script><script src="ostar.js"></script></html>

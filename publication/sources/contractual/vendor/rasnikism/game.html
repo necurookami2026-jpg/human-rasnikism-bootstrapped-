@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rasniki · Lair game</title>
+<style>body{margin:0;background:#161d19;color:#f1ead8;font:18px/1.7 Georgia,serif}main{max-width:1050px;margin:auto;padding:32px 24px}h1{font-size:clamp(32px,6vw,56px);line-height:1.1}h2,a{color:#e2ca89}section{border:1px solid #586550;padding:22px;margin:22px 0}button,input,select{font:16px system-ui;background:#222e25;color:#f1ead8;border:1px solid #a0ab91;padding:12px}button{cursor:pointer;margin:6px 8px 6px 0}button:disabled{opacity:.5;cursor:default}:focus{outline:3px solid #e2ca89;outline-offset:3px}.map{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}.map button{min-height:75px;margin:0}.map button[aria-current=true]{border:3px solid #e2ca89}label{display:block;margin:14px 0}pre{white-space:pre-wrap;font:16px/1.7 system-ui}.quiet .map{grid-template-columns:1fr}</style>
+<link rel="stylesheet" href="ostar.css">
+<aside class="ostar-shell" aria-label="Ostar collection edition">
+<nav aria-label="Ostar editions"><a href="ostar.html">Ostar collection</a><a href="?edition=makkakah" data-ostar-edition="makkakah">Makkakah</a><a href="?edition=aantonymmakkakah" data-ostar-edition="aantonymmakkakah">Aantonymmakkakah</a><a href="?edition=jurisdiction" data-ostar-edition="jurisdiction">Jurisdiction review</a></nav>
+<strong>Ostar Rawful Lair · <span data-ostar-name>Makkakah</span></strong>
+<p data-ostar-guidance>Sustain purpose, care, resources, and useful work. Record effects and the next review.</p>
+<p>Edition framing does not change implementation status or certify legal validity. <a href="publication.html?document=OSTAR.md">Edition rules</a>.</p>
+</aside>
+<main><nav><a href="index.html">Archive</a> · <a href="catalogue.html">Catalogue</a> · <a href="publication.html?document=GAME.md">Game and integration notes</a></nav>
+<h1>The returning lair</h1><p>A turn-based, single-player browser game. Explore eight rooms, complete one quest in each, and spend provisions on care or repair. All rewards are fictional; clicking a quest completes a symbolic game action, not a real-world assessment.</p>
+<label for="mode">Reading mode <select id="mode"><option value="explore">Exploration</option><option value="quiet">Quiet · simple layout</option></select></label><p id="status" role="status"></p><p id="counters"></p>
+<section><h2>Lair map</h2><div id="map" class="map" aria-label="Choose a room"></div></section>
+<section><h2 id="room-name"></h2><p id="description"></p><button id="quest" type="button">Complete room quest</button><button id="care" type="button">Practice makkakah · costs 1</button><button id="repair" type="button">Practice aantonymmakkakah · costs 1</button><button id="rest" type="button">Rest · gain 1 provision</button><p id="completion"></p></section>
+<section><h2>Progress I/O</h2><button id="save" type="button">Download game save</button><label for="load">Load a Rasniki game JSON save<input id="load" type="file" accept=".json,application/json"></label><button id="new" type="button">New game</button><p>Saves are unencrypted and stored only when you download them. Loading replaces current progress. New game clears current progress; download a save first if you want to keep it. Reloading this page starts fresh.</p></section>
+<section><h2>Journal</h2><pre id="journal"></pre></section>
+<section><h2>Systems outside the game</h2><p>Use <a href="archangel.html">Archangel management</a>, <a href="io.html">IObot and rune tools</a>, or <a href="publication.html?document=SOFTWARE.md">the kerot software kit</a> separately. They are not automatically loaded into an external game engine. The game provides no clinical, legal, spiritual, or emergency service.</p></section>
+</main><script src="game.js"></script><script src="game-ui.js"></script><script src="ostar.js"></script></html>

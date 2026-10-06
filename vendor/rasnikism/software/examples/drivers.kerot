@@ -1,0 +1,10 @@
+; Attach queue, latch, clock, and eventlog. Output: A
+mark r0 65
+signal r0 16 1
+signal r1 16 0
+signal r1 17 1
+signal r2 17 0
+signal r3 18 0
+signal r3 19 1
+signal r2 0 1
+signal r0 2 1

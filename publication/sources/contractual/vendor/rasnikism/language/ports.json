@@ -1,0 +1,16 @@
+{
+  "format": "ostar-k0-port-register",
+  "version": 1,
+  "host_scope": "Simulated local devices only",
+  "core": [
+    {"port": 0, "name": "console", "directions": [1]},
+    {"port": 1, "name": "input", "directions": [0]},
+    {"port": 2, "name": "stop", "directions": [1]}
+  ],
+  "attachable": [
+    {"port": 16, "name": "queue", "directions": [0, 1], "capacity": 1024},
+    {"port": 17, "name": "latch", "directions": [0, 1], "bits": 16},
+    {"port": 18, "name": "clock", "directions": [0], "source": "completed instruction count modulo 65536"},
+    {"port": 19, "name": "eventlog", "directions": [1], "capacity": 1024}
+  ]
+}

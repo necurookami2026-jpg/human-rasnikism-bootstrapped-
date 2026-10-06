@@ -1,0 +1,9 @@
+# Family and originalclassical governance
+
+Family and originalclassical are editorial labels for a fictional arrangement of voluntary roles. Originalclassical remains a coined title without a new legal definition. A family in this handbook may mean an agreed group of related stories, documents or learning roles; it does not require a biological relationship, allegiance or acceptance of a hierarchy. A participant can prefer another label or decline the arrangement altogether.
+
+The governance exercise assigns finite tasks rather than enduring status. A keeper maintains a specified record, a reviewer examines a specified question, a learner explores an example and a steward coordinates an agreed handover. Name the task, its boundary and its review period. A title does not make one role competent in every subject, grant access to another person's records or authorise control of another participant. When a task ends, its fictional title supplies no continuing command.
+
+Genealogy in a fictional world can document invented characters or relationships between editions. Where real family history is studied, use information its holders have authorised for that particular purpose and keep private details out of public demonstrations. A diagram cannot establish parentage, inheritance, citizenship, sovereign office or beneficiary rights. The publication's monarchic and franchise proposals retain their unresolved formation terms.
+
+Allow disagreements to remain visible and provide an accessible route to propose correction. A role-holder may pause or withdraw; continuity can mean transferring one bounded task or closing it gracefully. Preserve the earlier record when revising the arrangement. The originalclassical exercise becomes useful through explicit responsibility and review, rather than a claim that its fictional authority is universal or permanent.

@@ -1,0 +1,7 @@
+# Human Rasnikism bootstrapped republication
+
+This repository republishes the complete wolf-password collection from https://github.com/necurookami2026-jpg/wolf-password at commit `075bcc9631420af2a3118a9f63b9bdfe33ca3f55`, with Exact Sciencerainbowrainbowscience added as publication edition 8. The original destination description remains in `docs/DESTINATION-ORIGINAL-README.md`, and its GPL-2.0 licence remains at the repository root. Bundled source licences, including the Rasnikism GPL-3.0 licence, remain at their original paths; the root licence does not relicense those components.
+
+`publication/wolf-password-origin.json` records the imported revision and every original tracked file's SHA-256 and size, including edition 7 generated artifacts. The republication changes the README, edition number, publication builder and generated edition outputs, and adds the workpaper guide, exact rational exercise, tests and this provenance record. Historical pinned sources remain unchanged and are verified by the existing source lock. The full source history is available at the pinned upstream URL.
+
+Rebuild with `sh bootstrap.sh`. Inspect the generated `release-hashes.json` and the bootstrap receipt for actual execution evidence. Python and Node are host tools; this is a software bootstrap, not native OS boot. See the edition guide for the arithmetic model, finite checks and reproducible commands.

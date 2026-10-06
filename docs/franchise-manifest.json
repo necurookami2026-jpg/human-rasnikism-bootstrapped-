@@ -1,0 +1,344 @@
+{
+  "format": "rasniki-derivative-manifest",
+  "version": 1,
+  "edition": "madrigal-lab-0.1.0",
+  "authority_status": "proposal_no_operating_rights_granted",
+  "parent_prose_release": "2db64e91bb2920f7be903db664436b90041f46e1",
+  "provenance": "vendor/provenance.json",
+  "components": [
+    {
+      "id": "language",
+      "status": "implemented",
+      "scope": "K0 assembler, disassembler, canonical formatter, Ras script compiler and bounded interpreter"
+    },
+    {
+      "id": "quilt",
+      "status": "implemented",
+      "scope": "Eight finite source-backed modes; Boolean inputs are user assertions"
+    },
+    {
+      "id": "recursive-exact-science",
+      "status": "implemented-bounded",
+      "scope": "Boolean addition exhaustive suite and bounded interpreter runs; not universal scientific proof"
+    },
+    {
+      "id": "boot",
+      "status": "simulated",
+      "scope": "Pseudo-ROM, MBR-shaped record and UEFI handoff trace; no disk writes or executable EFI image"
+    },
+    {
+      "id": "kernel",
+      "status": "simulated",
+      "scope": "Cooperative job queue and task states in a Python host; no hardware isolation"
+    },
+    {
+      "id": "virtualisation",
+      "status": "simulated",
+      "scope": "Fresh K0 memory per execution; emulated ISA rather than hardware hypervisor"
+    },
+    {
+      "id": "madrigal-os",
+      "status": "simulated",
+      "scope": "Local web desktop and hosted services; upstream spells the proposed OS Magrigal"
+    },
+    {
+      "id": "files",
+      "status": "implemented",
+      "scope": "Root-confined UTF-8 file explorer and document reader"
+    },
+    {
+      "id": "bots",
+      "status": "implemented-bounded",
+      "scope": "Intranet read-only jobs and HTTPS internet fetch to operator-configured hosts"
+    },
+    {
+      "id": "defense",
+      "status": "implemented-read-only",
+      "scope": "Unchanged Guardian scanner and explicit trusted-baseline comparison; no malware prevention/removal/decryption"
+    },
+    {
+      "id": "finance",
+      "status": "simulated",
+      "scope": "Atomic DEMO_CREDIT double-entry ledger, accounts and circulation report"
+    },
+    {
+      "id": "domain-host",
+      "status": "simulated",
+      "scope": "Persistent .lab name-to-document registry; no public DNS registration"
+    },
+    {
+      "id": "internet-server",
+      "status": "local-only",
+      "scope": "HTTP desktop/API binds IPv4 loopback; public hosting and TLS termination not deployed"
+    },
+    {
+      "id": "game-server",
+      "status": "implemented-local",
+      "scope": "Shared target game state available through the local API"
+    },
+    {
+      "id": "organiser",
+      "status": "implemented",
+      "scope": "Persistent practice records, priority queue and reviewed rule revisions"
+    },
+    {
+      "id": "curriculum",
+      "status": "implemented",
+      "scope": "Five exercises with stated acceptance evidence"
+    },
+    {
+      "id": "franchise",
+      "status": "proposed",
+      "scope": "Derivative manifest and version/authority record; no rights granted"
+    },
+    {
+      "id": "sovereignty",
+      "status": "editorial",
+      "scope": "Fictional governance notes with no grant of political authority"
+    }
+  ],
+  "terms": [
+    {
+      "term": "exact-science",
+      "meaning": "Exact addition of two Boolean bits; output is 0, 1, or 2.",
+      "status": "implemented-finite-mode",
+      "fields": [
+        "first_bit",
+        "second_bit"
+      ],
+      "source": "vendor/rasnikism/QUILT.md"
+    },
+    {
+      "term": "sakety",
+      "meaning": "Record a planning gate; not a safety certification.",
+      "status": "implemented-finite-mode",
+      "fields": [
+        "consent",
+        "readiness",
+        "resources"
+      ],
+      "source": "vendor/rasnikism/QUILT.md"
+    },
+    {
+      "term": "asakety",
+      "meaning": "Record whether a review has both supplied conditions.",
+      "status": "implemented-finite-mode",
+      "fields": [
+        "reconsideration",
+        "independent_check"
+      ],
+      "source": "vendor/rasnikism/QUILT.md"
+    },
+    {
+      "term": "sake",
+      "meaning": "Record whether a purpose was supplied.",
+      "status": "implemented-finite-mode",
+      "fields": [
+        "purpose_present"
+      ],
+      "source": "vendor/rasnikism/QUILT.md"
+    },
+    {
+      "term": "asake",
+      "meaning": "Choose a reconsideration or continuation record.",
+      "status": "implemented-finite-mode",
+      "fields": [
+        "alternative_requested"
+      ],
+      "source": "vendor/rasnikism/QUILT.md"
+    },
+    {
+      "term": "makkakah",
+      "meaning": "Record a bounded care decision; no real-world action occurs.",
+      "status": "implemented-finite-mode",
+      "fields": [
+        "resource_available"
+      ],
+      "source": "vendor/rasnikism/QUILT.md"
+    },
+    {
+      "term": "aantonymmakkakah",
+      "meaning": "Record a reframing decision.",
+      "status": "implemented-finite-mode",
+      "fields": [
+        "reframe_requested",
+        "permission_present"
+      ],
+      "source": "vendor/rasnikism/QUILT.md"
+    },
+    {
+      "term": "counterantonymmakkkah",
+      "meaning": "Reconsider a reversal while preserving useful work.",
+      "status": "implemented-finite-mode",
+      "fields": [
+        "reversal_requested",
+        "original_useful"
+      ],
+      "source": "vendor/rasnikism/QUILT.md"
+    },
+    {
+      "term": "counteramakkakah",
+      "meaning": "Lab convention: read-only protective review preserving useful records.",
+      "status": "proposed-convention",
+      "source": "Rasniki-Monarchic-Charter.md"
+    },
+    {
+      "term": "counterantonymmakkakah",
+      "meaning": "Explicit alias of the finite counterantonymmakkkah mode.",
+      "status": "implemented-alias",
+      "source": "vendor/rasnikism/SYSTEMATICS.md"
+    },
+    {
+      "term": "makkah",
+      "meaning": "Lab alias for makkakah, subject to author confirmation.",
+      "status": "provisional-alias",
+      "source": "user spelling"
+    },
+    {
+      "term": "ainsuitable",
+      "meaning": "Conformity to a declared specification; not a safety certification.",
+      "status": "source-defined",
+      "source": "vendor/rasnikism/KEROT.md"
+    },
+    {
+      "term": "suitable",
+      "meaning": "Lab convention: acceptance criteria recorded with their checks.",
+      "status": "proposed-convention",
+      "source": "lab design"
+    },
+    {
+      "term": "recursive",
+      "meaning": "Bounded repeated review or computation, with an explicit budget.",
+      "status": "implemented-convention",
+      "source": "lab design"
+    },
+    {
+      "term": "nomic",
+      "meaning": "Versioned rule proposals reviewed before adoption; no automatic lawmaking.",
+      "status": "proposed-convention",
+      "source": "lab design"
+    },
+    {
+      "term": "emergency",
+      "meaning": "Highest-priority simulated organiser item; no emergency service dispatch.",
+      "status": "implemented-convention",
+      "source": "lab design"
+    },
+    {
+      "term": "urgency",
+      "meaning": "Second-priority simulated organiser item.",
+      "status": "implemented-convention",
+      "source": "lab design"
+    },
+    {
+      "term": "aurgency",
+      "meaning": "User spelling retained as a provisional alias of urgency.",
+      "status": "provisional-alias",
+      "source": "user spelling"
+    },
+    {
+      "term": "sovereignty",
+      "meaning": "Documented fictional governance concept; no state recognition or governmental power.",
+      "status": "editorial",
+      "source": "Rasniki-Monarchic-Charter.md"
+    },
+    {
+      "term": "heraldry",
+      "meaning": "Local decorative emblem accompanying the collection.",
+      "status": "implemented-artwork",
+      "source": "madrigal_lab/web/heraldry.svg"
+    },
+    {
+      "term": "ashram",
+      "meaning": "Voluntary learning and practice records within the lore.",
+      "status": "source-defined",
+      "source": "vendor/rasnikism/MAKKAKAH.md"
+    },
+    {
+      "term": "pseudo ROM",
+      "meaning": "In-memory copy of validated K0 bytecode used for simulated boot.",
+      "status": "implemented-simulation",
+      "source": "lab design"
+    },
+    {
+      "term": "henapenall",
+      "meaning": null,
+      "status": "awaiting-author-definition",
+      "source": "user supplied label"
+    },
+    {
+      "term": "counterabolshivik",
+      "meaning": null,
+      "status": "awaiting-author-definition",
+      "source": "user supplied label"
+    },
+    {
+      "term": "counteraantonymbloshivik",
+      "meaning": null,
+      "status": "awaiting-author-definition",
+      "source": "user supplied label"
+    },
+    {
+      "term": "bloshivik",
+      "meaning": null,
+      "status": "awaiting-author-definition",
+      "source": "user supplied label"
+    },
+    {
+      "term": "aaantonymbolshivik",
+      "meaning": null,
+      "status": "awaiting-author-definition",
+      "source": "user supplied label"
+    },
+    {
+      "term": "counteraemergency",
+      "meaning": null,
+      "status": "awaiting-author-definition",
+      "source": "user supplied label"
+    },
+    {
+      "term": "counterurgency",
+      "meaning": null,
+      "status": "awaiting-author-definition",
+      "source": "user supplied label"
+    },
+    {
+      "term": "etceranative",
+      "meaning": null,
+      "status": "awaiting-author-definition",
+      "source": "user supplied label"
+    },
+    {
+      "term": "emrome",
+      "meaning": null,
+      "status": "awaiting-author-definition",
+      "source": "user supplied label"
+    },
+    {
+      "term": "counteraaantonymspyware",
+      "meaning": null,
+      "status": "awaiting-author-definition",
+      "source": "user supplied label"
+    },
+    {
+      "term": "counteraaantonymrandomware",
+      "meaning": null,
+      "status": "awaiting-author-definition",
+      "source": "user supplied label"
+    },
+    {
+      "term": "counter noninterpretable software",
+      "meaning": null,
+      "status": "awaiting-author-definition",
+      "source": "user supplied label"
+    }
+  ],
+  "unresolved_authorisations": [
+    "real franchise agreement",
+    "trademark permission where needed",
+    "legal formation",
+    "public hosting",
+    "native boot"
+  ],
+  "sample_payload_status": "finite_tests_and_simulations"
+}

@@ -1,0 +1,45 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const vm=require('node:vm');
+const path=require('node:path');
+const root=path.join(__dirname,'..');
+const context={};vm.createContext(context);vm.runInContext(fs.readFileSync(path.join(root,'catalogue.js'),'utf8'),context);
+const api=context.RasnikiCatalog;
+assert.equal(new Set(api.entries.map(e=>e.id)).size,api.entries.length);
+assert(api.entries.length>=45);
+assert.equal(api.catalogue(' solicitor ')[0].id,'solicitor');
+assert.equal(api.catalogue('no-such-category').length,0);
+const pages=[];
+for(let n=1;n<=api.paginate(api.entries).pages;n++)pages.push(...api.paginate(api.entries,n).rows);
+assert.equal(pages.length,api.entries.length);assert.equal(new Set(pages.map(e=>e.id)).size,api.entries.length);
+assert.equal(api.paginate([],99).page,1);assert.equal(api.paginate(api.entries,-1).page,1);
+assert.throws(()=>api.paginate([],1,0));
+assert.equal(api.catalogue('','trends',{charity:10})[0].id,'charity');
+const draft=api.draft(api.entries.find(e=>e.id==='contracts'),{title:'Example',purpose:'Review',locations:'Unspecified law',rights:'Pending',acceptance:'A reviewed draft'});
+for(const value of ['Example','Review','Unspecified law','Pending','A reviewed draft','UNREVIEWED','Not executable legal contracts'])assert(draft.includes(value));
+assert.equal(api.bitflip('0','7'),128);assert.equal(api.bitflip('255','0'),254);
+for(const pair of [['256','0'],['0','8'],['1.5','2'],['-1','1'],['','0']])assert.throws(()=>api.bitflip(...pair));
+assert.equal(api.exact('9007199254740993','1','add'),'9007199254740994');
+assert.equal(api.exact('-123','100','multiply'),'-12300');
+for(const args of [['1.5','2','add'],['1','2','divide'],['1'.repeat(1001),'2','add']])assert.throws(()=>api.exact(...args));
+
+// Exercise UI transitions with a small DOM adapter; no browser-rendering claim.
+function element(){return {value:'',disabled:false,files:[],children:[],events:{},textContent:'',append(...nodes){this.children.push(...nodes)},replaceChildren(...nodes){this.children=nodes},addEventListener(name,fn){this.events[name]=fn},querySelectorAll(){return []},scrollIntoView(){}};}
+const ids=['search','sort','cards','status','prev','next','clear','workspace','selected','review','draft','draft-status','export','generate','title','purpose','locations','rights','acceptance','media','preview','media-status','remove-media','flip','byte','bit','flip-output','calculate','a','b','operation','calculation'];
+const elements=Object.fromEntries(ids.map(id=>[id,element()]));elements.sort.value='name';
+context.document={getElementById:id=>elements[id],createElement:()=>element()};
+const windowEvents={};context.window={location:{hash:'#module=solicitor'},addEventListener(name,fn){windowEvents[name]=fn}};
+vm.runInContext(fs.readFileSync(path.join(root,'catalogue-ui.js'),'utf8'),context);
+assert(elements.selected.textContent.includes('Solicitor'));
+context.window.location.hash='#module=kerot';windowEvents.hashchange();assert(elements.selected.textContent.includes('Kerot primitive software'));
+context.window.location.hash='#module=unknown';windowEvents.hashchange();assert(elements.selected.textContent.includes('Kerot primitive software'));
+assert.equal(elements.cards.children.length,6);assert.equal(elements.prev.disabled,true);
+elements.next.events.click();assert.equal(elements.prev.disabled,false);
+elements.search.value='solicitor';elements.search.events.input();assert.equal(elements.cards.children.length,1);
+elements.cards.children[0].children[3].events.click();assert(elements.selected.textContent.includes('Solicitor'));
+elements.title.value='New project';elements.generate.events.click();assert.equal(elements.export.disabled,false);assert(elements.draft.textContent.includes('New project'));
+elements.title.value='Changed';elements.title.events.input();assert.equal(elements.export.disabled,true);
+elements.search.value='no-such-category';elements.search.events.input();assert.equal(elements.cards.children.length,0);assert.equal(elements.next.disabled,true);
+elements.byte.value='0';elements.bit.value='7';elements.flip.events.click();assert(elements['flip-output'].textContent.includes('128'));
+elements.a.value='9007199254740993';elements.b.value='1';elements.operation.value='add';elements.calculate.events.click();assert.equal(elements.calculation.textContent,'9007199254740994');
+console.log('Catalogue checks passed: coverage, filtering, pagination, local trends, drafts, bitflip, exact arithmetic, and UI transitions.');
