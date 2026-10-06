@@ -66,6 +66,8 @@ def main(argv=None):
     try:
         run('lab-and-publication-tests',[sys.executable,'-m','unittest','discover','-s','tests','-v'])
         run('guardian-tests',[sys.executable,'-m','unittest','-v'],ROOT/'vendor'/'guardian')
+        run('iobot-responses',['node','tests/iobot-responses.cjs'])
+        run('iobot-ui-syntax',['node','--check','madrigal_lab/web/iobots/ui.js'])
         run('ministry-smoke',['node','tests/ministry-smoke.cjs'])
         run('instagram-extension-tests',['node','tests/instagram-orange/core.cjs'])
         run('instagram-content-syntax',['node','--check','extensions/instagram-orange/content.js'])

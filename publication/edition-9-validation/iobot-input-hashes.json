@@ -1,0 +1,34 @@
+{
+  "docs/IOBOT-SCIENTIFIC-RESPONSES.md": {
+    "sha256": "aca97ed65cadb2691db03734cbba23f57d990261cdbf842b9fc84e7b17b708cb",
+    "size": 6964
+  },
+  "madrigal_lab/web/iobots/catalogue.js": {
+    "sha256": "c6ed1b2765a6734bd29527e6aa04bf1637d5778c92d6cefc256a6e67f4382d26",
+    "size": 14193
+  },
+  "madrigal_lab/web/iobots/index.html": {
+    "sha256": "d5c9164d32f993aeb1ac9087b78bef3f9ed9d1bad7d675fe6934aa2a554ba529",
+    "size": 2018
+  },
+  "madrigal_lab/web/iobots/legacy-io.js": {
+    "sha256": "ee47a1c46bee5224a24344957abdba3b6406f1b21059b84b2cd4f58c06d016de",
+    "size": 2693
+  },
+  "madrigal_lab/web/iobots/responses.js": {
+    "sha256": "66d1f5939d3d15a746c877768fef94a70603aef8e66689be5c5a5e0885787e79",
+    "size": 5776
+  },
+  "madrigal_lab/web/iobots/search.js": {
+    "sha256": "f2100c0d74c7285de809b9aa70466504760bab7b609756805b0390f620b38c73",
+    "size": 2244
+  },
+  "madrigal_lab/web/iobots/ui.js": {
+    "sha256": "efb44adf5421c6fd2c370376b99b54cb8d985c51da42f8ba397be422f7685760",
+    "size": 1407
+  },
+  "tests/iobot-responses.cjs": {
+    "sha256": "d2f9d96d958c2172d858f6b9b78ae3ba7b7264c3e537713e795528b38cc6169c",
+    "size": 3193
+  }
+}

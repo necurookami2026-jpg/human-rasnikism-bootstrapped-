@@ -1,4 +1,6 @@
-# Human Rasnikism bootstrapped — edition 8
+# Human Rasnikism bootstrapped — edition 9
+
+Edition 9 adds [automatic IObot responses](madrigal_lab/web/iobots/index.html) using this, ahow/hot, awho/tho, awhat/that, awhen/then, awhere/there and awhy/thy, with full prose explanations of inability and exportable paperwork. [Method, limits and reproduction](docs/IOBOT-SCIENTIFIC-RESPONSES.md).
 
 [Exact Sciencerainbowrainbowscience full edition](publication/edition/SCIENCERAINBOWRAINBOWSCIENCE.md) · [Printable paperwork](publication/edition/SCIENCERAINBOWRAINBOWSCIENCE-PAPERWORK.html) · [Exact computerwork](publication/edition/SCIENCERAINBOWRAINBOWSCIENCE-COMPUTERWORK.json) · [Method and commands](docs/EXACT-SCIENCERAINBOWRAINBOWSCIENCE.md)
 

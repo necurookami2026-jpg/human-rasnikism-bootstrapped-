@@ -451,6 +451,19 @@
       "title": "docs/IMPLEMENTATION.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers."
     },
     {
+      "sha256": "aca97ed65cadb2691db03734cbba23f57d990261cdbf842b9fc84e7b17b708cb",
+      "sources": [
+        {
+          "kind": "editorial-document",
+          "name": "Current publication documentation",
+          "path": "docs/IOBOT-SCIENTIFIC-RESPONSES.md",
+          "repository": "current-editorial"
+        }
+      ],
+      "text": "# IObot automatic scientific prose responses\n\n## Implementation and entry point\n\nOpen `madrigal_lab/web/iobots/index.html` directly, or start `python3 -m madrigal_lab --port 8765` and visit `http://127.0.0.1:8765/iobots/index.html`. The desktop links the updated bot from Bots & servers and Dictionary & curriculum. This is a maintained derivative of the pinned Rasnikism IObot. The original `vendor/rasnikism/io.html`, source files, tests and source-lock records remain intact.\n\nAutomatic mode is enabled initially. The bot responds 350 milliseconds after the latest input edit; Enter and Respond run immediately. Turning automatic mode off cancels pending work. Editing the input discards the previous report so an export cannot silently retain stale evidence. There are no unsolicited remote messages, network calls or autonomous external actions.\n\n## Response vocabulary\n\nThe author's supplied vocabulary is used as an ordered reporting scheme, with the following provisional meanings for this implementation. It does not redefine ordinary science terminology.\n\n| Heading | Recorded meaning |\n| --- | --- |\n| this | Supplied request, response status and condition code |\n| ahow / hot | How the method operates and what actually ran |\n| awho / tho | Who supplies the request and which component responds |\n| awhat / that | What result or inability was observed |\n| awhen / then | When input triggers a response and the sequence of processing |\n| awhere / there | Where interpretation and evidence reside |\n| awhy / thy | Why the result or inhibition occurred, limits and next steps |\n\nEach individual word is also accepted as a heading inquiry. An inquiry returns the reporting scheme; it does not invent an answer about an unspecified person, event, location or cause. For example, `awhen` explains the local trigger sequence rather than claiming to know an external event's date. `hot` is the supplied partner of `ahow`, not an inferred temperature measurement.\n\n## Executable method and finite exactness\n\nThe existing command tool implements `help`, `find QUERY`, `runes TEXT`, `english RUNES`, `math OP A B`, `bitflip BYTE BIT`, and `show CATEGORY-ID`. Math accepts add, subtract, multiply, divide and gcd with exact JavaScript BigInt integers. Division returns an integer quotient and remainder, not a rounded decimal. Each integer operand is limited to 1000 characters; the command itself is limited to 2000 UTF-16 code units. `math gcd 42 30` returns the literal `6`. `math divide 7 2` returns `3 remainder 1`. A zero divisor is rejected with a prose explanation.\n\nSearch queries are limited to 200 characters and return at most ten local catalogue records. A no-match report describes the search outcome; it is not proof of nonexistence. Catalogue statuses, purposes and review text are retained. Byte-bit operations retain their original input constraints. Rune conversion uses the original English-letter substitution and folds case; it is notation, not encryption. The original I/O workspace's file exchange limits remain documented in `vendor/rasnikism/IO.md`; the new response page adds command reporting and exports, not file imports.\n\n“Exact science responses” here means named inputs, a documented method, literal output or observed rejection, declared bounds and a reproducible explanation. This command bot cannot independently establish empirical facts, measurement uncertainty, personal identity, causation, legal approval or external capabilities. It records unknown evidence as unestablished, rather than filling missing paperwork with invented findings.\n\n## Inability, limits and inhibits\n\nA waiting report identifies absent input. An invalid-input report identifies a non-string argument to the response function. A command-limit report identifies an oversized command, records its original length and a bounded preview, and does not invoke the interpreter. An unsupported-command report identifies a capability that the implemented command vocabulary cannot perform. An operation-rejected report preserves the interpreter's actual reason, including division by zero, malformed integer operands, invalid bit positions, unknown categories and query bounds. A no-match report identifies a completed search without results.\n\nThese are observable interface conditions. The bot does not diagnose hidden motives, physical causes or unknown system restrictions. Its full explanation states whether processing occurred, the reason actually available, relevant limits and a concrete next step: supply missing input, correct the indicated field, shorten or split input, select an implemented operation, or obtain the evidence and authorised implementation needed for a different capability. Splitting input does not prove the equivalence of separate calculations; users must review each result. Limits are not bypassed.\n\n## Full response paperwork and evidence\n\nEvery response carries format/version, status, condition code, the bounded supplied request, original request length, a truncation flag, literal result, inability reason, seven prose sections, limits and scientific scope. Its `paperwork` field contains a complete Markdown response, including the supplied request, literal output and an evidence/review paragraph. JSON preserves this structured record alongside the full prose.\n\nUse Download full paperwork, Download response JSON or Print paperwork. These are deliberate user actions; no background storage or publication occurs. The response page uses `textContent` to display user input and output as text, including any markup-like strings. Exported Markdown retains the user's literal input as evidence; read it as source text when evaluating untrusted material. The page makes no independent claim that a downloaded record is authenticated. File retention and review are the user's responsibility.\n\nRelevant paperwork consists of this method contract, the seven-section generated report, the literal request and result, the original I/O command contract, retained catalogue status/review entries when searched, provenance in `docs/REPUBLICATION.md`, and the publication release hashes and bootstrap receipt. For an empirical task, separately supply measurement records, units, instrument/calibration evidence, uncertainty, reviewer/date and corrections. These external records are not automatically generated or approved by the bot.\n\n## Reproduction and checks\n\n```sh\nnode tests/iobot-responses.cjs\nsh bootstrap.sh\npython3 tools/publication.py build --check\n```\n\nChecks cover every supplied heading alias, exact calculation output, division by zero and malformed requests, unsupported capabilities, no-match reporting, oversized-input refusal before execution, full paperwork and UI input-change behaviour. Bootstrap retains its full source-integrity and upstream suites and requires identical publication builds. This contract is included in the collected publication; pinned historical sources retain their original bytes.\n",
+      "title": "docs/IOBOT-SCIENTIFIC-RESPONSES.md — Current publication documentation"
+    },
+    {
       "sha256": "f0fb2fa1a51fe52fea0efb181ab20b2b814c3d2de27dff9339ed08ae7642227b",
       "sources": [
         {
@@ -1420,14 +1433,14 @@
       "title": "vendor/rasnikism/UPSTREAM.md — necurookami2026-jpg/basicest-rasniki-contractual-for-ransiki-to-ield-to-contract-writers."
     }
   ],
-  "edition": "8",
+  "edition": "9",
   "format": "rasniki-offline-reader",
   "lair": {
-    "editorial_file_count": 44,
+    "editorial_file_count": 45,
     "format": "rasniki-lair-tree",
     "max_depth": 32,
     "max_nodes": 4096,
-    "node_count": 329,
+    "node_count": 330,
     "nodes": [
       {
         "children": [
@@ -5889,6 +5902,7 @@
           "lair-file-dc4af170310e49e1f511b471cc5f036e800904a81e6dca5ea632035504e644b7",
           "lair-file-1c307f58500ea2fa94528e95d407b145d50309245a24d027aa8c8b92d637b81a",
           "lair-file-894cfca73c9b535be5a7572c14bb07d71a7ca7954ce1a01b34e136b148f7040b",
+          "lair-file-8f0d56315350606993a1fec33ba1721a609288ece33e5563d09c302bddbc708a",
           "lair-file-5ef90977312b547091a4fec90fb62cd4fb678119380f87c0c92551da8965a44d",
           "lair-file-cc274bdaa8f1533644746e048b26fde0041141471894fc310cb6577fe4f377cd",
           "lair-file-cc165de9b7d21e30741f89fa0c99abbc32b98c960ef64dbb4bc2dc9e71fbfc67",
@@ -6000,6 +6014,21 @@
         "repository": "current-editorial",
         "sha256": "40ccc2b3ecf36db5aa8ad92f698b17b3d00df3598c9e91f91de3d585b9a87756",
         "size": 14799
+      },
+      {
+        "archive_path": null,
+        "children": [],
+        "content_kind": "editorial-markdown",
+        "depth": 3,
+        "document_sha256": "aca97ed65cadb2691db03734cbba23f57d990261cdbf842b9fc84e7b17b708cb",
+        "id": "lair-file-8f0d56315350606993a1fec33ba1721a609288ece33e5563d09c302bddbc708a",
+        "kind": "file",
+        "name": "IOBOT-SCIENTIFIC-RESPONSES.md",
+        "parent": "lair-directory-d58aadfe0fff3baf6df58f454d50bfda086f3511f5f13cb2840351a9caefcaaa",
+        "path": "docs/IOBOT-SCIENTIFIC-RESPONSES.md",
+        "repository": "current-editorial",
+        "sha256": "aca97ed65cadb2691db03734cbba23f57d990261cdbf842b9fc84e7b17b708cb",
+        "size": 6964
       },
       {
         "archive_path": null,

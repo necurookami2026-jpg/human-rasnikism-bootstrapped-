@@ -1,0 +1,199 @@
+{
+  "format": "rasniki-bootstrap-receipt",
+  "version": 1,
+  "started_at": "2026-10-06T20:52:38.246287+00:00",
+  "hosts": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "source_lock_sha256": "65c7892dcb05a75b8500e29b979f6c9ea5792b399e2a3ea6635d58ca4988a730",
+  "source_verification": {
+    "ok": true,
+    "repositories": 4,
+    "files": 254,
+    "bytes": 9342556,
+    "errors": []
+  },
+  "checks": [
+    {
+      "name": "lab-and-publication-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "lab-and-publication-tests.log"
+    },
+    {
+      "name": "guardian-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "guardian-tests.log"
+    },
+    {
+      "name": "iobot-responses",
+      "command": [
+        "node",
+        "tests/iobot-responses.cjs"
+      ],
+      "exit_code": 0,
+      "log": "iobot-responses.log"
+    },
+    {
+      "name": "iobot-ui-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/iobots/ui.js"
+      ],
+      "exit_code": 0,
+      "log": "iobot-ui-syntax.log"
+    },
+    {
+      "name": "ministry-smoke",
+      "command": [
+        "node",
+        "tests/ministry-smoke.cjs"
+      ],
+      "exit_code": 0,
+      "log": "ministry-smoke.log"
+    },
+    {
+      "name": "instagram-extension-tests",
+      "command": [
+        "node",
+        "tests/instagram-orange/core.cjs"
+      ],
+      "exit_code": 0,
+      "log": "instagram-extension-tests.log"
+    },
+    {
+      "name": "instagram-content-syntax",
+      "command": [
+        "node",
+        "--check",
+        "extensions/instagram-orange/content.js"
+      ],
+      "exit_code": 0,
+      "log": "instagram-content-syntax.log"
+    },
+    {
+      "name": "instagram-popup-syntax",
+      "command": [
+        "node",
+        "--check",
+        "extensions/instagram-orange/popup.js"
+      ],
+      "exit_code": 0,
+      "log": "instagram-popup-syntax.log"
+    },
+    {
+      "name": "instagram-package",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tools/package_instagram.py"
+      ],
+      "exit_code": 0,
+      "log": "instagram-package.log"
+    },
+    {
+      "name": "maintenance-script-syntax",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "py_compile",
+        "tools/media_standardize.py",
+        "tools/checked_update.py",
+        "tools/install_media_maintenance.py"
+      ],
+      "exit_code": 0,
+      "log": "maintenance-script-syntax.log"
+    },
+    {
+      "name": "desktop-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/app.js"
+      ],
+      "exit_code": 0,
+      "log": "desktop-script-syntax.log"
+    },
+    {
+      "name": "workbench-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/workbench.js"
+      ],
+      "exit_code": 0,
+      "log": "workbench-script-syntax.log"
+    },
+    {
+      "name": "media-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/media-studio.js"
+      ],
+      "exit_code": 0,
+      "log": "media-script-syntax.log"
+    },
+    {
+      "name": "contractual-pinned-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "contractual-pinned-tests.log"
+    },
+    {
+      "name": "rasnikism-full-bootstrap",
+      "command": [
+        "sh",
+        "bootstrap.sh"
+      ],
+      "exit_code": 0,
+      "log": "rasnikism-full-bootstrap.log"
+    },
+    {
+      "name": "publication-build-and-repeat",
+      "exit_code": 0,
+      "outputs": {
+        "catalogue.json": "dcf9d0dda71bea675320be4b716644a67b993f74281c55a74d2e2601272aec3e",
+        "MAX-RAW.md": "e8f24fd14ac75849afe5697e942f8d12d3c6eb20a35d34ce43817a8a3b667c2b",
+        "SCIENCERAINBOWRAINBOWSCIENCE-PAPERWORK.html": "5db3f5ff9a81bdd17808ba205fb5ea8e2f0729a379c801c55944118287d23fdd",
+        "sources.zip": "13dac36d27dc13bcf50da0bd0507c6967b106893f929e8b8fe34a36b3cd0c41e",
+        "MAX-LAW.md": "a79bec238da6d17245d03a69702799e9356e677fe84438669226982a165aee8b",
+        "release-hashes.json": "f49de3a9390d386e7026e5c6437da14ee0e4cddd4534ba81b5158a9c0e512b43",
+        "SCIENCERAINBOWRAINBOWSCIENCE.md": "6e9c99789c8c001ef685b1cd2c8b217a31bb88c8928fac66e01643c494b52494",
+        "SCIENCERAINBOWRAINBOWSCIENCE-COMPUTERWORK.json": "a46282b755b6df53071552a6c432947cd2bafa3859ea7621bdced9c0ffd62c23",
+        "reader-data.json": "4c04d055265d333208f1f6c5c62806f328aa6f3973b0675eda9c85f072b14b3b",
+        "EXTRA-COMPLETE.md": "8f8f8059d136fe4a32872a9a5aa7cafca9c8938dd987e3fe4012b31cc064ad73",
+        "MAX-LAWFUL.md": "635a14597fd25b362ea28a19d7e6a5058cc4fcd882a228ab77846a643d2091cd",
+        "MAX-RAWFUL.md": "264c59e88b99a495aa644ed59371428c3deba35c72dddce046436fd782888c73",
+        "PUBLICATION.md": "ba58b78afab3e99aea34385b8c66dee789a905f0181f015e43a04c9377e572fc",
+        "index.html": "306217bb605a36c8b93cec7904b68d919409bf89949e1be44b8fa3f7558b8951"
+      }
+    }
+  ],
+  "scope": "Named finite source, construction and test checks; not universal scientific or legal certification",
+  "completed_at": "2026-10-06T20:52:52.586297+00:00",
+  "checks_passed": true
+}

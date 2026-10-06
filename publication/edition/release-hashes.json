@@ -24,6 +24,10 @@
       "sha256": "40ccc2b3ecf36db5aa8ad92f698b17b3d00df3598c9e91f91de3d585b9a87756",
       "size": 14799
     },
+    "docs/IOBOT-SCIENTIFIC-RESPONSES.md": {
+      "sha256": "aca97ed65cadb2691db03734cbba23f57d990261cdbf842b9fc84e7b17b708cb",
+      "size": 6964
+    },
     "docs/LAIR-OF-LAIRS.md": {
       "sha256": "f0fb2fa1a51fe52fea0efb181ab20b2b814c3d2de27dff9339ed08ae7642227b",
       "size": 8591
@@ -181,65 +185,65 @@
       "size": 779280
     }
   },
-  "edition": "8",
+  "edition": "9",
   "format": "rasniki-hopput-release-hashes",
   "outputs": {
     "EXTRA-COMPLETE.md": {
-      "sha256": "8424f4f8bf5e413a79840a898c6affa182146f0bc940d007d0e7233c2895bea5",
-      "size": 751690
+      "sha256": "8f8f8059d136fe4a32872a9a5aa7cafca9c8938dd987e3fe4012b31cc064ad73",
+      "size": 758937
     },
     "MAX-LAW.md": {
-      "sha256": "5bf7408b4c5530987464593653ec9f71dd142d290273de666720fd0ea4877e02",
-      "size": 750699
+      "sha256": "a79bec238da6d17245d03a69702799e9356e677fe84438669226982a165aee8b",
+      "size": 757946
     },
     "MAX-LAWFUL.md": {
-      "sha256": "61d97af5323e9619ec953206dcc07aa62230ddae6dcf4429a730d6814c66c7f5",
-      "size": 750738
+      "sha256": "635a14597fd25b362ea28a19d7e6a5058cc4fcd882a228ab77846a643d2091cd",
+      "size": 757985
     },
     "MAX-RAW.md": {
-      "sha256": "d0e4f84a7f6f420495c1bce8d738c466dd5dae40ef8deeb97a54e363272ecaee",
-      "size": 750628
+      "sha256": "e8f24fd14ac75849afe5697e942f8d12d3c6eb20a35d34ce43817a8a3b667c2b",
+      "size": 757875
     },
     "MAX-RAWFUL.md": {
-      "sha256": "db31ab0de84e8038d6c8af6a02fed1b788155e0bd75a6283789d506e1787589c",
-      "size": 750611
+      "sha256": "264c59e88b99a495aa644ed59371428c3deba35c72dddce046436fd782888c73",
+      "size": 757858
     },
     "PUBLICATION.md": {
-      "sha256": "09e11d78b0b6ce5670180bf8f5b9128e9008fe6ab9b3d83b5bfdf7709258efa3",
-      "size": 750102
+      "sha256": "ba58b78afab3e99aea34385b8c66dee789a905f0181f015e43a04c9377e572fc",
+      "size": 757349
     },
     "SCIENCERAINBOWRAINBOWSCIENCE-COMPUTERWORK.json": {
       "sha256": "a46282b755b6df53071552a6c432947cd2bafa3859ea7621bdced9c0ffd62c23",
       "size": 1236
     },
     "SCIENCERAINBOWRAINBOWSCIENCE-PAPERWORK.html": {
-      "sha256": "8d57e29b13e2fb44a08be35bde13dff92a14317d29760f71f6a3c9ee3a96e31d",
+      "sha256": "5db3f5ff9a81bdd17808ba205fb5ea8e2f0729a379c801c55944118287d23fdd",
       "size": 5128
     },
     "SCIENCERAINBOWRAINBOWSCIENCE.md": {
-      "sha256": "ec8aae59d2ba1909bea01dc8760ba0523148ca7d913f3a9c6030965ba78554ab",
-      "size": 755133
+      "sha256": "6e9c99789c8c001ef685b1cd2c8b217a31bb88c8928fac66e01643c494b52494",
+      "size": 762380
     },
     "catalogue.json": {
-      "sha256": "ed89d450eb8ffa610b75c72c450b1b414c7d2303f19419d0e3832dec1240933a",
+      "sha256": "dcf9d0dda71bea675320be4b716644a67b993f74281c55a74d2e2601272aec3e",
       "size": 23172
     },
     "index.html": {
-      "sha256": "7a53fecc52ff6b602ca3110eae9f29cc7399ac61e9ffd24f830f3a1af1355cbe",
-      "size": 1000456
+      "sha256": "306217bb605a36c8b93cec7904b68d919409bf89949e1be44b8fa3f7558b8951",
+      "size": 1008443
     },
     "reader-data.json": {
-      "sha256": "f5f66234d4fab289642f7184f6b50e88995ea7e1cfc7c2858c293a370254e274",
-      "size": 1055181
+      "sha256": "4c04d055265d333208f1f6c5c62806f328aa6f3973b0675eda9c85f072b14b3b",
+      "size": 1063438
     },
     "sources.zip": {
-      "sha256": "87f3af8c2548035f590de309e73cf1fd5f6e7b2c3f6f8ee47fba7bfbb9639f6a",
+      "sha256": "13dac36d27dc13bcf50da0bd0507c6967b106893f929e8b8fe34a36b3cd0c41e",
       "size": 9424341
     }
   },
   "self_hash": "Excluded to avoid a circular hash; hash this file independently when archiving the release.",
   "source_lock": {
-    "sha256": "a217a4166a8c73ca067bf042f57b652c41cee859c4be953b5b2def2fd5954b98",
+    "sha256": "65c7892dcb05a75b8500e29b979f6c9ea5792b399e2a3ea6635d58ca4988a730",
     "size": 44043
   },
   "version": 1
