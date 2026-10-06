@@ -1,0 +1,202 @@
+{
+  "format": "rasniki-bootstrap-receipt",
+  "version": 1,
+  "started_at": "2026-10-06T21:07:35.992475+00:00",
+  "hosts": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "source_lock_sha256": "756362aee5adf26007b2a0af1c0efa100c2bf890cfce19fcac752f85d1b6cee4",
+  "source_verification": {
+    "ok": true,
+    "repositories": 4,
+    "files": 254,
+    "bytes": 9342556,
+    "errors": []
+  },
+  "checks": [
+    {
+      "name": "lab-and-publication-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "lab-and-publication-tests.log"
+    },
+    {
+      "name": "guardian-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "guardian-tests.log"
+    },
+    {
+      "name": "iobot-responses",
+      "command": [
+        "node",
+        "tests/iobot-responses.cjs"
+      ],
+      "exit_code": 0,
+      "log": "iobot-responses.log"
+    },
+    {
+      "name": "iobot-ui-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/iobots/ui.js"
+      ],
+      "exit_code": 0,
+      "log": "iobot-ui-syntax.log"
+    },
+    {
+      "name": "ministry-smoke",
+      "command": [
+        "node",
+        "tests/ministry-smoke.cjs"
+      ],
+      "exit_code": 0,
+      "log": "ministry-smoke.log"
+    },
+    {
+      "name": "instagram-extension-tests",
+      "command": [
+        "node",
+        "tests/instagram-orange/core.cjs"
+      ],
+      "exit_code": 0,
+      "log": "instagram-extension-tests.log"
+    },
+    {
+      "name": "instagram-content-syntax",
+      "command": [
+        "node",
+        "--check",
+        "extensions/instagram-orange/content.js"
+      ],
+      "exit_code": 0,
+      "log": "instagram-content-syntax.log"
+    },
+    {
+      "name": "instagram-popup-syntax",
+      "command": [
+        "node",
+        "--check",
+        "extensions/instagram-orange/popup.js"
+      ],
+      "exit_code": 0,
+      "log": "instagram-popup-syntax.log"
+    },
+    {
+      "name": "instagram-package",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tools/package_instagram.py"
+      ],
+      "exit_code": 0,
+      "log": "instagram-package.log"
+    },
+    {
+      "name": "maintenance-script-syntax",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "py_compile",
+        "tools/media_standardize.py",
+        "tools/checked_update.py",
+        "tools/install_media_maintenance.py"
+      ],
+      "exit_code": 0,
+      "log": "maintenance-script-syntax.log"
+    },
+    {
+      "name": "desktop-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/app.js"
+      ],
+      "exit_code": 0,
+      "log": "desktop-script-syntax.log"
+    },
+    {
+      "name": "workbench-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/workbench.js"
+      ],
+      "exit_code": 0,
+      "log": "workbench-script-syntax.log"
+    },
+    {
+      "name": "media-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "madrigal_lab/web/media-studio.js"
+      ],
+      "exit_code": 0,
+      "log": "media-script-syntax.log"
+    },
+    {
+      "name": "contractual-pinned-tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "contractual-pinned-tests.log"
+    },
+    {
+      "name": "rasnikism-full-bootstrap",
+      "command": [
+        "sh",
+        "bootstrap.sh"
+      ],
+      "exit_code": 0,
+      "log": "rasnikism-full-bootstrap.log"
+    },
+    {
+      "name": "publication-build-and-repeat",
+      "exit_code": 0,
+      "outputs": {
+        "catalogue.json": "5e18ca86dbe31d1628ed452ae46bebdb79f9865f3e0220f20696ae2417670c78",
+        "MAX-RAW.md": "f9e07e313e87b12cf333952deb9472f05c6327dc3d7ac4056b134074158b5f48",
+        "SCIENCERAINBOWRAINBOWSCIENCE-PAPERWORK.html": "647c18e814d9727f8b09fcb31e05b6e6160e11365b6c935185e35e2d353187f1",
+        "sources.zip": "5d47be77fc2244c1cae22669b8ad6363a216045f4d9b4c41b5ea63b52d16f62b",
+        "MAX-LAW.md": "b109e6b70539deb41c02dee2dd36d9305ec2da59c8572980451715df2b23ea9e",
+        "release-hashes.json": "49882dd031650c972e0ca312a63d4cbfac3f00f2051d387e286582220a7c0212",
+        "SCIENCERAINBOWRAINBOWSCIENCE.md": "946b82f33ee801c48593c33d138e3a2a0a9061534db5e1b35a582ff6503f9f04",
+        "SCIENCERAINBOWRAINBOWSCIENCE-COMPUTERWORK.json": "a46282b755b6df53071552a6c432947cd2bafa3859ea7621bdced9c0ffd62c23",
+        "reader-data.json": "49414b1f369bfe6aeae0bcdb634179bd4781c9331e1c740fdfbe4a2cfa5523aa",
+        "ASHRAM-LEXICON.json": "43fd534205ea80d7ca29bef3d896ea7f76bf2b742dbfe7206166435b85b9066d",
+        "EXTRA-COMPLETE.md": "0fb6d8b958c908fc5d314a6bdf81287e00404d23a13e52c696b67f896bb4ab8e",
+        "ASHRAM-SPECIFICATION.json": "d8a8860998c9af57f1a5be0974a313a94a36e2d44c786cad694c05753130218a",
+        "MAX-LAWFUL.md": "5754f228528328c6a0a3d8b4497a590f254642cf2580edab2fc2d1ddceadd72e",
+        "MAX-RAWFUL.md": "3169cfab3b3d4d1235cc0f90a436880e5722e14b936ec294e1b82b1375cf420d",
+        "ASHRAM-SEQUENTIAL.md": "38ec8104ccfd66ce60ccc16136100d5288a8fa6f0160b10a0897f124be8380e7",
+        "PUBLICATION.md": "6b2739a762d3cca147b49e3940fb978a009f278527cc0d4bb9eefe60f25af690",
+        "index.html": "cce9dd607ede6d8a57195598e7fd3cd92c99d088c0ec70dd180950874384d201"
+      }
+    }
+  ],
+  "scope": "Named finite source, construction and test checks; not universal scientific or legal certification",
+  "completed_at": "2026-10-06T21:07:51.560439+00:00",
+  "checks_passed": true
+}

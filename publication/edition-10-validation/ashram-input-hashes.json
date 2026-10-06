@@ -1,0 +1,22 @@
+{
+  "madrigal_lab/ashram.py": {
+    "sha256": "666f1d3d6672d8f1e8400cecd01b61e65b2855c1789288a4dfe44dea35f8bcc5",
+    "size": 7199
+  },
+  "tests/test_ashram.py": {
+    "sha256": "ddc1519242b9751b18acff54a6aeda0f20c1e694b09dcf6f7423ffd8ba38c1f3",
+    "size": 1996
+  },
+  "docs/ASHRAM-SEQUENTIAL-TERMINOLOGY.md": {
+    "sha256": "e1746f75cd3cdc053c643dd6f1ef3a8806a933e54ac2d8a5b01d92b7624ae0dd",
+    "size": 13251
+  },
+  "tools/publication.py": {
+    "sha256": "9ccdc2ec7c8251a0438270c086436b07b4a8e99d2bb79d515d30d3d147d7f2a6",
+    "size": 47188
+  },
+  "tests/test_publication.py": {
+    "sha256": "913037767041952129e0828791f177e09e22540475b98e3f55f13371701fb683",
+    "size": 15995
+  }
+}

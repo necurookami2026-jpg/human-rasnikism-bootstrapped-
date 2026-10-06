@@ -1,0 +1,24 @@
+test_concurrent_double_spend (test_lab.FinanceTests.test_concurrent_double_spend) ... ok
+test_conservation_and_persistence (test_lab.FinanceTests.test_conservation_and_persistence) ... ok
+test_failed_transfer_is_atomic (test_lab.FinanceTests.test_failed_transfer_is_atomic) ... ok
+test_denials_and_bounded_errors (test_lab.HTTPTests.test_denials_and_bounded_errors) ... ok
+test_functional_http_workflow (test_lab.HTTPTests.test_functional_http_workflow) ... ok
+test_session_catalogue_and_missing_action (test_lab.HTTPTests.test_session_catalogue_and_missing_action) ... ok
+test_all_quilt_boolean_payloads (test_lab.LanguageTests.test_all_quilt_boolean_payloads) ... ok
+test_billion_symbolic_sample (test_lab.LanguageTests.test_billion_symbolic_sample) ... ok
+test_compile_utf8_and_exact (test_lab.LanguageTests.test_compile_utf8_and_exact) ... ok
+test_distinct_execution_states (test_lab.LanguageTests.test_distinct_execution_states) ... ok
+test_real_fixture_and_roundtrip (test_lab.LanguageTests.test_real_fixture_and_roundtrip) ... ok
+test_reject_invalid_decode_and_assembly (test_lab.LanguageTests.test_reject_invalid_decode_and_assembly) ... ok
+test_boot_does_not_write_disk (test_lab.RuntimeTests.test_boot_does_not_write_disk) ... ok
+test_document_boundaries (test_lab.RuntimeTests.test_document_boundaries) ... ok
+test_guardian_scan_and_trusted_comparison (test_lab.RuntimeTests.test_guardian_scan_and_trusted_comparison) ... ok
+test_kernel_jobs (test_lab.RuntimeTests.test_kernel_jobs) ... ok
+test_local_domain_bot_and_game (test_lab.RuntimeTests.test_local_domain_bot_and_game) ... ok
+test_practice_rules_and_priority_persist (test_lab.RuntimeTests.test_practice_rules_and_priority_persist) ... ok
+test_symlink_document_root_rejected (test_lab.RuntimeTests.test_symlink_document_root_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 1.577s
+
+OK

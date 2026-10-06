@@ -1,4 +1,11 @@
 {
+  "ashram_edition": {
+    "certification": false,
+    "file": "ASHRAM-SEQUENTIAL.md",
+    "lexicon": "ASHRAM-LEXICON.json",
+    "scope": "Finite symbolic address algebra, not a scientific claim about reality or people.",
+    "specification": "ASHRAM-SPECIFICATION.json"
+  },
   "components": [
     {
       "id": "boot",
@@ -166,7 +173,7 @@
       "status": "implemented-local"
     }
   ],
-  "edition": "9",
+  "edition": "10",
   "extra_complete_edition": {
     "certification": false,
     "coverage": "All four guides and complete collected Markdown corpus",

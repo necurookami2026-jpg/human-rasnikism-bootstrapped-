@@ -1,13 +1,52 @@
-# Max Law — full collection
+# Ashram sequential existencial-form edition
 
 Publication edition 10.
 
-Review ownership and licensing, consent and personal-data handling, platform access terms, consumer claims, financial representations and jurisdiction-specific duties for every relevant chapter. No jurisdiction or legal clearance is assumed; obtain qualified advice before making legal claims.
+## Sequentially numbered lexicon
 
-All four editions retain the same complete collected body below. Their review guides differ; they do not introduce new implemented capabilities or remove source limitations. Historical original file bytes and licences remain in sources.zip.
+1. **ashram** — The edition-specific symbolic practice space containing disjoint A and B namespaces.
+2. **existencial form** — A declared base-four symbol, not a classification of people or a measured ontology.
+3. **A** — Benevolent-side namespace; admits form 0 or 1.
+4. **B** — Malevolent-side namespace; admits form 2 or 3.
+5. **benevolent** — Form 0: constructive intention in namespace A.
+6. **amalevolent** — Form 1: non-harm restraint in namespace A; a provisional authored label.
+7. **malevolent** — Form 2: adverse intention in fictional namespace B.
+8. **abenevolent** — Form 3: withheld constructive support in fictional namespace B; a provisional label.
+9. **primitive** — A symbolic leaf addressed by eight ordered base-seven positions.
+10. **amplification** — Eight independent seven-way choices, yielding 7^8 addresses per form and kind.
+11. **exponential squared** — Author-confirmed rule: ordered pairs of eight-position addresses, giving (7^8)^2.
+12. **punnitsquared** — Author spelling for the ordered pair grid; an analogy to a Punnett square, not genetics.
+13. **totem** — A symbolic narrative emblem in its own type namespace.
+14. **token** — A formal reference in its own type namespace; never implicitly a totem.
+15. **segregation** — Type and namespace separation of symbolic records; no rule about human populations.
+16. **counteramakkakah** — Within this edition, inspect an existing record without changing its side or kind.
+17. **counterantonymmakkakah** — Within this edition, review a proposed reversal and retain its origin.
+18. **aantonymmakkakah** — Within this edition, propose reframing or retirement within the same namespace.
+19. **makkakah** — Within this edition, record maintenance within the same namespace.
+20. **parable** — One of seven explanatory mechanics assigned to each side; a story index, not a new primitive.
+21. **yin** — A-side totem label in this edition only.
+22. **yan** — B-side counterpart label paired with yin in this edition only.
+23. **ying** — Separate A-side totem label; not silently merged with yin.
+24. **yang** — Separate B-side counterpart label paired with ying.
+25. **dao** — A-side example label in this edition only.
+26. **tao** — B-side counterpart example label in this edition only; not a historical claim.
+27. **power** — A named possibility for constructive action; realised effects require evidence.
+28. **ability** — A task-specific skill evidenced by demonstration.
+29. **capacity** — A stated available resource or bounded potential.
+30. **advocacy** — Support for a declared constructive interest with permission and review.
+31. **care** — A-side mechanic: attend to a supplied need and its limits.
+32. **restraint** — A-side mechanic: decline an unsupported or harmful transition.
+33. **repair** — A-side mechanic: correct a record while retaining its history.
+34. **truthfulness** — A-side mechanic: distinguish evidence, inference and unknown facts.
+35. **stewardship** — A-side mechanic: account for entrusted resources.
+36. **learning** — A-side mechanic: revise a method against stated observations.
+37. **consensual advocacy** — A-side mechanic: support a voluntary request without claiming authority over others.
+
+## Full method and complete collected publication
+
+The full Ashram grammar, amplification derivation and fourteen parables are included in the collected body below. Historical meanings remain in their source context.
 
 ---
-
 # Rasniki Hopput — Max Greatest Exact Sciencerainbow, Exact Finalisable Catch, Finalisable Exact Final Quilt, Max Greatest Aimat, Max Rawful Omniarchy
 
 ## Lair of Lairs — Recursive Form, Format and Formate

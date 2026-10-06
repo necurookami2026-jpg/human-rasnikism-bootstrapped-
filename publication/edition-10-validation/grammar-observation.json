@@ -1,0 +1,33 @@
+{
+  "input": "A:0 token makkakah 0.0.0.0.0.0.0.0 * 0.0.0.0.0.0.0.1 parable 1",
+  "output": {
+    "side": "A",
+    "form": 0,
+    "kind": "token",
+    "operation": "makkakah",
+    "left": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "right": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "pair_rank": 1,
+    "parable": 1,
+    "status": "symbolic-record-only",
+    "executed_real_world_action": false
+  }
+}

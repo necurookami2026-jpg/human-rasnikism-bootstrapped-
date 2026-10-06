@@ -87,6 +87,20 @@ class PublicationTests(unittest.TestCase):
             self.assertIn(edition[key], hashes['outputs'])
             self.assertIn(edition[key], (output / 'index.html').read_text())
 
+    def test_ashram_numbered_edition_preserves_corpus_and_records_outputs(self):
+        result = publication.build(self.root)
+        output = Path(result['output_dir'])
+        body = (output / 'PUBLICATION.md').read_bytes()
+        self.assertTrue((output / 'ASHRAM-SEQUENTIAL.md').read_bytes().endswith(body))
+        lexicon = json.loads((output / 'ASHRAM-LEXICON.json').read_text())['terms']
+        self.assertEqual([entry['number'] for entry in lexicon], list(range(1, len(lexicon) + 1)))
+        spec = json.loads((output / 'ASHRAM-SPECIFICATION.json').read_text())
+        self.assertEqual(spec['amplification']['ordered_pairs_per_form_and_kind'], 7**16)
+        hashes = json.loads((output / 'release-hashes.json').read_text())
+        for name in ('ASHRAM-SEQUENTIAL.md', 'ASHRAM-LEXICON.json', 'ASHRAM-SPECIFICATION.json'):
+            self.assertIn(name, hashes['outputs'])
+        self.assertIn('ASHRAM-SEQUENTIAL.md', (output / 'index.html').read_text())
+
     def test_verifies_full_binary_and_licenses(self):
         result = publication.verify_sources(self.root)
         self.assertTrue(result['ok'])

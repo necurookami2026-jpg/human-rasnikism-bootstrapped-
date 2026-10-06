@@ -1,0 +1,238 @@
+{
+  "amplification": {
+    "addresses_per_form_and_kind": 5764801,
+    "all_four_forms_two_kinds_parable_variants": 1861044111897656,
+    "alternative_repeated_squaring": "7^(2^7) = 7^128; not the selected address grammar",
+    "author_confirmation": "confirmed in this session",
+    "chosen_interpretation": "(7^8)^2",
+    "depth": 8,
+    "ordered_pairs_per_form_and_kind": 33232930569601,
+    "parable_variants_per_form_and_kind": 232630513987207,
+    "radix": 7
+  },
+  "format": "rasniki-ashram-specification",
+  "forms": [
+    {
+      "digit": 0,
+      "label": "benevolent",
+      "side": "A"
+    },
+    {
+      "digit": 1,
+      "label": "amalevolent",
+      "side": "A"
+    },
+    {
+      "digit": 2,
+      "label": "malevolent",
+      "side": "B"
+    },
+    {
+      "digit": 3,
+      "label": "abenevolent",
+      "side": "B"
+    }
+  ],
+  "kinds": [
+    "totem",
+    "token"
+  ],
+  "materialized_primitives": 0,
+  "operations": [
+    "counteramakkakah",
+    "counterantonymmakkakah",
+    "aantonymmakkakah",
+    "makkakah"
+  ],
+  "scope": "Finite symbolic address algebra, not a scientific claim about reality or people.",
+  "separation": "Every pair has one side, one form and one kind. Cross-side and cross-kind composition is refused.",
+  "status": "provisional-symbolic-model",
+  "terms": [
+    {
+      "definition": "The edition-specific symbolic practice space containing disjoint A and B namespaces.",
+      "number": 1,
+      "term": "ashram"
+    },
+    {
+      "definition": "A declared base-four symbol, not a classification of people or a measured ontology.",
+      "number": 2,
+      "term": "existencial form"
+    },
+    {
+      "definition": "Benevolent-side namespace; admits form 0 or 1.",
+      "number": 3,
+      "term": "A"
+    },
+    {
+      "definition": "Malevolent-side namespace; admits form 2 or 3.",
+      "number": 4,
+      "term": "B"
+    },
+    {
+      "definition": "Form 0: constructive intention in namespace A.",
+      "number": 5,
+      "term": "benevolent"
+    },
+    {
+      "definition": "Form 1: non-harm restraint in namespace A; a provisional authored label.",
+      "number": 6,
+      "term": "amalevolent"
+    },
+    {
+      "definition": "Form 2: adverse intention in fictional namespace B.",
+      "number": 7,
+      "term": "malevolent"
+    },
+    {
+      "definition": "Form 3: withheld constructive support in fictional namespace B; a provisional label.",
+      "number": 8,
+      "term": "abenevolent"
+    },
+    {
+      "definition": "A symbolic leaf addressed by eight ordered base-seven positions.",
+      "number": 9,
+      "term": "primitive"
+    },
+    {
+      "definition": "Eight independent seven-way choices, yielding 7^8 addresses per form and kind.",
+      "number": 10,
+      "term": "amplification"
+    },
+    {
+      "definition": "Author-confirmed rule: ordered pairs of eight-position addresses, giving (7^8)^2.",
+      "number": 11,
+      "term": "exponential squared"
+    },
+    {
+      "definition": "Author spelling for the ordered pair grid; an analogy to a Punnett square, not genetics.",
+      "number": 12,
+      "term": "punnitsquared"
+    },
+    {
+      "definition": "A symbolic narrative emblem in its own type namespace.",
+      "number": 13,
+      "term": "totem"
+    },
+    {
+      "definition": "A formal reference in its own type namespace; never implicitly a totem.",
+      "number": 14,
+      "term": "token"
+    },
+    {
+      "definition": "Type and namespace separation of symbolic records; no rule about human populations.",
+      "number": 15,
+      "term": "segregation"
+    },
+    {
+      "definition": "Within this edition, inspect an existing record without changing its side or kind.",
+      "number": 16,
+      "term": "counteramakkakah"
+    },
+    {
+      "definition": "Within this edition, review a proposed reversal and retain its origin.",
+      "number": 17,
+      "term": "counterantonymmakkakah"
+    },
+    {
+      "definition": "Within this edition, propose reframing or retirement within the same namespace.",
+      "number": 18,
+      "term": "aantonymmakkakah"
+    },
+    {
+      "definition": "Within this edition, record maintenance within the same namespace.",
+      "number": 19,
+      "term": "makkakah"
+    },
+    {
+      "definition": "One of seven explanatory mechanics assigned to each side; a story index, not a new primitive.",
+      "number": 20,
+      "term": "parable"
+    },
+    {
+      "definition": "A-side totem label in this edition only.",
+      "number": 21,
+      "term": "yin"
+    },
+    {
+      "definition": "B-side counterpart label paired with yin in this edition only.",
+      "number": 22,
+      "term": "yan"
+    },
+    {
+      "definition": "Separate A-side totem label; not silently merged with yin.",
+      "number": 23,
+      "term": "ying"
+    },
+    {
+      "definition": "Separate B-side counterpart label paired with ying.",
+      "number": 24,
+      "term": "yang"
+    },
+    {
+      "definition": "A-side example label in this edition only.",
+      "number": 25,
+      "term": "dao"
+    },
+    {
+      "definition": "B-side counterpart example label in this edition only; not a historical claim.",
+      "number": 26,
+      "term": "tao"
+    },
+    {
+      "definition": "A named possibility for constructive action; realised effects require evidence.",
+      "number": 27,
+      "term": "power"
+    },
+    {
+      "definition": "A task-specific skill evidenced by demonstration.",
+      "number": 28,
+      "term": "ability"
+    },
+    {
+      "definition": "A stated available resource or bounded potential.",
+      "number": 29,
+      "term": "capacity"
+    },
+    {
+      "definition": "Support for a declared constructive interest with permission and review.",
+      "number": 30,
+      "term": "advocacy"
+    },
+    {
+      "definition": "A-side mechanic: attend to a supplied need and its limits.",
+      "number": 31,
+      "term": "care"
+    },
+    {
+      "definition": "A-side mechanic: decline an unsupported or harmful transition.",
+      "number": 32,
+      "term": "restraint"
+    },
+    {
+      "definition": "A-side mechanic: correct a record while retaining its history.",
+      "number": 33,
+      "term": "repair"
+    },
+    {
+      "definition": "A-side mechanic: distinguish evidence, inference and unknown facts.",
+      "number": 34,
+      "term": "truthfulness"
+    },
+    {
+      "definition": "A-side mechanic: account for entrusted resources.",
+      "number": 35,
+      "term": "stewardship"
+    },
+    {
+      "definition": "A-side mechanic: revise a method against stated observations.",
+      "number": 36,
+      "term": "learning"
+    },
+    {
+      "definition": "A-side mechanic: support a voluntary request without claiming authority over others.",
+      "number": 37,
+      "term": "consensual advocacy"
+    }
+  ],
+  "version": 1
+}

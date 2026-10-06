@@ -1,4 +1,6 @@
-# Human Rasnikism bootstrapped — edition 9
+# Human Rasnikism bootstrapped — edition 10
+
+Edition 10 adds the [Ashram sequential existencial-form edition](publication/edition/ASHRAM-SEQUENTIAL.md), [numbered lexicon](publication/edition/ASHRAM-LEXICON.json), and [grammar and amplification method](docs/ASHRAM-SEQUENTIAL-TERMINOLOGY.md), with disjoint symbolic sides, separate totems/tokens and fourteen parables.
 
 Edition 9 adds [automatic IObot responses](madrigal_lab/web/iobots/index.html) using this, ahow/hot, awho/tho, awhat/that, awhen/then, awhere/there and awhy/thy, with full prose explanations of inability and exportable paperwork. [Method, limits and reproduction](docs/IOBOT-SCIENTIFIC-RESPONSES.md).
 
